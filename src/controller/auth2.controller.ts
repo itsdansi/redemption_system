@@ -1,7 +1,7 @@
 import {NextFunction, Request, Response} from "express";
 import {QueryFailedError, getRepository} from "typeorm";
 import bcryptjs from "bcryptjs";
-import {sign, verify} from "jsonwebtoken";
+import {TokenExpiredError, sign, verify} from "jsonwebtoken";
 import AppError from "../utils/appError";
 import {User2} from "../entity/user2.entity";
 import {generateOTP, sendOTPSMS} from "../helper/smsHelper";
@@ -126,12 +126,15 @@ export const refreshTokenHandler = async (
   next: NextFunction
 ) => {
   try {
+    console.log("Hello world!...");
     const refreshToken = req.cookies["refreshToken"];
     const payload: any = verify(refreshToken, refreshSecert);
 
     if (!payload) {
       return next(new AppError(400, "Invalid email or password!"));
     }
+
+    console.log({payload});
 
     const accessToken = sign(
       {
@@ -151,7 +154,10 @@ export const refreshTokenHandler = async (
       access_token: accessToken,
     });
   } catch (e) {
-    return next(new AppError(401, "Invalid email or password!"));
+    if (e instanceof TokenExpiredError) {
+      return next(new AppError(401, "Token Expired!"));
+    }
+    return next(new AppError(401, "Invalid auth credential!"));
   }
 };
 

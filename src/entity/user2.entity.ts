@@ -1,18 +1,26 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {
+  BaseEntity,
+  Column,
+  CreateDateColumn,
+  Entity,
+  Index,
+  PrimaryGeneratedColumn,
+} from "typeorm";
 
 @Entity()
-export class User2 {
+export class User2 extends BaseEntity {
   @PrimaryGeneratedColumn()
   id!: number;
 
-  @Column()
+  @Column({name: "first_name"})
   firstName!: string;
 
-  @Column()
+  @Column({name: "last_name"})
   lastName!: string;
 
-  @Column()
-  phone!: number;
+  @Column({length: 15})
+  @Index({unique: true})
+  phone!: string;
 
   @Column({
     unique: true,
@@ -22,9 +30,9 @@ export class User2 {
   @Column()
   dob!: Date;
 
-  @Column()
-  oto!: number;
+  @CreateDateColumn({name: "created_at"})
+  createdAt!: Date;
 
-  @Column()
-  password!: string;
+  // @Column()
+  // points!: number;
 }

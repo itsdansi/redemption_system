@@ -1,8 +1,13 @@
 import {NextFunction, Request, Response} from "express";
 import {getRepository} from "typeorm";
 import {User} from "../entity/user.entity";
-import {sign, verify} from "jsonwebtoken";
+import {TokenExpiredError, sign, verify} from "jsonwebtoken";
 import AppError from "../utils/appError";
+import env from "../env";
+import {OTP} from "../entity/otp.entity";
+import {User2} from "../entity/user2.entity";
+
+const accessSecert = env.accessTokenSecret as string;
 
 export const authenticatedUser = async (
   req: Request,
@@ -16,27 +21,89 @@ export const authenticatedUser = async (
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, "access_secret");
+    const payload: any = verify(accessToken, accessSecert);
+    console.log({payload});
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
     }
 
-    const user = await getRepository(User).findOne({
+    const user = await getRepository(User2).findOne({
       where: {
-        id: payload?.id,
+        phone: payload?.phone,
       },
     });
 
+    // console.log("HEllo--------------", user);
+
     if (!user) {
-      return next(new AppError(401, "Invalid email or password!"));
+      return next(new AppError(401, "Invalid phone number!"));
     }
 
-    const {password, ...data} = user;
+    const {phone, ...data} = user;
+
+    console.log({phone, data});
 
     res.send(data);
   } catch (e) {
     console.log(e);
-    return next(new AppError(401, "Invalid email or password!"));
+    if (e instanceof TokenExpiredError) {
+      return next(new AppError(401, "Token Expired!"));
+    }
+    return next(new AppError(401, "Invalid phone number!"));
+  }
+};
+
+export const updateUserProfile = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const accessToken = req.cookies["accessToken"];
+
+    if (!accessToken) {
+      return next(new AppError(401, "Access token not provided!"));
+    }
+
+    const payload: any = verify(accessToken, accessSecert);
+
+    console.log({payload});
+
+    if (!payload) {
+      return next(new AppError(401, "Invalid token!"));
+    }
+
+    const user = await getRepository(OTP).findOne({
+      where: {
+        phone: payload?.phone,
+      },
+    });
+
+    // console.log("Hello----------------->");
+    // console.log({user});
+
+    if (!user) {
+      return next(new AppError(401, "Invalid auth credential!"));
+    }
+
+    const {phone, ...data} = user;
+
+    const {firstName, lastName, dob, email} = req.body;
+
+    const newUser = await getRepository(User2).save({
+      firstName,
+      lastName,
+      dob,
+      email,
+      phone,
+    });
+    res.send(newUser);
+  } catch (e) {
+    // console.log(e);
+    if (e instanceof TokenExpiredError) {
+      return next(new AppError(401, "Token Expired!"));
+    }
+    return next(new AppError(401, "Invalid auth credential!"));
   }
 };
