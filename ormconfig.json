@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "holaespanol",
+  "database": "auth_boilerplate",
+  "entities": ["src/entity/*.ts"],
+  "logging": false,
+  "synchronize": true
+}
