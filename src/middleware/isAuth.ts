@@ -4,6 +4,9 @@ import {getRepository} from "typeorm";
 import {User} from "../entity/user.entity";
 import AppError from "../utils/appError";
 import {IRequestWithUser} from "../utils/type";
+import env from "../env";
+
+const accessSecert = env.accessTokenSecret as string;
 
 export const isAuth = async (
   req: IRequestWithUser<any, any, any, any>,
@@ -17,7 +20,7 @@ export const isAuth = async (
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, "access_secret");
+    const payload: any = verify(accessToken, accessSecert);
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
