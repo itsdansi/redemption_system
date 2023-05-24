@@ -11,32 +11,6 @@ import env from "../env";
 const accessSecert = env.accessTokenSecret as string;
 const refreshSecert = env.refreshTokenSecret as string;
 
-// export const registerHandler = async (
-//   req: Request,
-//   res: Response,
-//   next: NextFunction
-// ) => {
-//   try {
-//     const {name, email, password} = req.body;
-
-//     const user = await getRepository(User2).save({
-//       name,
-//       email: email.toLowerCase(),
-//       password: await bcryptjs.hash(password, 12),
-//     });
-
-//     res.send(user);
-//   } catch (err: any) {
-//     if (err.code === "23505") {
-//       return res.status(409).json({
-//         status: "fail",
-//         message: "User with that email already exist",
-//       });
-//     }
-//     next(err);
-//   }
-// };
-
 export const sendOTP = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const {phone} = req.body;
@@ -51,7 +25,7 @@ export const sendOTP = async (req: Request, res: Response, next: NextFunction) =
       phone,
       `${otp}} is the OTP for registering your number on Nichino Redemption Portal. OTP valid for 20 mins only. Please do not share with anyone.`
     );
-    console.log({sentOtp});
+    // console.log({sentOtp});
     res.send(result);
   } catch (err: any) {
     if (err.code === "23505") {

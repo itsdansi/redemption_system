@@ -13,8 +13,8 @@ export async function sendOTPSMS(phoneNumber: number, payload: any) {
       Flashsms: 0,
       Route: env.smsAuthRoute,
       DLTSenderid: env.smsDltAuthSenderId,
-      SchedTime: null,
-      GroupId: null,
+      SchedTime: null as any,
+      GroupId: null as number | null,
     },
     Messages: [
       {
@@ -50,7 +50,7 @@ async function invokeThirdPartyApi(method: any, url: any, data: any, headers: an
 
 // Generate a random 6-digit OTP
 export const generateOTP = () => {
-  const digits = "0123456789";
+  const digits = "123456789";
   let OTP = "";
   for (let i = 0; i < 6; i++) {
     OTP += digits[Math.floor(Math.random() * 10)];

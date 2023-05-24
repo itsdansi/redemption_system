@@ -6,5 +6,6 @@ import {validateGetProductFilterSchema} from "../validators/requests/product.req
 const router = express.Router();
 
 router.get("/", isAuth, validateGetProductFilterSchema, getAllProducts);
+// router.get("/", isAuth, validateGetProductFilterSchema, getAllProducts);
 
 export default router;

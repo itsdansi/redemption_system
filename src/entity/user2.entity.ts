@@ -12,27 +12,34 @@ export class User2 extends BaseEntity {
   @PrimaryGeneratedColumn()
   id!: number;
 
-  @Column({name: "first_name"})
-  firstName!: string;
+  @Column({name: "first_name", nullable: true})
+  firstName: string;
 
-  @Column({name: "last_name"})
-  lastName!: string;
+  @Column({name: "last_name", nullable: true})
+  lastName: string;
 
-  @Column({length: 15})
+  @Column({length: 25})
   @Index({unique: true})
   phone!: string;
 
   @Column({
     unique: true,
+    // nullable: true,
   })
-  email!: string;
+  email: string;
 
-  @Column()
-  dob!: Date;
+  @Column({nullable: true})
+  dob: Date;
+
+  @Column({nullable: true})
+  party: string;
+
+  @Column({nullable: true})
+  points: number;
+
+  @Column({name: "pay_off", nullable: true})
+  payOff: number;
 
   @CreateDateColumn({name: "created_at"})
-  createdAt!: Date;
-
-  // @Column()
-  // points!: number;
+  createdAt: Date;
 }

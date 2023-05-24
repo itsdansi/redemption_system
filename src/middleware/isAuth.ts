@@ -1,10 +1,11 @@
 import {Request, Response, NextFunction} from "express";
-import {verify} from "jsonwebtoken";
+import {TokenExpiredError, verify} from "jsonwebtoken";
 import {getRepository} from "typeorm";
-import {User} from "../entity/user.entity";
+// import {User} from "../entity/user.entity";
 import AppError from "../utils/appError";
 import {IRequestWithUser} from "../utils/type";
 import env from "../env";
+import {User2} from "../entity/user2.entity";
 
 const accessSecert = env.accessTokenSecret as string;
 
@@ -16,32 +17,37 @@ export const isAuth = async (
   try {
     const accessToken = req.cookies["accessToken"];
 
+    console.log({accessToken});
+
     if (!accessToken) {
       return next(new AppError(401, "Access token not provided!"));
     }
 
     const payload: any = verify(accessToken, accessSecert);
+    console.log({payload});
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
     }
 
-    const user = await getRepository(User).findOne({
+    const user = await getRepository(User2).findOne({
       where: {
-        id: payload?.id,
+        phone: payload?.phone,
       },
     });
 
     if (!user) {
-      return next(new AppError(401, "Invalid email or password!"));
+      return next(new AppError(401, "Invalid phone number!"));
     }
 
-    const {password, ...data} = user;
+    const {phone, ...data} = user;
 
-    req.user = data; // Store the authenticated user object in req.user
+    req.user = data;
     next();
   } catch (e) {
-    console.log(e);
-    return next(new AppError(401, "Invalid email or password!"));
+    if (e instanceof TokenExpiredError) {
+      return next(new AppError(401, "Token Expired!"));
+    }
+    return next(new AppError(401, "Invalid phone number!"));
   }
 };

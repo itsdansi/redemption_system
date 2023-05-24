@@ -3,7 +3,8 @@ import fs from "fs";
 
 export const getAllProducts = (req: Request, res: Response) => {
   try {
-    const data = fs.readFileSync("data/NCH_catalogue.json", "utf8");
+    const data = fs.readFileSync("data2/NCH_catalogue.json", "utf8");
+    // const data = fs.readFileSync("data/NCH_catalogue.json", "utf8");
     const productData = JSON.parse(data);
 
     // Get the filter condition from the query parameters
