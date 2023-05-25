@@ -20,7 +20,7 @@ export const getCart = async (req: IRequestWithUser<any, any, any, any>, res: Re
         .leftJoinAndSelect('cart.cartItems','cartItems')
         .where('user.id=:id',{id})
         .orderBy('cartItems.updatedAt','DESC')
-        .getMany()
+        .getOne()
         res.status(200).send(updatedCartResponse)
     } catch (err) {
         console.log(err)
@@ -47,7 +47,7 @@ export const addItemToCart = async (req: IRequestWithUser<any, any, any, any>, r
         .leftJoinAndSelect('cart.cartItems','cartItems')
         .where('user.id=:id',{id})
         .orderBy('cartItems.updatedAt','DESC')
-        .getMany()
+        .getOne()
         res.status(201).send(updatedCartResponse)
     } catch (err) {
         next(err)
@@ -76,7 +76,7 @@ export const updateCartItem = async (req: IRequestWithUser<any, any, any, any>, 
         .leftJoinAndSelect('cart.cartItems','cartItems')
         .where('user.id=:id',{id})
         .orderBy('cartItems.updatedAt','DESC')
-        .getMany()
+        .getOne()
         // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         res.status(201).send(updatedCartResponse)
     } catch (err) {
@@ -98,7 +98,7 @@ export const deleteCartItems = async (req: IRequestWithUser<any, any, any, any>,
     .leftJoinAndSelect('cart.cartItems','cartItems')
     .where('user.id=:id',{id})
     .orderBy('cartItems.updatedAt','DESC')
-    .getMany()
+    .getOne()
     // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
     res.status(201).send(updatedCartResponse)
 }
