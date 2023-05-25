@@ -15,10 +15,10 @@ export const createOrder = async (req: IRequestWithUser<any, any, any, any>, res
         const userCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
       console.log(userCart.grandTotal)
         if(user?.points < userCart.grandTotal) {
-            return res.status(400).send('Cart Amount Is Greater Than User Balance')
+            return res.status(400).send({message:'Cart Amount Is Greater Than User Balance'})
         }
         if (!userCart.cartItems.length) {
-            return res.status(404).send('Cart Item Not Found')
+            return res.status(404).send({message:'Cart Item Not Found'})
         }
         const newOrder = await getRepository(OrderEntity).save({ user, shippingDetails: req.body.shippingDetails })
 
