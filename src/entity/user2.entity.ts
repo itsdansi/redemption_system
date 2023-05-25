@@ -7,7 +7,7 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from "typeorm";
-import { CartEntity } from "./cart.entity";
+import {CartEntity} from "./cart.entity";
 
 @Entity()
 export class User2 extends BaseEntity {
@@ -36,10 +36,10 @@ export class User2 extends BaseEntity {
   @Column({nullable: true})
   party: string;
 
-  @Column({nullable: true})
+  @Column({default: 0, nullable: true})
   points: number;
 
-  @Column({name: "pay_off", nullable: true})
+  @Column({default: 0, name: "pay_off", nullable: true})
   payOff: number;
 
   @Column({name: "referral_link", nullable: true})
@@ -48,6 +48,6 @@ export class User2 extends BaseEntity {
   @CreateDateColumn({name: "created_at"})
   createdAt: Date;
 
-  @OneToOne(() => CartEntity, cart => cart.user)
-  public cart:CartEntity
+  @OneToOne(() => CartEntity, (cart) => cart.user)
+  public cart: CartEntity;
 }
