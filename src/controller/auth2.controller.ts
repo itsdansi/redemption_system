@@ -26,10 +26,10 @@ export const sendOTP = async (req: Request, res: Response, next: NextFunction) =
       otp_token: otp as any,
     });
     // // console.log(result);
-    // const sentOtp = await sendOTPSMS(
-    //   phone,
-    //   `${otp}} is the OTP for registering your number on Nichino Redemption Portal. OTP valid for 20 mins only. Please do not share with anyone.`
-    // );
+    const sentOtp = await sendOTPSMS(
+      phone,
+      `${otp}} is the OTP for registering your number on Nichino Redemption Portal. OTP valid for 20 mins only. Please do not share with anyone.`
+    );
     // console.log({sentOtp});
     res.send(result);
   } catch (err: any) {

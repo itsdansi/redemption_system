@@ -9,8 +9,8 @@ export const getAllProducts = (req: Request, res: Response) => {
     const productData = JSON.parse(data);
 
     // Get the filter condition from the query parameters
-    // const startPoint = parseInt(req.query.maxpoints as string, 10);
-    // const endPoint = parseInt(req.query.minPoints as string, 10);
+    const startPoint = parseInt(req.query.maxpoints as string, 10);
+    const endPoint = parseInt(req.query.minPoints as string, 10);
 
     // const filteredProducts = productData.filter(
     //   (product: any) => product.Points >= startPoint
@@ -70,15 +70,71 @@ export const getProductsBySubCategory = (req: Request, res: Response) => {
   }
 };
 
+// export const getAllCategory = (req: Request, res: Response) => {
+//   try {
+//     const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
+//     const productData = JSON.parse(data);
+
+//     const subcategoriesByCategory = {};
+
+//     // Iterate over each product
+//     for (const product of productData) {
+//       const category = product.Category;
+//       const subcategory = product["Sub-Category"];
+
+//       // If the category doesn't exist in the object, initialize it with an empty array
+//       if (!subcategoriesByCategory[category]) {
+//         subcategoriesByCategory[category] = [];
+//       }
+
+//       // Push the subcategory to the corresponding category array
+//       subcategoriesByCategory[category].push(subcategory);
+//     }
+
+//     const uniqueData = new Set(subcategoriesByCategory);
+//     // Output the subcategories grouped by categories
+//     for (const category in subcategoriesByCategory) {
+//       const subcategories = subcategoriesByCategory[category];
+//       console.log(`${category}: ${subcategories.join(", ")}`);
+//     }
+
+//     return res.send(subcategoriesByCategory);
+//   } catch (error) {
+//     console.log(error);
+//     res.status(500).json({message: "Internal Server Error"});
+//   }
+// };
+
 export const getAllCategory = (req: Request, res: Response) => {
   try {
     const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
     const productData = JSON.parse(data);
 
-    const categories = productData.map((prod: any) => prod["Sub-Category"]);
-    const uniqueCategories = [...new Set(categories)];
+    const subcategoriesByCategory = {};
 
-    return res.send(uniqueCategories);
+    // Iterate over each product
+    for (const product of productData) {
+      const category = product.Category;
+      const subcategory = product["Sub-Category"];
+
+      // If the category doesn't exist in the object, initialize it with an empty array
+      if (!subcategoriesByCategory[category]) {
+        subcategoriesByCategory[category] = [];
+      }
+
+      // Push the subcategory to the corresponding category array is already not presented
+      if (!subcategoriesByCategory[category].includes(subcategory)) {
+        subcategoriesByCategory[category].push(subcategory);
+      }
+    }
+
+    // Output the subcategories grouped by categories
+    for (const category in subcategoriesByCategory) {
+      const subcategories = subcategoriesByCategory[category];
+      console.log(`${category}: ${subcategories.join(", ")}`);
+    }
+
+    return res.send(subcategoriesByCategory);
   } catch (error) {
     console.log(error);
     res.status(500).json({message: "Internal Server Error"});
