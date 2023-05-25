@@ -13,6 +13,10 @@ export const createOrder = async (req: IRequestWithUser<any, any, any, any>, res
         id = id ? id : 1
         const user = await getRepository(User2).findOne({ where: { id } })
         const userCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
+      console.log(userCart.grandTotal)
+        if(user?.points < userCart.grandTotal) {
+            return res.status(400).send('Cart Amount Is Greater Than User Balance')
+        }
         if (!userCart.cartItems.length) {
             return res.status(404).send('Cart Item Not Found')
         }
@@ -22,6 +26,8 @@ export const createOrder = async (req: IRequestWithUser<any, any, any, any>, res
             await getRepository(OrderItem).save({ ...item, order: newOrder })
             await getRepository(CartItem).delete(item.id)
         }))
+        user.points -=userCart.grandTotal
+        await getRepository(User2).save(user)
         const result = await getRepository(OrderEntity).findOne({ where: { id: newOrder.id } })
         return res.status(201).send(result)
     } catch (err) {
