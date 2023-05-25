@@ -7,26 +7,29 @@ export const getAllProducts = (req: Request, res: Response) => {
     const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
     // const data = fs.readFileSync("data/NCH_catalogue.json", "utf8");
     const productData = JSON.parse(data);
+    var filteredProducts;
 
     // Get the filter condition from the query parameters
-    const startPoint = parseInt(req.query.maxpoints as string, 10);
-    const endPoint = parseInt(req.query.minPoints as string, 10);
+    const maxPoints = parseInt(req.query.maxPoints as string, 10);
+    const minPoints = parseInt(req.query.minPoints as string, 10);
 
-    // const filteredProducts = productData.filter(
-    //   (product: any) => product.Points >= startPoint
-    // );
-    // console.log(filterProducts);
+    if (maxPoints && minPoints) {
+      filteredProducts = productData.filter(
+        (product: any) => product.Points >= minPoints && product.Points <= maxPoints
+      );
+    } else if (minPoints) {
+      filteredProducts = productData.filter(
+        (product: any) => product.Points >= minPoints
+      );
+    } else if (maxPoints) {
+      filteredProducts = productData.filter(
+        (product: any) => product.Points <= maxPoints
+      );
+    } else {
+      filteredProducts = productData;
+    }
 
-    // // Filter the products based on the dynamic condition
-    // const filteredProducts = productData.flatMap((element: any) => {
-    //   return element.subcategory.flatMap((data: any) => {
-    //     return data.products.filter((product: any) => product.Points >= filterPoints);
-    //   });
-    // });
-
-    console.log(productData);
-    res.json(productData);
-    return true;
+    return res.json(filteredProducts);
   } catch (error) {
     console.log(error);
     res.status(500).json({message: "Internal Server Error"});
@@ -40,70 +43,43 @@ export const getProductsBySubCategory = (req: Request, res: Response) => {
     const productData = JSON.parse(data);
 
     // Get the filter condition from the query parameters
-    const filterSubCategory = req.query.subcategory;
+    const filterSubCategory = (req.query.subcategory as string).toLowerCase();
 
-    // // Filter the products based on the dynamic condition
-    // const filteredProducts = productData.flatMap((element: any) => {
-    //   return element.subcategory.filter((data: any) => (data.name = filterSubCategory));
-    // });
+    // const productData = JSON.parse(data);
+    var filteredProducts;
 
-    // const products = filteredProducts.flatMap((element: any) => {
-    //   return element.products;
-    // });
+    // Get the filter condition from the query parameters
+    const maxPoints = parseInt(req.query.maxPoints as string, 10);
+    const minPoints = parseInt(req.query.minPoints as string, 10);
 
-    // // console.log("result", filteredProducts);
-    // // res.json(filteredProducts);
-    // res.json(products);
+    if (maxPoints && minPoints) {
+      filteredProducts = productData.filter(
+        (product: any) => product.Points >= minPoints && product.Points <= maxPoints
+      );
+    } else if (minPoints) {
+      filteredProducts = productData.filter(
+        (product: any) => product.Points >= minPoints
+      );
+    } else if (maxPoints) {
+      filteredProducts = productData.filter(
+        (product: any) => product.Points <= maxPoints
+      );
+    } else {
+      filteredProducts = productData;
+    }
 
-    // const test = productData.map((prod: any) => prod["Sub-Category"]);
+    return res.json(filteredProducts);
 
-    const filteredProducts = productData.filter(
-      (element: any) => element["Sub-Category"] == filterSubCategory
+    const products = productData.filter(
+      (element: any) => element["Sub-Category"].toLowerCase() === filterSubCategory
     );
 
-    // console.log(test);
-    // console.log(filteredProducts);
-    return res.send(filteredProducts);
+    return res.send(products);
   } catch (error) {
     console.log(error);
     res.status(500).json({message: "Internal Server Error"});
   }
 };
-
-// export const getAllCategory = (req: Request, res: Response) => {
-//   try {
-//     const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
-//     const productData = JSON.parse(data);
-
-//     const subcategoriesByCategory = {};
-
-//     // Iterate over each product
-//     for (const product of productData) {
-//       const category = product.Category;
-//       const subcategory = product["Sub-Category"];
-
-//       // If the category doesn't exist in the object, initialize it with an empty array
-//       if (!subcategoriesByCategory[category]) {
-//         subcategoriesByCategory[category] = [];
-//       }
-
-//       // Push the subcategory to the corresponding category array
-//       subcategoriesByCategory[category].push(subcategory);
-//     }
-
-//     const uniqueData = new Set(subcategoriesByCategory);
-//     // Output the subcategories grouped by categories
-//     for (const category in subcategoriesByCategory) {
-//       const subcategories = subcategoriesByCategory[category];
-//       console.log(`${category}: ${subcategories.join(", ")}`);
-//     }
-
-//     return res.send(subcategoriesByCategory);
-//   } catch (error) {
-//     console.log(error);
-//     res.status(500).json({message: "Internal Server Error"});
-//   }
-// };
 
 export const getAllCategory = (req: Request, res: Response) => {
   try {
