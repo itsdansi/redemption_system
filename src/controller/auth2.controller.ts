@@ -21,7 +21,7 @@ export const sendOTP = async (
     const regex = /^[6789]\d{9}$/;
     const isValidPhone = regex.test(phone);
     if (!isValidPhone) {
-      return res.status(400).send({ error: "Not a valid phone phone number!" });
+      return res.status(400).send({ message: "Not a valid phone phone number!" });
     }
     const otp = generateOTP();
     console.log({ otp });
