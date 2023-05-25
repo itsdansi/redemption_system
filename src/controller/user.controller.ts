@@ -26,7 +26,7 @@ export const authenticatedUser = async (
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, accessSecert);
+    const payload: any = verify(accessToken, accessSecert,{ignoreExpiration:true});
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
