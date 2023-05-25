@@ -16,7 +16,7 @@ export class OTP extends BaseEntity {
   otp_token!: number;
 
   @Column({length: 15})
-  @Index({unique: true})
+  // @Index({unique: true})
   phone!: string;
 
   @CreateDateColumn()

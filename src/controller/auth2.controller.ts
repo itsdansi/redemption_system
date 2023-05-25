@@ -14,6 +14,11 @@ const refreshSecert = env.refreshTokenSecret as string;
 export const sendOTP = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const {phone} = req.body;
+    const regex = /^[6789]\d{9}$/;
+    const isValidPhone = regex.test(phone);
+    if (!isValidPhone) {
+      return res.status(400).send({error: "Not a valid phone phone number!"});
+    }
     const otp = generateOTP();
     console.log({otp});
     const result = await getRepository(OTP).save({
@@ -21,10 +26,10 @@ export const sendOTP = async (req: Request, res: Response, next: NextFunction) =
       otp_token: otp as any,
     });
     // // console.log(result);
-    const sentOtp = await sendOTPSMS(
-      phone,
-      `${otp}} is the OTP for registering your number on Nichino Redemption Portal. OTP valid for 20 mins only. Please do not share with anyone.`
-    );
+    // const sentOtp = await sendOTPSMS(
+    //   phone,
+    //   `${otp}} is the OTP for registering your number on Nichino Redemption Portal. OTP valid for 20 mins only. Please do not share with anyone.`
+    // );
     // console.log({sentOtp});
     res.send(result);
   } catch (err: any) {
@@ -34,6 +39,7 @@ export const sendOTP = async (req: Request, res: Response, next: NextFunction) =
         message: "Phone number already exist",
       });
     }
+    console.log(err);
     next(err);
   }
 };
@@ -100,15 +106,12 @@ export const refreshTokenHandler = async (
   next: NextFunction
 ) => {
   try {
-    console.log("Hello world!...");
     const refreshToken = req.cookies["refreshToken"];
     const payload: any = verify(refreshToken, refreshSecert);
 
     if (!payload) {
       return next(new AppError(400, "Invalid email or password!"));
     }
-
-    console.log({payload});
 
     const accessToken = sign(
       {

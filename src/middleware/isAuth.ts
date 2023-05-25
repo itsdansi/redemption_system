@@ -37,7 +37,7 @@ export const isAuth = async (
     });
 
     if (!user) {
-      return next(new AppError(401, "Invalid phone number!"));
+      return next(new AppError(401, "User profile not completed!"));
     }
 
     const {phone, ...data} = user;
