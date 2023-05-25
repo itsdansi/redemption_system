@@ -19,6 +19,7 @@ createConnection().then(() => {
   app.use(
     cors({
       origin:["http://localhost:3000","https://nichinodemo.nupipay.com/login","*"],
+      methods:'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
       credentials: true,
     })
   );
