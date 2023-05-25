@@ -4,8 +4,10 @@ import {
   CreateDateColumn,
   Entity,
   Index,
+  OneToOne,
   PrimaryGeneratedColumn,
 } from "typeorm";
+import { CartEntity } from "./cart.entity";
 
 @Entity()
 export class User2 extends BaseEntity {
@@ -42,4 +44,7 @@ export class User2 extends BaseEntity {
 
   @CreateDateColumn({name: "created_at"})
   createdAt: Date;
+
+  @OneToOne(() => CartEntity, cart => cart.user)
+  public cart:CartEntity
 }
