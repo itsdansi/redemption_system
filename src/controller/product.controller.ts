@@ -23,3 +23,29 @@ export const getAllProducts = (req: Request, res: Response) => {
     res.status(500).json({message: "Internal Server Error"});
   }
 };
+
+export const getProductsBySubCategory = (req: Request, res: Response) => {
+  try {
+    const data = fs.readFileSync("data2/NCH_catalogue.json", "utf8");
+    const productData = JSON.parse(data);
+
+    // Get the filter condition from the query parameters
+    const filterSubCategory = req.query.subcategory;
+
+    // Filter the products based on the dynamic condition
+    const filteredProducts = productData.flatMap((element: any) => {
+      return element.subcategory.filter((data: any) => (data.name = filterSubCategory));
+    });
+
+    const products = filteredProducts.flatMap((element: any) => {
+      return element.products;
+    });
+
+    // console.log("result", filteredProducts);
+    // res.json(filteredProducts);
+    res.json(products);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({message: "Internal Server Error"});
+  }
+};

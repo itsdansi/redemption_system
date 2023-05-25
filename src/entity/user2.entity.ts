@@ -40,6 +40,9 @@ export class User2 extends BaseEntity {
   @Column({name: "pay_off", nullable: true})
   payOff: number;
 
+  @Column({name: "referral_link", nullable: true})
+  referralLink: string;
+
   @CreateDateColumn({name: "created_at"})
   createdAt: Date;
 }

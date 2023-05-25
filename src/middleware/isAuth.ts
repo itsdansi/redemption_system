@@ -17,7 +17,7 @@ export const isAuth = async (
   try {
     const accessToken = req.cookies["accessToken"];
 
-    console.log({accessToken});
+    // console.log({accessToken});
 
     if (!accessToken) {
       return next(new AppError(401, "Access token not provided!"));
@@ -45,6 +45,7 @@ export const isAuth = async (
     req.user = data;
     next();
   } catch (e) {
+    console.log(e);
     if (e instanceof TokenExpiredError) {
       return next(new AppError(401, "Token Expired!"));
     }
