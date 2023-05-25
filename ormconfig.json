@@ -1,9 +1,9 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "minineotest.nupipay.com",
   "port": 5432,
   "username": "postgres",
-  "password": "holaespanol",
+  "password": "postgres",
   "database": "auth_boilerplate",
   "entities": ["src/entity/*.ts"],
   "logging": false,

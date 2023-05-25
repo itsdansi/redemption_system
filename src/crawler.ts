@@ -14,8 +14,8 @@ export async function importUserData(filePath: string): Promise<void> {
 
     const pool = new Pool({
       user: "postgres",
-      password: "holaespanol",
-      host: "localhost",
+      password: "postgres",
+      host: "minineotest.nupipay.com",
       database: "auth_boilerplate",
       port: 5432,
     });
