@@ -79,6 +79,7 @@ export const loginWithOTP = async (req: Request, res: Response, next: NextFuncti
 
     res.cookie("accessToken", accessToken, {
       httpOnly: true,
+      path:'.nupipay.com',
       maxAge: 24 * 60 * 60 * 1000, // equivalent to 1 day
     });
 
