@@ -2,6 +2,7 @@ import {readFile} from "fs/promises";
 import {Pool} from "pg";
 import * as XLSX from "xlsx";
 import path from "path";
+import {UserType} from "./constants/enum";
 // console.log("Hello form the top of the world!");
 const filePath = path.join(__dirname, "../data2", "Platinum and directors.xlsx");
 
@@ -28,10 +29,12 @@ export async function importUserData(filePath: string): Promise<void> {
       for (const row of jsonData) {
         // Transform the phone number
         const phone = row["Phone No"]?.toString().trim();
+        const club = row["Club"].trim();
+        const userType = club == "PLATINUM CLUB" ? UserType.PLATINIUM : UserType.DIRECTOR;
 
         // Insert the transformed data into the 'users' table
         await client.query(
-          "INSERT INTO user2( party, phone, email, points, pay_off) VALUES ($1, $2, $3, $4, $5)",
+=          "INSERT INTO user2( party, phone, email, points, pay_off, user_type) VALUES ($1, $2, $3, $4, $5, $6)",
           [
             // row.ID,
             row.Party,
@@ -39,6 +42,7 @@ export async function importUserData(filePath: string): Promise<void> {
             row["Email. ID"],
             row.Points,
             row.Payoff,
+            userType,
           ]
         );
       }
