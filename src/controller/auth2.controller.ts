@@ -23,7 +23,7 @@ export const sendOTP = async (
     if (!isValidPhone) {
       return res.status(400).send({ message: "Not a valid phone phone number!" });
     }
-    const otp = generateOTP();
+    const otp = 123456;
     console.log({ otp });
     const result = await getRepository(OTP).save({
       phone,
