@@ -39,7 +39,7 @@ export const authenticatedUser = async (
     });
 
     if (!user) {
-      return next(new AppError(401, "Invalid phone number!"));
+      return next(new AppError(401, "User profile not completed!"));
     }
 
     const {phone, ...data} = user;
@@ -54,48 +54,45 @@ export const authenticatedUser = async (
   }
 };
 
-export const getUserById = async (req: Request, res: Response, next: NextFunction) => {
+export const isUserExists = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const accessToken = req.cookies["accessToken"];
+
+    console.log({accessToken});
 
     if (!accessToken) {
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, accessSecert);
+    const payload: any = verify(accessToken, accessSecert, {ignoreExpiration: true});
+
+    console.log(payload);
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
     }
 
-    const user = await getRepository(OTP).findOne({
+    const user = await getRepository(User2).findOne({
       where: {
         phone: payload?.phone,
       },
     });
+    console.log({user});
 
     if (!user) {
-      return next(new AppError(401, "Invalid auth credential!"));
+      return next(new AppError(404, "User not found!"));
     }
 
-    const {phone, ...data} = user;
-
-    const {firstName, lastName, dob, email} = req.body;
-
-    const newUser = await getRepository(User2).save({
-      firstName,
-      lastName,
-      dob,
-      email,
-      phone,
+    return res.status(200).json({
+      status: "success",
+      message: "User exist!, you can skip profile completion step",
     });
-    res.send(newUser);
   } catch (e) {
     // console.log(e);
     if (e instanceof TokenExpiredError) {
       return next(new AppError(401, "Token Expired!"));
     }
-    return next(new AppError(401, "Invalid auth credential!"));
+    return next(new AppError(500, "Something went wrong!"));
   }
 };
 
@@ -111,7 +108,9 @@ export const updateUserProfile = async (
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, accessSecert);
+    const payload: any = verify(accessToken, accessSecert, {
+      ignoreExpiration: true,
+    });
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
