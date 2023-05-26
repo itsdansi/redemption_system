@@ -34,7 +34,7 @@ export async function importUserData(filePath: string): Promise<void> {
 
         // Insert the transformed data into the 'users' table
         await client.query(
-=          "INSERT INTO user2( party, phone, email, points, pay_off, user_type) VALUES ($1, $2, $3, $4, $5, $6)",
+          "INSERT INTO user2( party, phone, email, points, pay_off, user_type) VALUES ($1, $2, $3, $4, $5, $6)",
           [
             // row.ID,
             row.Party,
