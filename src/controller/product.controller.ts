@@ -1,11 +1,13 @@
 import {Request, Response} from "express";
 import fs from "fs";
 
+const platiniumData = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
+const directorData = fs.readFileSync("data2/Nichino Director 250523.json", "utf8");
+
 export const getAllProducts = (req: Request, res: Response) => {
   try {
-    // const data = fs.readFileSync("data2/NCH_catalogue.json", "utf8");
-    const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
-    // const data = fs.readFileSync("data/NCH_catalogue.json", "utf8");
+    const user: any = req.user;
+    const data = user.userType == "platinium" ? platiniumData : directorData;
     const productData = JSON.parse(data);
     var filteredProducts;
 
@@ -38,8 +40,8 @@ export const getAllProducts = (req: Request, res: Response) => {
 
 export const getProductsBySubCategory = (req: Request, res: Response) => {
   try {
-    // const data = fs.readFileSync("data2/NCH_catalogue.json", "utf8");
-    const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
+    const user: any = req.user;
+    const data = user.userType == "platinium" ? platiniumData : directorData;
     const productData = JSON.parse(data);
 
     // Get the filter condition from the query parameters
@@ -83,7 +85,8 @@ export const getProductsBySubCategory = (req: Request, res: Response) => {
 
 export const getAllCategory = (req: Request, res: Response) => {
   try {
-    const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
+    const user: any = req.user;
+    const data = user.userType == "platinium" ? platiniumData : directorData;
     const productData = JSON.parse(data);
 
     const subcategoriesByCategory = {};
@@ -119,7 +122,8 @@ export const getAllCategory = (req: Request, res: Response) => {
 
 export const getSingleProduct = (req: Request, res: Response) => {
   try {
-    const data = fs.readFileSync("data2/Nichino_Plantinum_250523.json", "utf8");
+    const user: any = req.user;
+    const data = user.userType == "platinium" ? platiniumData : directorData;
     const productData = JSON.parse(data);
 
     const serialNumber = req.params.id;
