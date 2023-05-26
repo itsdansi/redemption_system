@@ -68,13 +68,13 @@ export const getProductsBySubCategory = (req: Request, res: Response) => {
       filteredProducts = productData;
     }
 
-    return res.json(filteredProducts);
-
-    const products = productData.filter(
+    const products = filteredProducts.filter(
       (element: any) => element["Sub-Category"].toLowerCase() === filterSubCategory
     );
 
-    return res.send(products);
+    // return res.send(products);
+
+    return res.json(products);
   } catch (error) {
     console.log(error);
     res.status(500).json({message: "Internal Server Error"});
@@ -134,3 +134,5 @@ export const getSingleProduct = (req: Request, res: Response) => {
     res.status(500).json({message: "Internal Server Error"});
   }
 };
+
+// fix: minor fix in get products by category

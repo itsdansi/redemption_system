@@ -1,5 +1,12 @@
 PORT= 8000
 
+#DATABASE
+DB_HOST=abc.com
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+DB_NAME=test
+
 #EMAIL
 MAIL_TRANSPORTER=gmail
 EMAIL_USER=abcd@gmail.com
