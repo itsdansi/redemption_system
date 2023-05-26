@@ -23,7 +23,7 @@ export const isAuth = async (
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, accessSecert);
+    const payload: any = verify(accessToken, accessSecert, {ignoreExpiration: true});
     console.log({payload});
 
     if (!payload) {
