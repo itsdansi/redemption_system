@@ -16,11 +16,11 @@ export const getCart = async (req: IRequestWithUser<any, any, any, any>, res: Re
             userCart = await getRepository(CartEntity).save({ user })
         }
         let updatedCartResponse = await getRepository(CartEntity).createQueryBuilder('cart')
-        .leftJoin('cart.user','user')
-        .leftJoinAndSelect('cart.cartItems','cartItems')
-        .where('user.id=:id',{id})
-        .orderBy('cartItems.updatedAt','DESC')
-        .getOne()
+            .leftJoin('cart.user', 'user')
+            .leftJoinAndSelect('cart.cartItems', 'cartItems')
+            .where('user.id=:id', { id })
+            .orderBy('cartItems.updatedAt', 'DESC')
+            .getOne()
         res.status(200).send(updatedCartResponse)
     } catch (err) {
         console.log(err)
@@ -43,11 +43,11 @@ export const addItemToCart = async (req: IRequestWithUser<any, any, any, any>, r
         }
         // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         let updatedCartResponse = await getRepository(CartEntity).createQueryBuilder('cart')
-        .leftJoin('cart.user','user')
-        .leftJoinAndSelect('cart.cartItems','cartItems')
-        .where('user.id=:id',{id})
-        .orderBy('cartItems.updatedAt','DESC')
-        .getOne()
+            .leftJoin('cart.user', 'user')
+            .leftJoinAndSelect('cart.cartItems', 'cartItems')
+            .where('user.id=:id', { id })
+            .orderBy('cartItems.updatedAt', 'DESC')
+            .getOne()
         res.status(201).send(updatedCartResponse)
     } catch (err) {
         next(err)
@@ -66,17 +66,23 @@ export const updateCartItem = async (req: IRequestWithUser<any, any, any, any>, 
         }
         if (quantity) {
             cartItem.quantity = quantity
+            await getRepository(CartItem).save(cartItem)
         } else {
-            cartItem.quantity += 1
+            if (quantity === 0) {
+                await getRepository(CartItem).delete(cartItem.id)
+            }
+            else {
+                cartItem.quantity += 1
+                await getRepository(CartItem).save(cartItem)
+            }
         }
-
-        await getRepository(CartItem).save(cartItem)
+        
         let updatedCartResponse = await getRepository(CartEntity).createQueryBuilder('cart')
-        .leftJoin('cart.user','user')
-        .leftJoinAndSelect('cart.cartItems','cartItems')
-        .where('user.id=:id',{id})
-        .orderBy('cartItems.updatedAt','DESC')
-        .getOne()
+            .leftJoin('cart.user', 'user')
+            .leftJoinAndSelect('cart.cartItems', 'cartItems')
+            .where('user.id=:id', { id })
+            .orderBy('cartItems.updatedAt', 'DESC')
+            .getOne()
         // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         res.status(201).send(updatedCartResponse)
     } catch (err) {
@@ -94,11 +100,11 @@ export const deleteCartItems = async (req: IRequestWithUser<any, any, any, any>,
     }
     await getRepository(CartItem).delete(cartItem.id)
     let updatedCartResponse = await getRepository(CartEntity).createQueryBuilder('cart')
-    .leftJoin('cart.user','user')
-    .leftJoinAndSelect('cart.cartItems','cartItems')
-    .where('user.id=:id',{id})
-    .orderBy('cartItems.updatedAt','DESC')
-    .getOne()
+        .leftJoin('cart.user', 'user')
+        .leftJoinAndSelect('cart.cartItems', 'cartItems')
+        .where('user.id=:id', { id })
+        .orderBy('cartItems.updatedAt', 'DESC')
+        .getOne()
     // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
     res.status(201).send(updatedCartResponse)
 }
