@@ -62,7 +62,7 @@ export const updateCartItem = async (req: IRequestWithUser<any, any, any, any>, 
         const userCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         const cartItem = await getRepository(CartItem).findOne({ where: { sku, cart: { user: { id } } } })
         if (!cartItem) {
-            return res.status(404).send('Cart Item Not Found')
+            return res.status(404).send({message:'Cart Item Not Found'})
         }
         if (quantity) {
             cartItem.quantity = quantity
