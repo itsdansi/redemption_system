@@ -41,7 +41,6 @@ export const addItemToCart = async (req: IRequestWithUser<any, any, any, any>, r
             let newCartItem = await getRepository(CartItem).save({ ...req.body, cart: userCart })
             console.log(newCartItem)
         }
-        // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         let updatedCartResponse = await getRepository(CartEntity).createQueryBuilder('cart')
             .leftJoin('cart.user', 'user')
             .leftJoinAndSelect('cart.cartItems', 'cartItems')
@@ -62,7 +61,7 @@ export const updateCartItem = async (req: IRequestWithUser<any, any, any, any>, 
         const userCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         const cartItem = await getRepository(CartItem).findOne({ where: { sku, cart: { user: { id } } } })
         if (!cartItem) {
-            return res.status(404).send({message:'Cart Item Not Found'})
+            return res.status(404).send({ message: 'Cart Item Not Found' })
         }
         if (quantity) {
             cartItem.quantity = quantity
@@ -83,7 +82,6 @@ export const updateCartItem = async (req: IRequestWithUser<any, any, any, any>, 
             .where('user.id=:id', { id })
             .orderBy('cartItems.createdAt', 'DESC')
             .getOne()
-        // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
         res.status(201).send(updatedCartResponse)
     } catch (err) {
         next(err)
@@ -92,11 +90,12 @@ export const updateCartItem = async (req: IRequestWithUser<any, any, any, any>, 
 }
 
 export const deleteCartItems = async (req: IRequestWithUser<any, any, any, any>, res: Response, next: NextFunction) => {
+   try {
     let { id } = req?.user
     const { sku } = req.params
-    const cartItem = await getRepository(CartItem).findOne({ where: { sku } })
+    const cartItem = await getRepository(CartItem).findOne({ where: { sku, cart: { user: { id } } } })
     if (!cartItem) {
-        return res.status(404).send('Cart Item Not Found')
+        return res.status(404).send({mesage: 'Cart Item Not Found'})
     }
     await getRepository(CartItem).delete(cartItem.id)
     let updatedCartResponse = await getRepository(CartEntity).createQueryBuilder('cart')
@@ -105,6 +104,8 @@ export const deleteCartItems = async (req: IRequestWithUser<any, any, any, any>,
         .where('user.id=:id', { id })
         .orderBy('cartItems.createdAt', 'DESC')
         .getOne()
-    // const updateCart = await getRepository(CartEntity).findOne({ where: { user: { id } } })
     res.status(201).send(updatedCartResponse)
+   } catch (error) {
+    res.status(500).send({message:'Internal Server Error',error})
+   }
 }
