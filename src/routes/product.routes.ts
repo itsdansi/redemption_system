@@ -11,8 +11,8 @@ import {validateGetProductFilterSchema} from "../validators/requests/product.req
 const router = express.Router();
 
 router.get("/", isAuth, getAllProducts);
-router.get("/get-by-subcategory", getProductsBySubCategory);
-router.get("/get-all-categories", getAllCategory);
-router.get("/get-single-product/:id", getSingleProduct);
+router.get("/get-by-subcategory", isAuth, getProductsBySubCategory);
+router.get("/get-all-categories", isAuth, getAllCategory);
+router.get("/get-single-product/:id", isAuth, getSingleProduct);
 
 export default router;

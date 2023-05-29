@@ -105,6 +105,7 @@ export const updateUserProfile = async (
 ) => {
   try {
     const accessToken = req.cookies["accessToken"];
+    // console.log(accessToken);
 
     if (!accessToken) {
       return next(new AppError(401, "Access token not provided!"));
