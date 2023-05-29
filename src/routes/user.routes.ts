@@ -2,7 +2,7 @@ import express from "express";
 import {
   authenticatedUser,
   generateReferralLink,
-  getUserById,
+  isUserExists,
   // referralLink,
   updateUserProfile,
 } from "../controller/user.controller";
@@ -12,7 +12,7 @@ import {importUserData} from "../crawler";
 const router = express.Router();
 
 router.get("/me", authenticatedUser);
-// router.get("/user-by-id", getUserById);
+router.get("/does-user-exist", isUserExists);
 // router.get("/referral-link", isAuth, referralLink);
 router.patch("/generate-referral-link", isAuth, generateReferralLink);
 router.post("/complete-user-profile", updateUserProfile);

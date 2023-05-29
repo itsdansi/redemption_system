@@ -8,6 +8,7 @@ import {
   PrimaryGeneratedColumn,
 } from "typeorm";
 import {CartEntity} from "./cart.entity";
+import {UserType} from "../constants/enum";
 
 @Entity()
 export class User2 extends BaseEntity {
@@ -41,6 +42,9 @@ export class User2 extends BaseEntity {
 
   @Column({default: 0, name: "pay_off", nullable: true})
   payOff: number;
+
+  @Column({default: UserType.PLATINIUM, name: "user_type"})
+  userType: UserType;
 
   @Column({name: "referral_link", nullable: true})
   referralLink: string;

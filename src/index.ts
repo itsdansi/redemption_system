@@ -14,12 +14,18 @@ const port = process.env.PORT;
 createConnection().then(() => {
   const app = express();
 
+  // MIDDLEWARE
   app.use(express.json());
   app.use(cookieParser());
   app.use(
     cors({
-      origin:["*","http://localhost:3000","https://nichinodemo.nupipay.com","http://nichinodemo.nupipay.com"],
-      methods:'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+      origin: [
+        "*",
+        "http://localhost:3000",
+        "https://nichinodemo.nupipay.com",
+        "http://nichinodemo.nupipay.com",
+      ],
+      methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
       // preflightContinue:false,
       credentials: true,
     })

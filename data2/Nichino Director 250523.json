@@ -1,0 +1,6242 @@
+[
+  {
+    "Sr no": 1,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Amazon",
+    "Suvidhaa SKU": "SIL-1099",
+    "Product Title": "Amazon Echo.",
+    "Product Description": "All-new Amazon Echo Dot (4th Gen)",
+    "Points": 5
+  },
+  {
+    "Sr no": 2,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "American Tourister",
+    "Suvidhaa SKU": "SIL-1100",
+    "Product Title": "American Tourister Laptop Backpack ",
+    "Product Description": "American Tourister Laptop Backpack TROT 01",
+    "Points": 3
+  },
+  {
+    "Sr no": 3,
+    "Category": "Laptop Backpak Director",
+    "Sub-Category": "Backpak",
+    "Brand Name": "American Tourister",
+    "Suvidhaa SKU": "SIL-1101",
+    "Product Title": "American Tourister Laptop Backpack ",
+    "Product Description": "American Tourister Laptop Backpack TROT 02",
+    "Points": 4
+  },
+  {
+    "Sr no": 4,
+    "Category": "Laptop Backpak Director",
+    "Sub-Category": "Backpak",
+    "Brand Name": "American Tourister",
+    "Suvidhaa SKU": "SIL-1102",
+    "Product Title": "American Tourister Laptop Backpack ",
+    "Product Description": "American Tourister Laptop Backpack TROT 03",
+    "Points": 5
+  },
+  {
+    "Sr no": 5,
+    "Category": "Home Appliance Director",
+    "Sub-Category": "Vaccum Cleaner",
+    "Brand Name": "Amour",
+    "Suvidhaa SKU": "SIL-1123",
+    "Product Title": "Amour Vaccum Cleaner",
+    "Product Description": "Amour V7s Smart Robotic Vacuum Cleaner with Mopping & Sweeping Function, Auto-Recharge & Scheduling, Compatible with App/Alexa/Google, Realtime Navigation,Strong Suction Power,Long Lasting Battery",
+    "Points": 46
+  },
+  {
+    "Sr no": 6,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1124",
+    "Product Title": "Apple Ipad Wifi +Cellular",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi + Cellular 256GB - Silver",
+    "Points": 71
+  },
+  {
+    "Sr no": 7,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1125",
+    "Product Title": "Apple Ipad Wifi +Cellular",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi + Cellular 256GB - Space Grey",
+    "Points": 71
+  },
+  {
+    "Sr no": 8,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1126",
+    "Product Title": "Apple Ipad Wifi +Cellular",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi + Cellular 64GB - Silver",
+    "Points": 54
+  },
+  {
+    "Sr no": 9,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1127",
+    "Product Title": "Apple Ipad Wifi +Cellular",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi + Cellular 64GB - Space Grey",
+    "Points": 54
+  },
+  {
+    "Sr no": 10,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1128",
+    "Product Title": "Apple Ipad Wifi",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi 256GB - Silver",
+    "Points": 56
+  },
+  {
+    "Sr no": 11,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1129",
+    "Product Title": "Apple Ipad Wifi",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi 256GB - Space Grey",
+    "Points": 56
+  },
+  {
+    "Sr no": 12,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1130",
+    "Product Title": "Apple Ipad Wifi",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi 64GB - Silver",
+    "Points": 39
+  },
+  {
+    "Sr no": 13,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1131",
+    "Product Title": "Apple Ipad Wifi",
+    "Product Description": "Apple 10.2-inch iPad Wi-Fi 64GB - Space Grey",
+    "Points": 39
+  },
+  {
+    "Sr no": 14,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1132",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M1 chip with 8-core CPU and 7-core GPU, 256GB - Gold",
+    "Points": 114
+  },
+  {
+    "Sr no": 15,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1133",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M1 chip with 8-core CPU and 7-core GPU, 256GB - Silver",
+    "Points": 114
+  },
+  {
+    "Sr no": 16,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1134",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M1 chip with 8-core CPU and 7-core GPU, 256GB - Space Grey",
+    "Points": 114
+  },
+  {
+    "Sr no": 17,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1135",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 10-core GPU, 512GB - Midnight",
+    "Points": 171
+  },
+  {
+    "Sr no": 18,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1136",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 10-core GPU, 512GB - Silver",
+    "Points": 171
+  },
+  {
+    "Sr no": 19,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1137",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 10-core GPU, 512GB - Space Grey",
+    "Points": 171
+  },
+  {
+    "Sr no": 20,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1138",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 10-core GPU, 512GB - Starlight",
+    "Points": 171
+  },
+  {
+    "Sr no": 21,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1139",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 8-core GPU, 256GB - Midnight",
+    "Points": 137
+  },
+  {
+    "Sr no": 22,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1140",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 8-core GPU, 256GB - Silver",
+    "Points": 137
+  },
+  {
+    "Sr no": 23,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1141",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 8-core GPU, 256GB - Space Grey",
+    "Points": 137
+  },
+  {
+    "Sr no": 24,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1142",
+    "Product Title": "Apple MacBook Air",
+    "Product Description": "Apple 13-inch MacBook Air: Apple M2 chip with 8-core CPU and 8-core GPU, 256GB - Starlight",
+    "Points": 137
+  },
+  {
+    "Sr no": 25,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1143",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU, 256GB SSD - Silver",
+    "Points": 148
+  },
+  {
+    "Sr no": 26,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1144",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU, 256GB SSD - Space Grey",
+    "Points": 148
+  },
+  {
+    "Sr no": 27,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1145",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU, 512GB SSD - Silver",
+    "Points": 171
+  },
+  {
+    "Sr no": 28,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1146",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 13-inch MacBook Pro: Apple M2 chip with 8-core CPU and 10-core GPU, 512GB SSD - Space Grey",
+    "Points": 171
+  },
+  {
+    "Sr no": 29,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1148",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 14-inch MacBook Pro: Apple M1 Pro chip with 10?core CPU and 16?core GPU, 1TB SSD - Silver",
+    "Points": 274
+  },
+  {
+    "Sr no": 30,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1149",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 14-inch MacBook Pro: Apple M1 Pro chip with 10?core CPU and 16?core GPU, 1TB SSD - Space Grey",
+    "Points": 274
+  },
+  {
+    "Sr no": 31,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1150",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 14-inch MacBook Pro: Apple M1 Pro chip with 8?core CPU and 14?core GPU, 512GB SSD - Silver",
+    "Points": 223
+  },
+  {
+    "Sr no": 32,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1151",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 14-inch MacBook Pro: Apple M1 Pro chip with 8?core CPU and 14?core GPU, 512GB SSD - Space Grey",
+    "Points": 223
+  },
+  {
+    "Sr no": 33,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1152",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 16-inch MacBook Pro: Apple M1 Max chip with 10?core CPU and 32?core GPU, 1TB SSD - Silver",
+    "Points": 377
+  },
+  {
+    "Sr no": 34,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1153",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 16-inch MacBook Pro: Apple M1 Max chip with 10?core CPU and 32?core GPU, 1TB SSD - Space Grey",
+    "Points": 377
+  },
+  {
+    "Sr no": 35,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1154",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 16-inch MacBook Pro: Apple M1 Pro chip with 10?core CPU and 16?core GPU, 1TB SSD - Silver",
+    "Points": 297
+  },
+  {
+    "Sr no": 36,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1155",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 16-inch MacBook Pro: Apple M1 Pro chip with 10?core CPU and 16?core GPU, 1TB SSD - Space Grey",
+    "Points": 297
+  },
+  {
+    "Sr no": 37,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1156",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 16-inch MacBook Pro: Apple M1 Pro chip with 10?core CPU and 16?core GPU, 512GB SSD - Silver",
+    "Points": 274
+  },
+  {
+    "Sr no": 38,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1157",
+    "Product Title": "Apple MacBook pro",
+    "Product Description": "Apple 16-inch MacBook Pro: Apple M1 Pro chip with 10?core CPU and 16?core GPU, 512GB SSD - Space Grey",
+    "Points": 274
+  },
+  {
+    "Sr no": 39,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1159",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple 2021 iMac with 4.5K Retina Display (24-inch/60.96 cm, M1 chip with 8?core CPU and 8?core GPU, 8GB RAM, 256GB)",
+    "Points": 160
+  },
+  {
+    "Sr no": 40,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1164",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods (3rd�generation)",
+    "Points": 23
+  },
+  {
+    "Sr no": 41,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1165",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods Max - Green",
+    "Points": 76
+  },
+  {
+    "Sr no": 42,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1166",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods Max - Pink",
+    "Points": 76
+  },
+  {
+    "Sr no": 43,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1167",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods Max - Silver",
+    "Points": 76
+  },
+  {
+    "Sr no": 44,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1168",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods Max - Sky Blue",
+    "Points": 76
+  },
+  {
+    "Sr no": 45,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1169",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods Max - Space Gray",
+    "Points": 76
+  },
+  {
+    "Sr no": 46,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1170",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods Pro with Magsafe case",
+    "Points": 30
+  },
+  {
+    "Sr no": 47,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1171",
+    "Product Title": "Apple Airpods",
+    "Product Description": "Apple AirPods with Charging Case",
+    "Points": 16
+  },
+  {
+    "Sr no": 48,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1173",
+    "Product Title": "Apple Smart speaker",
+    "Product Description": "Apple HomePod mini - Blue",
+    "Points": 11
+  },
+  {
+    "Sr no": 49,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1174",
+    "Product Title": "Apple Smart speaker",
+    "Product Description": "Apple HomePod mini - Orange",
+    "Points": 11
+  },
+  {
+    "Sr no": 50,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1175",
+    "Product Title": "Apple Smart speaker",
+    "Product Description": "Apple Home-Pod mini - Space Grey",
+    "Points": 11
+  },
+  {
+    "Sr no": 51,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1176",
+    "Product Title": "Apple Smart speaker",
+    "Product Description": "Apple Home-Pod mini - White",
+    "Points": 11
+  },
+  {
+    "Sr no": 52,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1177",
+    "Product Title": "Apple Smart speaker",
+    "Product Description": "Apple HomePod mini - Yellow",
+    "Points": 11
+  },
+  {
+    "Sr no": 53,
+    "Category": "Apple Brand Accessories",
+    "Sub-Category": "Mobile Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1178",
+    "Product Title": "Apple I pad Smart Cover",
+    "Product Description": "Apple iPad (6th Generation) Smart Cover�- White",
+    "Points": 4
+  },
+  {
+    "Sr no": 54,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1179",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 256GB - Pink",
+    "Points": 91
+  },
+  {
+    "Sr no": 55,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1180",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 256GB - Purple",
+    "Points": 91
+  },
+  {
+    "Sr no": 56,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1181",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 256GB - Space Grey",
+    "Points": 91
+  },
+  {
+    "Sr no": 57,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1182",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 256GB - Starlight",
+    "Points": 91
+  },
+  {
+    "Sr no": 58,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1183",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 64GB - Pink",
+    "Points": 74
+  },
+  {
+    "Sr no": 59,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1184",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 64GB - Purple",
+    "Points": 74
+  },
+  {
+    "Sr no": 60,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1185",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 64GB - Space Grey",
+    "Points": 74
+  },
+  {
+    "Sr no": 61,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1186",
+    "Product Title": "Apple iPad mini Wi-Fi + Cellular ",
+    "Product Description": "Apple iPad mini Wi-Fi + Cellular 64GB - Starlight",
+    "Points": 74
+  },
+  {
+    "Sr no": 62,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1187",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 256GB - Pink",
+    "Points": 74
+  },
+  {
+    "Sr no": 63,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1188",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 256GB - Purple",
+    "Points": 74
+  },
+  {
+    "Sr no": 64,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1189",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 256GB - Space Grey",
+    "Points": 74
+  },
+  {
+    "Sr no": 65,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1190",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 256GB - Starlight",
+    "Points": 74
+  },
+  {
+    "Sr no": 66,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1191",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 64GB - Pink",
+    "Points": 57
+  },
+  {
+    "Sr no": 67,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1192",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 64GB - Purple",
+    "Points": 57
+  },
+  {
+    "Sr no": 68,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1193",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 64GB - Space Grey",
+    "Points": 57
+  },
+  {
+    "Sr no": 69,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1194",
+    "Product Title": "Apple iPad mini Wi-Fi ",
+    "Product Description": "Apple iPad mini Wi-Fi 64GB - Starlight",
+    "Points": 57
+  },
+  {
+    "Sr no": 70,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1195",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 128 GRY-HIN",
+    "Points": 111
+  },
+  {
+    "Sr no": 71,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1196",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 128 SLV-HIN",
+    "Points": 111
+  },
+  {
+    "Sr no": 72,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1197",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 1T GRY-HIN",
+    "Points": 191
+  },
+  {
+    "Sr no": 73,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1198",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 1T SLV-HIN",
+    "Points": 191
+  },
+  {
+    "Sr no": 74,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1199",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 256 GRY-HIN",
+    "Points": 122
+  },
+  {
+    "Sr no": 75,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1200",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 256 SLV-HIN",
+    "Points": 122
+  },
+  {
+    "Sr no": 76,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1201",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 2T GRY-HIN",
+    "Points": 236
+  },
+  {
+    "Sr no": 77,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1202",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 2T SLV-HIN",
+    "Points": 236
+  },
+  {
+    "Sr no": 78,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1203",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 512 GRY-HIN",
+    "Points": 145
+  },
+  {
+    "Sr no": 79,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1204",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WF CL 512 SLV-HIN",
+    "Points": 145
+  },
+  {
+    "Sr no": 80,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1205",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 128GB SILVER-HIN",
+    "Points": 94
+  },
+  {
+    "Sr no": 81,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1206",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 128GB SPACE GRAY-HIN",
+    "Points": 94
+  },
+  {
+    "Sr no": 82,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1207",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 1TB SILVER-HIN",
+    "Points": 174
+  },
+  {
+    "Sr no": 83,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1208",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 1TB SPACE GRAY-HIN",
+    "Points": 174
+  },
+  {
+    "Sr no": 84,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1209",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 256GB SILVER-HIN",
+    "Points": 105
+  },
+  {
+    "Sr no": 85,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1210",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 256GB SPACE GRAY-HIN",
+    "Points": 105
+  },
+  {
+    "Sr no": 86,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1211",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 2TB SILVER-HIN",
+    "Points": 219
+  },
+  {
+    "Sr no": 87,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1212",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 2TB SPACE GRAY-HIN",
+    "Points": 219
+  },
+  {
+    "Sr no": 88,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1213",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 512GB SILVER-HIN",
+    "Points": 128
+  },
+  {
+    "Sr no": 89,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1214",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 11 WIFI 512GB SPACE GRAY-HIN",
+    "Points": 128
+  },
+  {
+    "Sr no": 90,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1215",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 128 GRY-HIN",
+    "Points": 146
+  },
+  {
+    "Sr no": 91,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1216",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 128 SLV-HIN",
+    "Points": 146
+  },
+  {
+    "Sr no": 92,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1217",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 1T GRY-HIN",
+    "Points": 226
+  },
+  {
+    "Sr no": 93,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1218",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 1T SLV-HIN",
+    "Points": 226
+  },
+  {
+    "Sr no": 94,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1219",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 256 GRY-HIN",
+    "Points": 158
+  },
+  {
+    "Sr no": 95,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1220",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 256 SLV-HIN",
+    "Points": 158
+  },
+  {
+    "Sr no": 96,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1221",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 2T GRY-HIN",
+    "Points": 272
+  },
+  {
+    "Sr no": 97,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1222",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 2T SLV-HIN",
+    "Points": 272
+  },
+  {
+    "Sr no": 98,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1223",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 512 GRY-HIN",
+    "Points": 180
+  },
+  {
+    "Sr no": 99,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1224",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WF CL 512 SLV-HIN",
+    "Points": 180
+  },
+  {
+    "Sr no": 100,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1225",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 128GB SILVER-HIN",
+    "Points": 129
+  },
+  {
+    "Sr no": 101,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1226",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 128GB SPACE GRAY-HIN",
+    "Points": 129
+  },
+  {
+    "Sr no": 102,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1227",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 1TB SILVER-HIN",
+    "Points": 209
+  },
+  {
+    "Sr no": 103,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1228",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 1TB SPACE GRAY-HIN",
+    "Points": 209
+  },
+  {
+    "Sr no": 104,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1229",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 256GB SILVER-HIN",
+    "Points": 140
+  },
+  {
+    "Sr no": 105,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1230",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 256GB SPACE GRAY-HIN",
+    "Points": 140
+  },
+  {
+    "Sr no": 106,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1231",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 2TB SILVER-HIN",
+    "Points": 255
+  },
+  {
+    "Sr no": 107,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1232",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 2TB SPACE GRAY-HIN",
+    "Points": 255
+  },
+  {
+    "Sr no": 108,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1233",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 512GB SILVER-HIN",
+    "Points": 163
+  },
+  {
+    "Sr no": 109,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1234",
+    "Product Title": "Apple IPAD PRO",
+    "Product Description": "Apple IPAD PRO 12.9 WIFI 512GB SPACE GRAY-HIN",
+    "Points": 163
+  },
+  {
+    "Sr no": 110,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1235",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 128GB (PRODUCT)RED",
+    "Points": 63
+  },
+  {
+    "Sr no": 111,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1236",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 128GB Black",
+    "Points": 63
+  },
+  {
+    "Sr no": 112,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1237",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 128GB Green",
+    "Points": 63
+  },
+  {
+    "Sr no": 113,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1238",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 128GB Purple",
+    "Points": 63
+  },
+  {
+    "Sr no": 114,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1239",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 128GB White",
+    "Points": 63
+  },
+  {
+    "Sr no": 115,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1240",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 128GB Yellow",
+    "Points": 63
+  },
+  {
+    "Sr no": 116,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1241",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 64GB (PRODUCT)RED",
+    "Points": 57
+  },
+  {
+    "Sr no": 117,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1242",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 64GB Black",
+    "Points": 57
+  },
+  {
+    "Sr no": 118,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1243",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 64GB Green",
+    "Points": 57
+  },
+  {
+    "Sr no": 119,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1244",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 64GB Purple",
+    "Points": 57
+  },
+  {
+    "Sr no": 120,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1245",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 64GB White",
+    "Points": 57
+  },
+  {
+    "Sr no": 121,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1246",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 11 64GB Yellow",
+    "Points": 57
+  },
+  {
+    "Sr no": 122,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1250",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 128GB (PRODUCT)RED",
+    "Points": 81
+  },
+  {
+    "Sr no": 123,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1251",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 128GB Black",
+    "Points": 81
+  },
+  {
+    "Sr no": 124,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1252",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 128GB Blue",
+    "Points": 81
+  },
+  {
+    "Sr no": 125,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1253",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 128GB Green",
+    "Points": 81
+  },
+  {
+    "Sr no": 126,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1254",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 128GB Purple",
+    "Points": 81
+  },
+  {
+    "Sr no": 127,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1255",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 128GB White",
+    "Points": 81
+  },
+  {
+    "Sr no": 128,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1256",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 256GB (PRODUCT)RED",
+    "Points": 92
+  },
+  {
+    "Sr no": 129,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1257",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 256GB Black",
+    "Points": 92
+  },
+  {
+    "Sr no": 130,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1258",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 256GB Blue",
+    "Points": 92
+  },
+  {
+    "Sr no": 131,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1259",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 256GB Green",
+    "Points": 92
+  },
+  {
+    "Sr no": 132,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1260",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 256GB Purple",
+    "Points": 92
+  },
+  {
+    "Sr no": 133,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1261",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 256GB White",
+    "Points": 92
+  },
+  {
+    "Sr no": 134,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1262",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 64GB (PRODUCT)RED",
+    "Points": 75
+  },
+  {
+    "Sr no": 135,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1263",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 64GB Black",
+    "Points": 75
+  },
+  {
+    "Sr no": 136,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1264",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 64GB Blue",
+    "Points": 75
+  },
+  {
+    "Sr no": 137,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1265",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 64GB Green",
+    "Points": 75
+  },
+  {
+    "Sr no": 138,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1266",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 64GB Purple",
+    "Points": 75
+  },
+  {
+    "Sr no": 139,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1267",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 64GB White",
+    "Points": 75
+  },
+  {
+    "Sr no": 140,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1268",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 128GB (PRODUCT)RED",
+    "Points": 74
+  },
+  {
+    "Sr no": 141,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1269",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 128GB Black",
+    "Points": 74
+  },
+  {
+    "Sr no": 142,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1270",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 128GB Blue",
+    "Points": 74
+  },
+  {
+    "Sr no": 143,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1271",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 128GB Green",
+    "Points": 74
+  },
+  {
+    "Sr no": 144,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1272",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 128GB Purple",
+    "Points": 74
+  },
+  {
+    "Sr no": 145,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1273",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 128GB White",
+    "Points": 74
+  },
+  {
+    "Sr no": 146,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1274",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 256GB (PRODUCT)RED",
+    "Points": 86
+  },
+  {
+    "Sr no": 147,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1275",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 256GB Black",
+    "Points": 86
+  },
+  {
+    "Sr no": 148,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1276",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 256GB Blue",
+    "Points": 86
+  },
+  {
+    "Sr no": 149,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1277",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 256GB Green",
+    "Points": 86
+  },
+  {
+    "Sr no": 150,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1278",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 256GB Purple",
+    "Points": 86
+  },
+  {
+    "Sr no": 151,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1279",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 256GB White",
+    "Points": 86
+  },
+  {
+    "Sr no": 152,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1280",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 64GB (PRODUCT)RED",
+    "Points": 68
+  },
+  {
+    "Sr no": 153,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1281",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 64GB Black",
+    "Points": 68
+  },
+  {
+    "Sr no": 154,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1282",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 64GB Blue",
+    "Points": 68
+  },
+  {
+    "Sr no": 155,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1283",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 64GB Green",
+    "Points": 68
+  },
+  {
+    "Sr no": 156,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1284",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 64GB Purple",
+    "Points": 68
+  },
+  {
+    "Sr no": 157,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1285",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 12 mini 64GB White",
+    "Points": 68
+  },
+  {
+    "Sr no": 158,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1286",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 128GB (PRODUCT)RED",
+    "Points": 91
+  },
+  {
+    "Sr no": 159,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1287",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 128GB Blue",
+    "Points": 91
+  },
+  {
+    "Sr no": 160,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1288",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 128GB Green",
+    "Points": 91
+  },
+  {
+    "Sr no": 161,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1289",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 128GB Midnight",
+    "Points": 91
+  },
+  {
+    "Sr no": 162,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1290",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 128GB Pink",
+    "Points": 91
+  },
+  {
+    "Sr no": 163,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1291",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 128GB Starlight",
+    "Points": 91
+  },
+  {
+    "Sr no": 164,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1292",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 256GB (PRODUCT)RED",
+    "Points": 103
+  },
+  {
+    "Sr no": 165,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1293",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 256GB Blue",
+    "Points": 103
+  },
+  {
+    "Sr no": 166,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1294",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 256GB Green",
+    "Points": 103
+  },
+  {
+    "Sr no": 167,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1295",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 256GB Midnight",
+    "Points": 103
+  },
+  {
+    "Sr no": 168,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1296",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 256GB Pink",
+    "Points": 103
+  },
+  {
+    "Sr no": 169,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1297",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 256GB Starlight",
+    "Points": 103
+  },
+  {
+    "Sr no": 170,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1298",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 512GB (PRODUCT)RED",
+    "Points": 126
+  },
+  {
+    "Sr no": 171,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1299",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 512GB Blue",
+    "Points": 126
+  },
+  {
+    "Sr no": 172,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1300",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 512GB Green",
+    "Points": 126
+  },
+  {
+    "Sr no": 173,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1301",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 512GB Midnight",
+    "Points": 126
+  },
+  {
+    "Sr no": 174,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1302",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 512GB Pink",
+    "Points": 126
+  },
+  {
+    "Sr no": 175,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1303",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 512GB Starlight",
+    "Points": 126
+  },
+  {
+    "Sr no": 176,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1304",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 128GB (PRODUCT)RED",
+    "Points": 80
+  },
+  {
+    "Sr no": 177,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1305",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 128GB Blue",
+    "Points": 80
+  },
+  {
+    "Sr no": 178,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1306",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 128GB Green",
+    "Points": 80
+  },
+  {
+    "Sr no": 179,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1307",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 128GB Midnight",
+    "Points": 80
+  },
+  {
+    "Sr no": 180,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1308",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 128GB Pink",
+    "Points": 80
+  },
+  {
+    "Sr no": 181,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1309",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 128GB Starlight",
+    "Points": 80
+  },
+  {
+    "Sr no": 182,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1310",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 256GB (PRODUCT)RED",
+    "Points": 91
+  },
+  {
+    "Sr no": 183,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1311",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 256GB Blue",
+    "Points": 91
+  },
+  {
+    "Sr no": 184,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1312",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 256GB Green",
+    "Points": 91
+  },
+  {
+    "Sr no": 185,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1313",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 256GB Midnight",
+    "Points": 91
+  },
+  {
+    "Sr no": 186,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1314",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 256GB Pink",
+    "Points": 91
+  },
+  {
+    "Sr no": 187,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1315",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 256GB Starlight",
+    "Points": 91
+  },
+  {
+    "Sr no": 188,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1316",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 512GB (PRODUCT)RED",
+    "Points": 114
+  },
+  {
+    "Sr no": 189,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1317",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 512GB Blue",
+    "Points": 114
+  },
+  {
+    "Sr no": 190,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1318",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 512GB Green",
+    "Points": 114
+  },
+  {
+    "Sr no": 191,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1319",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 512GB Midnight",
+    "Points": 114
+  },
+  {
+    "Sr no": 192,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1320",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 512GB Pink",
+    "Points": 114
+  },
+  {
+    "Sr no": 193,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1321",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 mini 512GB Starlight",
+    "Points": 114
+  },
+  {
+    "Sr no": 194,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1322",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 128GB Alpine Green",
+    "Points": 137
+  },
+  {
+    "Sr no": 195,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1323",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 128GB Gold",
+    "Points": 137
+  },
+  {
+    "Sr no": 196,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1324",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 128GB Graphite",
+    "Points": 137
+  },
+  {
+    "Sr no": 197,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1325",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 128GB Sierra Blue",
+    "Points": 137
+  },
+  {
+    "Sr no": 198,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1326",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 128GB Silver",
+    "Points": 137
+  },
+  {
+    "Sr no": 199,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1327",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 1TB Alpine Green",
+    "Points": 194
+  },
+  {
+    "Sr no": 200,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1328",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 1TB Gold",
+    "Points": 194
+  },
+  {
+    "Sr no": 201,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1329",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 1TB Graphite",
+    "Points": 194
+  },
+  {
+    "Sr no": 202,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1330",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 1TB Sierra Blue",
+    "Points": 194
+  },
+  {
+    "Sr no": 203,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1331",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 1TB Silver",
+    "Points": 194
+  },
+  {
+    "Sr no": 204,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1332",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 256GB Alpine Green",
+    "Points": 148
+  },
+  {
+    "Sr no": 205,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1333",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 256GB Gold",
+    "Points": 148
+  },
+  {
+    "Sr no": 206,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1334",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 256GB Graphite",
+    "Points": 148
+  },
+  {
+    "Sr no": 207,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1335",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 256GB Sierra Blue",
+    "Points": 148
+  },
+  {
+    "Sr no": 208,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1336",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 256GB Silver",
+    "Points": 148
+  },
+  {
+    "Sr no": 209,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1337",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 512GB Alpine Green",
+    "Points": 171
+  },
+  {
+    "Sr no": 210,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1338",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 512GB Gold",
+    "Points": 171
+  },
+  {
+    "Sr no": 211,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1339",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 512GB Graphite",
+    "Points": 171
+  },
+  {
+    "Sr no": 212,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1340",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 512GB Sierra Blue",
+    "Points": 171
+  },
+  {
+    "Sr no": 213,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1341",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro 512GB Silver",
+    "Points": 171
+  },
+  {
+    "Sr no": 214,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1342",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro Max 128GB Alpine Green",
+    "Points": 148
+  },
+  {
+    "Sr no": 215,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1343",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro Max 1TB Alpine Green",
+    "Points": 206
+  },
+  {
+    "Sr no": 216,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1344",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro Max 256GB Alpine Green",
+    "Points": 160
+  },
+  {
+    "Sr no": 217,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1345",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone 13 Pro Max 512GB Alpine Green",
+    "Points": 183
+  },
+  {
+    "Sr no": 218,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1346",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 128GB (PRODUCT)RED",
+    "Points": 56
+  },
+  {
+    "Sr no": 219,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1347",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 128GB Midnight",
+    "Points": 56
+  },
+  {
+    "Sr no": 220,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1348",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 128GB Starligh",
+    "Points": 56
+  },
+  {
+    "Sr no": 221,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1349",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 256GB (PRODUCT)RED",
+    "Points": 67
+  },
+  {
+    "Sr no": 222,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1350",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 256GB Midnight",
+    "Points": 67
+  },
+  {
+    "Sr no": 223,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1351",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 64GB (PRODUCT)RED",
+    "Points": 50
+  },
+  {
+    "Sr no": 224,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1352",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 64GB Midnight",
+    "Points": 50
+  },
+  {
+    "Sr no": 225,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1353",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone SE 64GB Starlight",
+    "Points": 50
+  },
+  {
+    "Sr no": 226,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1356",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 128GB Gold",
+    "Points": 148
+  },
+  {
+    "Sr no": 227,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1357",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 128GB Graphite",
+    "Points": 148
+  },
+  {
+    "Sr no": 228,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1358",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 128GB Sierra Blue",
+    "Points": 148
+  },
+  {
+    "Sr no": 229,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1359",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 128GB Silver",
+    "Points": 148
+  },
+  {
+    "Sr no": 230,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1360",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 1TB Gold",
+    "Points": 206
+  },
+  {
+    "Sr no": 231,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1361",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 1TB Graphite",
+    "Points": 206
+  },
+  {
+    "Sr no": 232,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1362",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 1TB Sierra Blue",
+    "Points": 206
+  },
+  {
+    "Sr no": 233,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1363",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 1TB Silver",
+    "Points": 206
+  },
+  {
+    "Sr no": 234,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1364",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 256GB Gold",
+    "Points": 160
+  },
+  {
+    "Sr no": 235,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1365",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 256GB Graphite",
+    "Points": 160
+  },
+  {
+    "Sr no": 236,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1366",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 256GB Sierra Blue",
+    "Points": 160
+  },
+  {
+    "Sr no": 237,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1367",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 256GB Silver",
+    "Points": 160
+  },
+  {
+    "Sr no": 238,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1368",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 512GB Gold",
+    "Points": 183
+  },
+  {
+    "Sr no": 239,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1369",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 512GB Graphite",
+    "Points": 183
+  },
+  {
+    "Sr no": 240,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1370",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 512GB Sierra Blue",
+    "Points": 183
+  },
+  {
+    "Sr no": 241,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Iphone",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1371",
+    "Product Title": "Apple Iphone",
+    "Product Description": "Apple iPhone�13�Pro�Max 512GB Silver",
+    "Points": 183
+  },
+  {
+    "Sr no": 242,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1380",
+    "Product Title": "Apple Mac Mini",
+    "Product Description": "Apple Mac mini: Apple M1 chip with 8?core CPU and 8?core GPU, 256GB SSD",
+    "Points": 74
+  },
+  {
+    "Sr no": 243,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1381",
+    "Product Title": "Apple Mac Mini",
+    "Product Description": "Apple Mac mini: Apple M1 chip with 8?core CPU and 8?core GPU, 512GB SSD",
+    "Points": 97
+  },
+  {
+    "Sr no": 244,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1382",
+    "Product Title": "Apple MAC PRO TOWER ",
+    "Product Description": "Apple MAC PRO TOWER 3.5G 8C/RP580X/32GB/256GB-HIN",
+    "Points": 571
+  },
+  {
+    "Sr no": 245,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1383",
+    "Product Title": "Apple Mac Studio",
+    "Product Description": "Apple MAC STUDIO/32G/512GB/10C CPU/24C GPU/ Apple M1 Max chip",
+    "Points": 217
+  },
+  {
+    "Sr no": 246,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1384",
+    "Product Title": "Apple Mac Studio",
+    "Product Description": "Apple MAC STUDIO/64G/1TB/20C CPU/48C GPU/Apple M1 Ultra chip ",
+    "Points": 446
+  },
+  {
+    "Sr no": 247,
+    "Category": "Apple Brand Accessories",
+    "Sub-Category": "Keyboard",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1388",
+    "Product Title": "Apple Keyboard",
+    "Product Description": "Apple Magic Keyboard with Touch ID for Mac computers with Apple silicon - US English",
+    "Points": 17
+  },
+  {
+    "Sr no": 248,
+    "Category": "Apple Brand Accessories",
+    "Sub-Category": "Mouse",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1389",
+    "Product Title": "Apple Mouse",
+    "Product Description": "Apple Magic Mouse",
+    "Points": 9
+  },
+  {
+    "Sr no": 249,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1394",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPD3 WS Imac 24\"SLV M1/8GB/512GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 183
+  },
+  {
+    "Sr no": 250,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1395",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPF3 WS Imac 24\"SLV M1/8GB/256GB/8C CPU/7C GPU/Retina 4.5K display",
+    "Points": 137
+  },
+  {
+    "Sr no": 251,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1396",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPH3 WS Imac 24\"GRN M1/8GB/256GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 160
+  },
+  {
+    "Sr no": 252,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1397",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPJ3 WS Imac 24\"GRN M1/8GB/512GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 183
+  },
+  {
+    "Sr no": 253,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1398",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPK3 WS Imac 24\"BLU M1/8GB/256GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 160
+  },
+  {
+    "Sr no": 254,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1399",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPL3 WS Imac 24\"BLU M1/8GB/512GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 183
+  },
+  {
+    "Sr no": 255,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1400",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPM3 WS Imac 24\"PNK M1/8GB/256GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 160
+  },
+  {
+    "Sr no": 256,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1401",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MGPN3 WS Imac 24\"PNK M1/8GB/512GB/8C CPU/8C GPU/Retina 4.5K display",
+    "Points": 183
+  },
+  {
+    "Sr no": 257,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1402",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MJV83 WS Imac 24\"GRN M1/8GB/256GB/8C CPU/7C GPU/Retina 4.5K display",
+    "Points": 137
+  },
+  {
+    "Sr no": 258,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1403",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MJV93 WS Imac 24\"BLU M1/8GB/256GB/8C CPU/7C GPU/Retina 4.5K display",
+    "Points": 137
+  },
+  {
+    "Sr no": 259,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1404",
+    "Product Title": "Apple iMac",
+    "Product Description": "Apple MJVA3 WS Imac 24\"PNK M1/8GB/256GB/8C CPU/7C GPU/Retina 4.5K display",
+    "Points": 137
+  },
+  {
+    "Sr no": 260,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1405",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM6R3HN/A IPAD AIR WF CL 64GB SPG",
+    "Points": 86
+  },
+  {
+    "Sr no": 261,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1406",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM6T3HN/A IPAD AIR WF CL 64GB PNK",
+    "Points": 86
+  },
+  {
+    "Sr no": 262,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1407",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM6U3HN/A IPAD AIR WF CL 64GB BLU",
+    "Points": 86
+  },
+  {
+    "Sr no": 263,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1408",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM6V3HN/A IPAD AIR WF CL 64GB STL",
+    "Points": 86
+  },
+  {
+    "Sr no": 264,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1409",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM713HN/A IPAD AIR WF CL 256GB SPG",
+    "Points": 103
+  },
+  {
+    "Sr no": 265,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1410",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM723HN/A IPAD AIR WF CL 256GB PNK",
+    "Points": 103
+  },
+  {
+    "Sr no": 266,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1411",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM733HN/A IPAD AIR WF CL 256GB BLU",
+    "Points": 103
+  },
+  {
+    "Sr no": 267,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1412",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM743HN/A IPAD AIR WF CL 256GB STL",
+    "Points": 103
+  },
+  {
+    "Sr no": 268,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1413",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9C3HN/A IPAD AIR WI-FI 64GB SPACE GRAY",
+    "Points": 68
+  },
+  {
+    "Sr no": 269,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1414",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9D3HN/A IPAD AIR WI-FI 64GB PINK",
+    "Points": 68
+  },
+  {
+    "Sr no": 270,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1415",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9E3HN/A IPAD AIR WI-FI 64GB BLUE",
+    "Points": 68
+  },
+  {
+    "Sr no": 271,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1416",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9F3HN/A IPAD AIR WI-FI 64GB STARLIGHT",
+    "Points": 68
+  },
+  {
+    "Sr no": 272,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1417",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9L3HN/A IPAD AIR WI-FI 256GB SPACE GRAY",
+    "Points": 86
+  },
+  {
+    "Sr no": 273,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1418",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9M3HN/A IPAD AIR WI-FI 256GB PINK",
+    "Points": 86
+  },
+  {
+    "Sr no": 274,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1419",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9N3HN/A IPAD AIR WI-FI 256GB BLUE",
+    "Points": 86
+  },
+  {
+    "Sr no": 275,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1420",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MM9P3HN/A IPAD AIR WI-FI 256GB STARLIGHT",
+    "Points": 86
+  },
+  {
+    "Sr no": 276,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1421",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MME23HN/A IPAD AIR WI-FI 64GB PURPLE",
+    "Points": 68
+  },
+  {
+    "Sr no": 277,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1422",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MME63HN/A IPAD AIR WI-FI 256GB PURPLE",
+    "Points": 86
+  },
+  {
+    "Sr no": 278,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1423",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MME93HN/A IPAD AIR WF CL 64GB PUR",
+    "Points": 86
+  },
+  {
+    "Sr no": 279,
+    "Category": "Tablet",
+    "Sub-Category": "I Pad",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1424",
+    "Product Title": "Apple Ipad Air",
+    "Product Description": "Apple MMED3HN/A IPAD AIR WF CL 256GB PUR",
+    "Points": 103
+  },
+  {
+    "Sr no": 280,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1425",
+    "Product Title": "Apple Mac Mini",
+    "Product Description": "Apple MXNG2-MACMINI DT i5Pro 8thGen/3.0GHZ 6C/8GB/512GB/SG/Int.Core",
+    "Points": 120
+  },
+  {
+    "Sr no": 281,
+    "Category": "Apple Brand Accessories",
+    "Sub-Category": "Mobile Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1427",
+    "Product Title": "Apple Pencil",
+    "Product Description": "Apple Pencil (2nd Generation)",
+    "Points": 12
+  },
+  {
+    "Sr no": 282,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1428",
+    "Product Title": "Apple Pro Display XDR",
+    "Product Description": "Apple Pro Display XDR - Nano-texture glass",
+    "Points": 606
+  },
+  {
+    "Sr no": 283,
+    "Category": "Laptop",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1429",
+    "Product Title": "Apple Pro Display XDR",
+    "Product Description": "Apple Pro Display XDR - Standard glass",
+    "Points": 514
+  },
+  {
+    "Sr no": 284,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1432",
+    "Product Title": "Apple Display",
+    "Product Description": "Apple Studio Display - Nano-Texture Glass - Tilt- and Height-Adjustable Stand",
+    "Points": 263
+  },
+  {
+    "Sr no": 285,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1433",
+    "Product Title": "Apple Display",
+    "Product Description": "Apple Studio Display - Nano-Texture Glass - Tilt-Adjustable Stand",
+    "Points": 217
+  },
+  {
+    "Sr no": 286,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1434",
+    "Product Title": "Apple Display",
+    "Product Description": "Apple Studio Display - Nano-Texture Glass - VESA Mount Adapter (Stand not included)",
+    "Points": 217
+  },
+  {
+    "Sr no": 287,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1435",
+    "Product Title": "Apple Display",
+    "Product Description": "Apple Studio Display - Standard Glass - Tilt- and Height-Adjustable Stand",
+    "Points": 228
+  },
+  {
+    "Sr no": 288,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1436",
+    "Product Title": "Apple Display",
+    "Product Description": "Apple Studio Display - Standard Glass - Tilt-Adjustable Stand",
+    "Points": 183
+  },
+  {
+    "Sr no": 289,
+    "Category": "Laptop",
+    "Sub-Category": "Accessories",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1437",
+    "Product Title": "Apple Display",
+    "Product Description": "Apple Studio Display - Standard Glass - VESA Mount Adapter (Stand not included)",
+    "Points": 183
+  },
+  {
+    "Sr no": 290,
+    "Category": "Home Appliance",
+    "Sub-Category": "Apple TV 4K",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1438",
+    "Product Title": "Apple TV ",
+    "Product Description": "Apple TV 4K 32GB",
+    "Points": 20
+  },
+  {
+    "Sr no": 291,
+    "Category": "Home Appliance",
+    "Sub-Category": "Apple TV 4K",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1439",
+    "Product Title": "Apple TV ",
+    "Product Description": "Apple TV 4K 32GB_ Set up box",
+    "Points": 22
+  },
+  {
+    "Sr no": 292,
+    "Category": "Home Appliance",
+    "Sub-Category": "Apple TV 4K",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1440",
+    "Product Title": "Apple TV ",
+    "Product Description": "Apple TV 4K 64GB_Set up box",
+    "Points": 24
+  },
+  {
+    "Sr no": 293,
+    "Category": "Home Appliance",
+    "Sub-Category": "Apple TV HD",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1441",
+    "Product Title": "Apple TV HD",
+    "Product Description": "Apple TV HD 32GB_Set up box",
+    "Points": 18
+  },
+  {
+    "Sr no": 294,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1448",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS + Cellular, 40mm Silver Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 39
+  },
+  {
+    "Sr no": 295,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1449",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS + Cellular, 40mm Space Grey Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 39
+  },
+  {
+    "Sr no": 296,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1450",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS + Cellular, 44mm Silver Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 42
+  },
+  {
+    "Sr no": 297,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1451",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS + Cellular, 44mm Space Grey Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 42
+  },
+  {
+    "Sr no": 298,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1452",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS, 40mm Silver Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 34
+  },
+  {
+    "Sr no": 299,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1453",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS, 40mm Space Grey Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 34
+  },
+  {
+    "Sr no": 300,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1454",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS, 44mm Silver Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 38
+  },
+  {
+    "Sr no": 301,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1455",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike SE GPS, 44mm Space Grey Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 38
+  },
+  {
+    "Sr no": 302,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1456",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS + Cellular, 41mm Midnight Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 303,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1457",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS + Cellular, 41mm Starlight Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 304,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1458",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS + Cellular, 45mm Midnight Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 305,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1459",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS + Cellular, 45mm Starlight Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 306,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1460",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS, 41mm Midnight Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 307,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1461",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS, 41mm Starlight Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 308,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1462",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS, 45mm Midnight Aluminium Case with Anthracite/Black Nike Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 309,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1463",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Nike Series 7 GPS, 45mm Starlight Aluminium Case with Pure Platinum/Black Nike Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 310,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1464",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS + Cellular, 40mm Gold Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 39
+  },
+  {
+    "Sr no": 311,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1465",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS + Cellular, 40mm Silver Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 39
+  },
+  {
+    "Sr no": 312,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1466",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS + Cellular, 40mm Space Grey Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 39
+  },
+  {
+    "Sr no": 313,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1467",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS + Cellular, 44mm Gold Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 42
+  },
+  {
+    "Sr no": 314,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1468",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS + Cellular, 44mm Silver Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 42
+  },
+  {
+    "Sr no": 315,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1469",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS + Cellular, 44mm Space Grey Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 42
+  },
+  {
+    "Sr no": 316,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1470",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS, 40mm Gold Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 34
+  },
+  {
+    "Sr no": 317,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1471",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS, 40mm Silver Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 34
+  },
+  {
+    "Sr no": 318,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1472",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS, 40mm Space Grey Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 34
+  },
+  {
+    "Sr no": 319,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1473",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS, 44mm Gold Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 38
+  },
+  {
+    "Sr no": 320,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1474",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS, 44mm Silver Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 38
+  },
+  {
+    "Sr no": 321,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1475",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch SE GPS, 44mm Space Grey Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 38
+  },
+  {
+    "Sr no": 322,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1476",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm (PRODUCT)RED Aluminium Case with (PRODUCT)RED Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 323,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1477",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Blue Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 324,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1478",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Gold Stainless Steel Case with Gold Milanese Loop",
+    "Points": 84
+  },
+  {
+    "Sr no": 325,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1479",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Gold Stainless Steel with Abyss Blue Sport Band - Regular",
+    "Points": 80
+  },
+  {
+    "Sr no": 326,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1480",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Graphite Stainless Steel Case with Graphite Milanese Loop",
+    "Points": 84
+  },
+  {
+    "Sr no": 327,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1481",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Graphite Stainless Steel with Midnight Sport Band - Regular",
+    "Points": 80
+  },
+  {
+    "Sr no": 328,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1482",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Green Aluminium Case with Clover Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 329,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1483",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Midnight Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 330,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1484",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Silver Stainless Steel Case with Silver Milanese Loop",
+    "Points": 84
+  },
+  {
+    "Sr no": 331,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1485",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Silver Stainless Steel Case with Starlight Sport Band - Regular",
+    "Points": 80
+  },
+  {
+    "Sr no": 332,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1486",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 41mm Starlight Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 58
+  },
+  {
+    "Sr no": 333,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1487",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm (PRODUCT)RED Aluminium Case with (PRODUCT)RED Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 334,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1488",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Blue Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 335,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1489",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Gold Stainless Steel Case with Gold Milanese Loop",
+    "Points": 89
+  },
+  {
+    "Sr no": 336,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1490",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Gold Stainless Steel with Abyss Blue Sport Band - Regular",
+    "Points": 84
+  },
+  {
+    "Sr no": 337,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1491",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Graphite Stainless Steel Case with Graphite Milanese Loop",
+    "Points": 89
+  },
+  {
+    "Sr no": 338,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1492",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Graphite Stainless Steel with Midnight Sport Band - Regular",
+    "Points": 84
+  },
+  {
+    "Sr no": 339,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1493",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Green Aluminium Case with Clover Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 340,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1494",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Midnight Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 341,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1495",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Silver Stainless Steel Case with Silver Milanese Loop",
+    "Points": 89
+  },
+  {
+    "Sr no": 342,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1496",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Silver Stainless Steel Case with Starlight Sport Band - Regular",
+    "Points": 84
+  },
+  {
+    "Sr no": 343,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1497",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS + Cellular, 45mm Starlight Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 62
+  },
+  {
+    "Sr no": 344,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1498",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 41mm (PRODUCT)RED Aluminium Case with (PRODUCT)RED Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 345,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1499",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 41mm Blue Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 346,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1500",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 41mm Green Aluminium Case with Clover Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 347,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1501",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 41mm Midnight Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 348,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1502",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 41mm Starlight Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 48
+  },
+  {
+    "Sr no": 349,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1503",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 45mm (PRODUCT)RED Aluminium Case with (PRODUCT)RED Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 350,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1504",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 45mm Blue Aluminium Case with Abyss Blue Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 351,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1505",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 45mm Green Aluminium Case with Clover Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 352,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1506",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 45mm Midnight Aluminium Case with Midnight Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 353,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1507",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple Watch Series 7 GPS, 45mm Starlight Aluminium Case with Starlight Sport Band - Regular",
+    "Points": 51
+  },
+  {
+    "Sr no": 354,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1509",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple�Watch Series�3 GPS, 38mm Silver Aluminium Case with White Sport Band",
+    "Points": 24
+  },
+  {
+    "Sr no": 355,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1510",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple�Watch Series�3 GPS, 38mm Space Grey Aluminium Case with Black Sport Band",
+    "Points": 24
+  },
+  {
+    "Sr no": 356,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1511",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple�Watch Series�3 GPS, 42mm Silver Aluminium Case with White Sport Band",
+    "Points": 27
+  },
+  {
+    "Sr no": 357,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-1512",
+    "Product Title": "Apple Smart Watch",
+    "Product Description": "Apple�Watch Series�3 GPS, 42mm Space Grey Aluminium Case with Black Sport Band",
+    "Points": 27
+  },
+  {
+    "Sr no": 358,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "BAJAJ",
+    "Suvidhaa SKU": "SIL-1567",
+    "Product Title": "Bajaj Oven",
+    "Product Description": "BAJAJ 2310 ETC",
+    "Points": 22
+  },
+  {
+    "Sr no": 359,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "Bajaj",
+    "Suvidhaa SKU": "SIL-1568",
+    "Product Title": "Bajaj Oven",
+    "Product Description": "Bajaj 2310 ETC- 23L Convection Microwave with Electronic Control",
+    "Points": 17
+  },
+  {
+    "Sr no": 360,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Oven Toaster Griller ",
+    "Brand Name": "BAJAJ",
+    "Suvidhaa SKU": "SIL-1571",
+    "Product Title": "Bajaj OTG",
+    "Product Description": "BAJAJ 4500TMCSS OTG",
+    "Points": 20
+  },
+  {
+    "Sr no": 361,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Oven Toaster Griller ",
+    "Brand Name": "BAJAJ",
+    "Suvidhaa SKU": "SIL-1572",
+    "Product Title": "Bajaj OTG",
+    "Product Description": "BAJAJ 50 DCRSS OTG",
+    "Points": 24
+  },
+  {
+    "Sr no": 362,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "BAJAJ",
+    "Suvidhaa SKU": "SIL-1605",
+    "Product Title": "Bajaj OTG",
+    "Product Description": "BAJAJ MR Oven Toaster Grillers 30 RCSS LuxeChef",
+    "Points": 18
+  },
+  {
+    "Sr no": 363,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Induction Cooktop",
+    "Brand Name": "BAJAJ",
+    "Suvidhaa SKU": "SIL-1632",
+    "Product Title": "Bajaj Cooktop",
+    "Product Description": "BAJAJ SPLENDID",
+    "Points": 4
+  },
+  {
+    "Sr no": 364,
+    "Category": "Camera",
+    "Sub-Category": "SECURITY CAMERA",
+    "Brand Name": "MI",
+    "Suvidhaa SKU": "SIL-1654",
+    "Product Title": "MI Security Camera",
+    "Product Description": "CAMERA Xiaomi 360� Home Security Camera 1080p 2i",
+    "Points": 5
+  },
+  {
+    "Sr no": 365,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-1655",
+    "Product Title": "Panasonic AC",
+    "Product Description": "CS/CU-KU12YKYF Panasonic 1.0 Ton 3 Star Split Air Conditioners 2022 Model",
+    "Points": 75
+  },
+  {
+    "Sr no": 366,
+    "Category": "Health care",
+    "Sub-Category": "Massager ",
+    "Brand Name": "LIFELONG",
+    "Suvidhaa SKU": "SIL-1678",
+    "Product Title": "Lifelong Massager",
+    "Product Description": "Foot spa Massager with Manual Rollers, Digital Panel",
+    "Points": 9
+  },
+  {
+    "Sr no": 367,
+    "Category": "Wearable",
+    "Sub-Category": "MEN'S WATCH",
+    "Brand Name": "Fossil",
+    "Suvidhaa SKU": "SIL-1679",
+    "Product Title": "Fossil Men Watch",
+    "Product Description": "Fossil Men Watch - BQ2457",
+    "Points": 9
+  },
+  {
+    "Sr no": 368,
+    "Category": "Wearable",
+    "Sub-Category": "MEN'S WATCH",
+    "Brand Name": "Fossil",
+    "Suvidhaa SKU": "SIL-1680",
+    "Product Title": "Fossil Men Watch",
+    "Product Description": "Fossil Men Watch - FS4656",
+    "Points": 12
+  },
+  {
+    "Sr no": 369,
+    "Category": "Wearable",
+    "Sub-Category": "MEN'S WATCH",
+    "Brand Name": "Fossil",
+    "Suvidhaa SKU": "SIL-1681",
+    "Product Title": "Fossil Men Watch",
+    "Product Description": "Fossil Men Watch - FS5851",
+    "Points": 17
+  },
+  {
+    "Sr no": 370,
+    "Category": "Health care",
+    "Sub-Category": "Massager ",
+    "Brand Name": "LIFELONG",
+    "Suvidhaa SKU": "SIL-1682",
+    "Product Title": "Lifelong Massager",
+    "Product Description": "Full Body Massage Chair With Recliner and powerfull 3D Back and Leg Message for Home",
+    "Points": 97
+  },
+  {
+    "Sr no": 371,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1689",
+    "Product Title": "Haier Split Ac",
+    "Product Description": "Haier 1 Ton 3 Star Antibacterial Coating, Dust Filter, Dehumidifier Split System AC (Copper, 2020, HSU12T-TFW3B, ",
+    "Points": 67
+  },
+  {
+    "Sr no": 372,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1691",
+    "Product Title": "Haier Split Ac",
+    "Product Description": "Haier 1.5 Ton 3 Star Antibacterial Coating, Dust Filter, Dehumidifier Split System AC (Copper, 2020, HSU18T-NMW3B, White)",
+    "Points": 75
+  },
+  {
+    "Sr no": 373,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1692",
+    "Product Title": "Haier Split Ac",
+    "Product Description": "HAIER 1.5 Ton 3 Star Split AC, TurboCool HSU18T-TQS3B (Copper Condenser, Micro Dust Filter, Cools even at 54C, R32 Eco friendly Gas, 2022 Launched)",
+    "Points": 70
+  },
+  {
+    "Sr no": 374,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1694",
+    "Product Title": "Hair Smart TV",
+    "Product Description": "Haier 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV  (LE43K6600UGA)",
+    "Points": 60
+  },
+  {
+    "Sr no": 375,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1695",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier 170 L HRD-1702SR-E Direct Cool Single Door 2 Star Refrigerator",
+    "Points": 20
+  },
+  {
+    "Sr no": 376,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1696",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier 190 L 2 Star Direct-Cool Single Door Refrigerator (HRD-1902BBR-E, Burgundy Red)",
+    "Points": 22
+  },
+  {
+    "Sr no": 377,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1697",
+    "Product Title": "Haier Oven",
+    "Product Description": "Haier 20 L Convection Microwave Oven  (HIL2001CWPH, Black & White)",
+    "Points": 15
+  },
+  {
+    "Sr no": 378,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1698",
+    "Product Title": "Haier Oven",
+    "Product Description": "Haier 20 L Solo Microwave Oven (HIL2001MWPH, HAL2WBLACK)",
+    "Points": 10
+  },
+  {
+    "Sr no": 379,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1699",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier 256L 3 Star With Inverter Double Door Refrigerator (HRB-2764BS-E, Brushline Silver)",
+    "Points": 50
+  },
+  {
+    "Sr no": 380,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1700",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier 258 L Frost Free Double Door 2 Star 2020 Refrigerator (Silver, HRF-2783BMS-E)",
+    "Points": 42
+  },
+  {
+    "Sr no": 381,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1701",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier 258 Litres, Frost Free Twin Energy Saving Top Mount Refrigerator",
+    "Points": 47
+  },
+  {
+    "Sr no": 382,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1702",
+    "Product Title": "Hair Smart TV",
+    "Product Description": "Haier 32 Inch Bezel Less Google Android TV - Smart AI Plus",
+    "Points": 36
+  },
+  {
+    "Sr no": 383,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1703",
+    "Product Title": "Hair Smart TV",
+    "Product Description": "Haier 50 inch Ultra HD LE50K7700HQGA Android Smart (LE50K7700HQGA)",
+    "Points": 74
+  },
+  {
+    "Sr no": 384,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1704",
+    "Product Title": "Haier Washing Machine",
+    "Product Description": "Haier 6 kg Fully-Automatic Top Loading Washing Machine (HWM60-1269DB, Moonlight Grey)",
+    "Points": 23
+  },
+  {
+    "Sr no": 385,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1705",
+    "Product Title": "Haier Washing Machine",
+    "Product Description": "Haier 6.5 Kg Semi-Automatic Top Loading Washing Machine with 1300 RPM, Rust Free Cabinet (HTW65-187BO, Burgundy)",
+    "Points": 16
+  },
+  {
+    "Sr no": 386,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1706",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier 7 kg Fully Automatic Top Load Grey  (HWM70-1269DB)",
+    "Points": 30
+  },
+  {
+    "Sr no": 387,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1708",
+    "Product Title": "Hair Smart TV",
+    "Product Description": "Haier HD Smart Android LED 43 inch(109 cm) LE43K7700GA (2022 Model Edition)",
+    "Points": 54
+  },
+  {
+    "Sr no": 388,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1709",
+    "Product Title": "Hair Smart TV",
+    "Product Description": "Haier LE32A700 32 inch LED Full HD TV",
+    "Points": 32
+  },
+  {
+    "Sr no": 389,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1710",
+    "Product Title": "Hair Smart TV",
+    "Product Description": "Haier LE43K7GA 43 Inch Full HD Smart LED TV",
+    "Points": 53
+  },
+  {
+    "Sr no": 390,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "Haier",
+    "Suvidhaa SKU": "SIL-1712",
+    "Product Title": "Haier Refrigerator",
+    "Product Description": "Haier Washing Machine Fully Automatic Top Load 6.5 KG HWM65-707TNZP Pune",
+    "Points": 27
+  },
+  {
+    "Sr no": 391,
+    "Category": "Health care",
+    "Sub-Category": "Massager ",
+    "Brand Name": "iLife",
+    "Suvidhaa SKU": "SIL-1798",
+    "Product Title": "Ilife Massager",
+    "Product Description": "iLife Lumbar Traction Device Back Pain Relief Low Back Stretcher with Vibration Massage, Infrared Heat, and Air Pressure Spinal Decompression Dynamic",
+    "Points": 23
+  },
+  {
+    "Sr no": 392,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Induction Cooktop",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-1811",
+    "Product Title": "Philips Induction Cooktop",
+    "Product Description": "Philips Induction Cooktop",
+    "Points": 6
+  },
+  {
+    "Sr no": 393,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "LG",
+    "Suvidhaa SKU": "SIL-1876",
+    "Product Title": "LG Oven",
+    "Product Description": "LG 28 L Convection Microwave Oven (MC2887BFUM, Black)",
+    "Points": 27
+  },
+  {
+    "Sr no": 394,
+    "Category": "Audio",
+    "Sub-Category": "Speaker",
+    "Brand Name": "LG",
+    "Suvidhaa SKU": "SIL-1879",
+    "Product Title": "LG Speaker",
+    "Product Description": "LG LK75B Powerful Sound 40W, 2.1 Ch Multimedia Speaker",
+    "Points": 8
+  },
+  {
+    "Sr no": 395,
+    "Category": "Home Appliance",
+    "Sub-Category": "Refrigerator",
+    "Brand Name": "LG",
+    "Suvidhaa SKU": "SIL-1881",
+    "Product Title": "LG Refrigerator",
+    "Product Description": "LG Mini Refrigerator, 45L GL-M051RSWC (White)",
+    "Points": 14
+  },
+  {
+    "Sr no": 396,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "LG",
+    "Suvidhaa SKU": "SIL-1882",
+    "Product Title": "LG Airpods",
+    "Product Description": "Lg Tone Free Hbs-Fn5U Bluetooth Truly Wireless In Ear Earbuds With Microphone Black",
+    "Points": 23
+  },
+  {
+    "Sr no": 397,
+    "Category": "Health care",
+    "Sub-Category": "Massager ",
+    "Brand Name": "LIFELONG",
+    "Suvidhaa SKU": "SIL-1890",
+    "Product Title": "Lifelong Massager",
+    "Product Description": "Lifelong Crazyfit Vibration Plate Massager Machine for Full Body Workout at Home for Weight Loss, Fat Burn, Blood Circulation, and Pain Relief",
+    "Points": 16
+  },
+  {
+    "Sr no": 398,
+    "Category": "Camera",
+    "Sub-Category": "SECURITY CAMERA",
+    "Brand Name": "XIOMI",
+    "Suvidhaa SKU": "SIL-2027",
+    "Product Title": "MI HOME SECURITY CAMERA",
+    "Product Description": "MI HOME SECURITY CAMERA 360�",
+    "Points": 5
+  },
+  {
+    "Sr no": 399,
+    "Category": "Health care",
+    "Sub-Category": "Massager ",
+    "Brand Name": "LIFELONG",
+    "Suvidhaa SKU": "SIL-2042",
+    "Product Title": "Lifelong Massager",
+    "Product Description": "Life long Mini Head and Body Massager",
+    "Points": 2
+  },
+  {
+    "Sr no": 400,
+    "Category": "Wearable",
+    "Sub-Category": "SMART WATCH",
+    "Brand Name": "Titan",
+    "Suvidhaa SKU": "SIL-2046",
+    "Product Title": "Titan Smart Watch",
+    "Product Description": "New Titan Talk Smart Watch|BT Calling|1.39\"AMOLED Display|Immersive 454x454 Resolution|Music Storage|TWS Connect|AI Voice|Multisport Modes",
+    "Points": 17
+  },
+  {
+    "Sr no": 401,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Oven Toaster Griller ",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2077",
+    "Product Title": "Wonderchef OTG",
+    "Product Description": "Wonderchef Oven Toaster Griller (OTG) 21 Litres, Auto Power-Off with Bell, Heat Resistant Glass Window, 2 Years Warranty- 1380W",
+    "Points": 8
+  },
+  {
+    "Sr no": 402,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2078",
+    "Product Title": "Panasonic AC",
+    "Product Description": "Panasonic 1 Ton 3 Star Split AC - White  (CS/CU-KN12YKY, Copper Condenser)",
+    "Points": 49
+  },
+  {
+    "Sr no": 403,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2079",
+    "Product Title": "Panasonic AC",
+    "Product Description": "Panasonic 1.5 Ton 5 Star Split AC (CS/CU-ZU18YKY)",
+    "Points": 72
+  },
+  {
+    "Sr no": 404,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2081",
+    "Product Title": "Panasonic AC",
+    "Product Description": "Panasonic 1.5 Ton 5 Star Window Inverter AC - White  (CW-XN182AG, Copper Condenser)",
+    "Points": 57
+  },
+  {
+    "Sr no": 405,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2082",
+    "Product Title": "Panasonic AC",
+    "Product Description": "Panasonic 1.5 Ton Hot and Cold Wi-Fi Inverter 3 Star Smart Split AC (Copper, Auto -Convertible, Twin Cool, Shield Blu Anti-Corrosion Technology, PM 2.5 Air Purification, CS/CU-KZ18YKYF, 2022 Model)",
+    "Points": 70
+  },
+  {
+    "Sr no": 406,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2090",
+    "Product Title": "Panasonic TV",
+    "Product Description": "Panasonic 139 cm (55 Inches) 4K Ultra HD Smart Android LED TV TH-55JX750DX (Black) (2020 Model)",
+    "Points": 95
+  },
+  {
+    "Sr no": 407,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2091",
+    "Product Title": "Panasonic TV",
+    "Product Description": "Panasonic 139cm (55 Inch) 4K LED Android TV (TH-55LX850DX, Black)",
+    "Points": 103
+  },
+  {
+    "Sr no": 408,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2092",
+    "Product Title": "Panasonic TV",
+    "Product Description": "Panasonic 165 cm (65 Inches) 4K Ultra HD Smart Android LED TV TH-65HX700DX (Black) (2020 Model)",
+    "Points": 137
+  },
+  {
+    "Sr no": 409,
+    "Category": "Home Appliance",
+    "Sub-Category": "Television",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2094",
+    "Product Title": "Panasonic TV",
+    "Product Description": "Panasonic 189.3 cm (75 Inches) 4K Ultra HD Smart Android LED TV TH-75LX730DX (Black) (2022 Model)",
+    "Points": 246
+  },
+  {
+    "Sr no": 410,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2095",
+    "Product Title": "Panasonic AC",
+    "Product Description": "Panasonic 2 Ton 5 Star Wi-Fi Twin-Cool Inverter Split Air Conditioner (Copper, Shield Blu Anti-Corrosion Technology, nanoe-G Air Purification, 2022 Model, CS/CU-XU24YKYF, White)",
+    "Points": 94
+  },
+  {
+    "Sr no": 411,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Conditioners ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2096",
+    "Product Title": "Panasonic AC",
+    "Product Description": "Panasonic 2.0 Ton Inverter 3 Star Copper 2022 Model, CS/CU-KU24YKY-1 (R-32) Split AC (White),",
+    "Points": 79
+  },
+  {
+    "Sr no": 412,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2097",
+    "Product Title": "Panasonic Oven",
+    "Product Description": "Panasonic 20L Grill Microwave Oven(NN-GT221WFDG,White, 38 Auto Cook Menus )",
+    "Points": 11
+  },
+  {
+    "Sr no": 413,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Microwave Oven ",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2098",
+    "Product Title": "Panasonic Oven",
+    "Product Description": "Panasonic 23 Litres Convection Microwave Oven (360� Heat Wrap, NN-CT35LBFDG, Black Floral)",
+    "Points": 18
+  },
+  {
+    "Sr no": 414,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2111",
+    "Product Title": "Panasonic Washing Machine",
+    "Product Description": "Panasonic 7 kg 5 Star Built-in Heater Fully Automatic Front Loading Washing Machine (NA-127MB3L01, Grey)",
+    "Points": 50
+  },
+  {
+    "Sr no": 415,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2112",
+    "Product Title": "Panasonic Washing Machine",
+    "Product Description": "Panasonic 7 Kg 5 Star Built-In Heater Fully-Automatic Top Loading Washing Machine (NA-F70AH9MRB, Middle Free Silver, Active Foam System)",
+    "Points": 34
+  },
+  {
+    "Sr no": 416,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2116",
+    "Product Title": "Panasonic Washing Machine",
+    "Product Description": "Panasonic 8 kg Wifi Smart Washing Machine Fully Automatic Top Load Black  (NA-F80X10PRB)",
+    "Points": 39
+  },
+  {
+    "Sr no": 417,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2120",
+    "Product Title": "Panasonic Washing Machine",
+    "Product Description": "Panasonic Econavi 7.5 Kg 5 Star Built-In Heater Fully-Automatic Top Loading Washing Machine (NA-F75V9LRB, Silver, Stain Master+)",
+    "Points": 40
+  },
+  {
+    "Sr no": 418,
+    "Category": "Home Appliance",
+    "Sub-Category": "Washing Machine",
+    "Brand Name": "PANASONIC",
+    "Suvidhaa SKU": "SIL-2121",
+    "Product Title": "Panasonic Washing Machine",
+    "Product Description": "Panasonic Econavi 8 Kg 5 Star Built-In Heater Fully-Automatic Top Loading Washing Machine (NA-F80V9LRB, Silver, Stain Master+)",
+    "Points": 43
+  },
+  {
+    "Sr no": 419,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Fryer",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2140",
+    "Product Title": "Philips Air Fryer",
+    "Product Description": "PHILIPS Air Fryer HD9200/90, uses up to 90% less fat, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
+    "Points": 10
+  },
+  {
+    "Sr no": 420,
+    "Category": "Audio",
+    "Sub-Category": "Bluetooth Speaker",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2141",
+    "Product Title": "Philips Speaker",
+    "Product Description": "Philips Audio TAX5206 40 W Bluetooth Party Speaker with 14 Hours Play Time, Karaoke Features, Guitar and Mic Input, Party Lights and Trolley Design with Wheels, Black",
+    "Points": 25
+  },
+  {
+    "Sr no": 421,
+    "Category": "Home Appliance",
+    "Sub-Category": "Coffee Maker",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2146",
+    "Product Title": "Philips Coffee Maker",
+    "Product Description": "PHILIPS Drip Coffee Maker HD7432/20, 0.6 L, Ideal for 2-7 cups, Black, Medium",
+    "Points": 4
+  },
+  {
+    "Sr no": 422,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Induction Cooktop",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2153",
+    "Product Title": "Philips Induction Cooktop",
+    "Product Description": "Philips HD4920 Induction Cooktop Save Energy,",
+    "Points": 4
+  },
+  {
+    "Sr no": 423,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Oven Toaster Griller ",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2154",
+    "Product Title": "Philips OTG",
+    "Product Description": "Philips HD6975/00 25 Litre Digital Oven Toaster Grill, Grey, 25 liter",
+    "Points": 12
+  },
+  {
+    "Sr no": 424,
+    "Category": "Home Appliance",
+    "Sub-Category": "Blender",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2161",
+    "Product Title": "Philips Bar Blender",
+    "Product Description": "PHILIPS HR1351/C Hand Blender with Chopping Attachment, 250W",
+    "Points": 3
+  },
+  {
+    "Sr no": 425,
+    "Category": "Home Appliance",
+    "Sub-Category": "Vaccum Cleaner",
+    "Brand Name": "PHILIPS",
+    "Suvidhaa SKU": "SIL-2166",
+    "Product Title": "Philips Vaccum Cleaner ",
+    "Product Description": "Philips PowerPro FC9352/01 Compact Bagless Vacuum Cleaner (Blue)",
+    "Points": 14
+  },
+  {
+    "Sr no": 426,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Tumbler",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2171",
+    "Product Title": "Vaya Tumbler",
+    "Product Description": "PopCup  - Vacuum Insulated Stainless Steel Tumbler with Lid Cup Set of 1 - 250ml ",
+    "Points": 1
+  },
+  {
+    "Sr no": 427,
+    "Category": "Home Appliance",
+    "Sub-Category": "Air Fryer",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2174",
+    "Product Title": "Wonderchef Air Fryer",
+    "Product Description": "Wonderchef Prato Air Fryer, Digital, 3.8 Litres Non-Stick Frying Basket, Auto shut-off, Digital Touch Screen Timer And Temperature Control",
+    "Points": 10
+  },
+  {
+    "Sr no": 428,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2184",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite SAM OCTOLITE SPINNER 55 -BLACK",
+    "Points": 13
+  },
+  {
+    "Sr no": 429,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Duffle Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2185",
+    "Product Title": "Samsonite Duffle Bag",
+    "Product Description": "Samsonite AMT AMBERO WDF 52CM01 GREY",
+    "Points": 4
+  },
+  {
+    "Sr no": 430,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Duffle Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2186",
+    "Product Title": "Samsonite Duffle Bag",
+    "Product Description": "Samsonite AMT AMBERO WDF 52CM01 NAVY",
+    "Points": 4
+  },
+  {
+    "Sr no": 431,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Duffle Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2187",
+    "Product Title": "Samsonite Duffle Bag",
+    "Product Description": "Samsonite AMT APEX WHEEL DUFFLE 57CM BLU",
+    "Points": 3
+  },
+  {
+    "Sr no": 432,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2188",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT COLORADO SP 55CM -RED",
+    "Points": 10
+  },
+  {
+    "Sr no": 433,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2189",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT COLORADO SP 55CM -ROYL.BLU",
+    "Points": 10
+  },
+  {
+    "Sr no": 434,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2190",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SCULPTOR SP55 CMTSA BLACK",
+    "Points": 11
+  },
+  {
+    "Sr no": 435,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2191",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SCULPTOR SP55 CMTSA MR.BLU",
+    "Points": 11
+  },
+  {
+    "Sr no": 436,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2192",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SCULPTOR SP67 CMTSA MR.BLU",
+    "Points": 14
+  },
+  {
+    "Sr no": 437,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2193",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SKYLINE SP 55CM-FRMLA.RD",
+    "Points": 10
+  },
+  {
+    "Sr no": 438,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2194",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SKYLINE SP 55CM-ROYAL.BLU",
+    "Points": 10
+  },
+  {
+    "Sr no": 439,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2195",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SKYLINE SPINNER 55CM-BLACK",
+    "Points": 10
+  },
+  {
+    "Sr no": 440,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2196",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite AMT SPRINT PLUS SP 55CM -BLACK",
+    "Points": 10
+  },
+  {
+    "Sr no": 441,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2197",
+    "Product Title": "Samsonite Backpak",
+    "Product Description": "Samsonite AMT TROT BACKPACK 01- BLACK & NAVY",
+    "Points": 3
+  },
+  {
+    "Sr no": 442,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2198",
+    "Product Title": "Samsonite Backpak",
+    "Product Description": "Samsonite AMT TROT BACKPACK 02- BLACK & NAVY",
+    "Points": 4
+  },
+  {
+    "Sr no": 443,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2199",
+    "Product Title": "Samsonite Backpak",
+    "Product Description": "Samsonite AMT TROT BACKPACK 03- BLACK",
+    "Points": 5
+  },
+  {
+    "Sr no": 444,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2200",
+    "Product Title": "Samsonite Backpak",
+    "Product Description": "SAMSONITE IKONN ECO 3 Backpack",
+    "Points": 7
+  },
+  {
+    "Sr no": 445,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2201",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite KAM MARTIAL SP 55CM CORAL BLUE",
+    "Points": 9
+  },
+  {
+    "Sr no": 446,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2202",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite KAM MARTIAL SP 55CM ROYAL.BLUE",
+    "Points": 9
+  },
+  {
+    "Sr no": 447,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Duffle Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2203",
+    "Product Title": "Samsonite Duffle Bag",
+    "Product Description": "Samsonite KAM VENTO WHD 52CM BLUE",
+    "Points": 3
+  },
+  {
+    "Sr no": 448,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2204",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite KAM ZAKK SP55cm-BLACK",
+    "Points": 8
+  },
+  {
+    "Sr no": 449,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2205",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "SAMSONITE Octolite Spinner 55 cms Red Hardsided Cabin Luggage",
+    "Points": 13
+  },
+  {
+    "Sr no": 450,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2206",
+    "Product Title": "Samsonite Backpak",
+    "Product Description": "Samsonite SAM IKONN ECO BP III-IN- BLACK",
+    "Points": 7
+  },
+  {
+    "Sr no": 451,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Laptop Briefcase ",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2207",
+    "Product Title": "Samsonite Briefcase",
+    "Product Description": "Samsonite SAM TECH-ICT LAP BRF M-IN-GRY",
+    "Points": 9
+  },
+  {
+    "Sr no": 452,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2208",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite S'CURE SP 55 CM - BLACK",
+    "Points": 15
+  },
+  {
+    "Sr no": 453,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2209",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite Varro Spinner� 68/25Exp cm Mid (Black) Trolley Bag",
+    "Points": 15
+  },
+  {
+    "Sr no": 454,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2211",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A13 (4/128 GB)(A135FH)",
+    "Points": 23
+  },
+  {
+    "Sr no": 455,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2212",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A13 (4/64 GB)(A135FG)",
+    "Points": 21
+  },
+  {
+    "Sr no": 456,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2213",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A13 (6/128 GB)(A135FJ)",
+    "Points": 24
+  },
+  {
+    "Sr no": 457,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2215",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A23 (8/128)(A235FT)",
+    "Points": 29
+  },
+  {
+    "Sr no": 458,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2216",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A33 5G (6/128 GB)(A336EP)",
+    "Points": 38
+  },
+  {
+    "Sr no": 459,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2217",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A33 5G (8/128 GB)(A336ER)",
+    "Points": 39
+  },
+  {
+    "Sr no": 460,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2218",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A53 5G (6/128 GB)(A536ED)",
+    "Points": 45
+  },
+  {
+    "Sr no": 461,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2219",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A53 5G (8/128 GB)(A536EG)",
+    "Points": 46
+  },
+  {
+    "Sr no": 462,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2220",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A73 5G (8/128GB)(A736BG)",
+    "Points": 54
+  },
+  {
+    "Sr no": 463,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2221",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung A73 5G (8/256GB)(A736BH)",
+    "Points": 57
+  },
+  {
+    "Sr no": 464,
+    "Category": "Personal Care",
+    "Sub-Category": "Wearable",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2223",
+    "Product Title": "Samsung Buds",
+    "Product Description": "Samsung Buds2 Pro(R510N)",
+    "Points": 23
+  },
+  {
+    "Sr no": 465,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2224",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Flip 4 (8/128 GB)(F721BA)",
+    "Points": 117
+  },
+  {
+    "Sr no": 466,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2225",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Flip 4 (8/256 GB)(F721BE)",
+    "Points": 122
+  },
+  {
+    "Sr no": 467,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2226",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Fold 4 (12/1 TB)(F936BH)",
+    "Points": 238
+  },
+  {
+    "Sr no": 468,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2227",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Fold 4 (12/256 GB)(F936BD)",
+    "Points": 203
+  },
+  {
+    "Sr no": 469,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2228",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Fold 4 (12/512 GB)(F936BG)",
+    "Points": 215
+  },
+  {
+    "Sr no": 470,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2230",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy A03 Core (2/32GB)(A032F)",
+    "Points": 12
+  },
+  {
+    "Sr no": 471,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2231",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book Go,(QC 7C 4 GB+128 GB+Win 11 Home)SILVER Colour,14\"Inch",
+    "Points": 55
+  },
+  {
+    "Sr no": 472,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2232",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 360\n,(12th Gen core i5\n 16GB+512GB+Win 11 Pro)DARK GRAY\n Colour,15.6Inch",
+    "Points": 149
+  },
+  {
+    "Sr no": 473,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2233",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 360\n,(12th Gen core i7\n 16GB+512GB+Win 11 Pro)DARK GRAY\n Colour,13.3Inch",
+    "Points": 157
+  },
+  {
+    "Sr no": 474,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2234",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 360,(12th Gen core i5 16 GB+512 GB+Win 11 Home)DARK GRAY Colour,13.3\"Inch",
+    "Points": 137
+  },
+  {
+    "Sr no": 475,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2235",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 360,(12th Gen core i7 16 GB+512 GB+Win 11 Home)DARK GRAY Colour,13.3\"Inch",
+    "Points": 147
+  },
+  {
+    "Sr no": 476,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2236",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Business,(12th Gen core i5 16 GB+1 TB+Win 11 Pro)DARK GRAY Colour,14\"Inch",
+    "Points": 181
+  },
+  {
+    "Sr no": 477,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2237",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Business,(12th Gen core i5 8 GB+256 GB+Win 11 Pro)DARK GRAY Colour,14\"Inch",
+    "Points": 144
+  },
+  {
+    "Sr no": 478,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2238",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Business,(12th Gen core i7 16 GB+512 GB+Win 11 Pro)DARK GRAY Colour,14\"Inch",
+    "Points": 177
+  },
+  {
+    "Sr no": 479,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2239",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i5  16GB+512GB+Win 11 Pro)Silver Colour,13.3Inch",
+    "Points": 171
+  },
+  {
+    "Sr no": 480,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2240",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i5 16 GB+512 GB+Win 11 Home)SILVER Colour,13.3\"Inch",
+    "Points": 160
+  },
+  {
+    "Sr no": 481,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2241",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i7 16 GB+512 GB+Win 11 Home)DARK GRAY Colour,15.6\"Inch",
+    "Points": 177
+  },
+  {
+    "Sr no": 482,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2242",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i7 16 GB+512 GB+Win 11 Home)SILVER Colour,13.3\"Inch",
+    "Points": 167
+  },
+  {
+    "Sr no": 483,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2243",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i7 P 16 GB+512 GB+Win 11 Home)BURGUNDY Colour,13.3\"Inch",
+    "Points": 167
+  },
+  {
+    "Sr no": 484,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2244",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i7 P 16 GB+512 GB+Win 11 Home)BURGUNDY Colour,15.6\"Inch",
+    "Points": 177
+  },
+  {
+    "Sr no": 485,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2245",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro 360,(12th Gen core i7\n 16GB+512GB+Win 11 Pro)Silver Colour,13.3Inch",
+    "Points": 176
+  },
+  {
+    "Sr no": 486,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2246",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro\n,(12th Gen core i5\n 16GB+512GB+Win 11 Pro)Silver Colour,13.3Inch",
+    "Points": 158
+  },
+  {
+    "Sr no": 487,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2247",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro\n,(12th Gen core i7\n 16GB+512GB+Win 11 Pro)Silver Colour,13.3Inch",
+    "Points": 167
+  },
+  {
+    "Sr no": 488,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2248",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro,(12th Gen core i5 16 GB+512 GB+Win 11 Home)SILVER Colour,13.3\"Inch",
+    "Points": 149
+  },
+  {
+    "Sr no": 489,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2249",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro,(12th Gen core i7 16 GB+1 TB+Win 11 Pro)Silver Colour,15.6\"Inch",
+    "Points": 201
+  },
+  {
+    "Sr no": 490,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2250",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro,(12th Gen core i7 16 GB+512 GB+Win 11 Home)DARK GRAY Colour,15.6\"Inch",
+    "Points": 171
+  },
+  {
+    "Sr no": 491,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2251",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2 Pro,(12th Gen core i7 16 GB+512 GB+Win 11 Home)SILVER Colour,13.3\"Inch",
+    "Points": 160
+  },
+  {
+    "Sr no": 492,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2252",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2\n,(12th Gen core i5\n 16GB+512GB+Win 11 Pro)DARK GRAY\n Colour,15.6Inch",
+    "Points": 114
+  },
+  {
+    "Sr no": 493,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2253",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2\n,(12th Gen core i7\n 16GB+512GB+Win 11 Pro)DARK GRAY\n Colour,15.6Inch",
+    "Points": 120
+  },
+  {
+    "Sr no": 494,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2254",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 16 GB+512 GB+Win 11 Home)DARK GRAY Colour,15.6\"Inch",
+    "Points": 98
+  },
+  {
+    "Sr no": 495,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2255",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 16 GB+512 GB+Win 11 Home)SILVER Colour,15.6\"Inch",
+    "Points": 102
+  },
+  {
+    "Sr no": 496,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2256",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 16 GB+512 GB+Win 11 Pro)SILVER Colour,15.6\"Inch",
+    "Points": 118
+  },
+  {
+    "Sr no": 497,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2257",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 8 GB+256 GB+Win 11 Home)Graphite Colour,15.6\"Inch",
+    "Points": 91
+  },
+  {
+    "Sr no": 498,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2258",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 8 GB+512 GB+Win 11 Home) Colour,15.6\"Inch",
+    "Points": 118
+  },
+  {
+    "Sr no": 499,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2259",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 8 GB+512 GB+Win 11 Home)DARK GRAY Colour,15.6\"Inch",
+    "Points": 95
+  },
+  {
+    "Sr no": 500,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2260",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i5 8 GB+512 GB+Win 11 Home)SILVER Colour,15.6\"Inch",
+    "Points": 96
+  },
+  {
+    "Sr no": 501,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2261",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i7 16 GB+512 GB+Win 11 Home)DARK GRAY Colour,15.6\"Inch",
+    "Points": 106
+  },
+  {
+    "Sr no": 502,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2262",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i7 16 GB+512 GB+Win 11 Home)SILVER Colour,15.6\"Inch",
+    "Points": 110
+  },
+  {
+    "Sr no": 503,
+    "Category": "Laptop ",
+    "Sub-Category": "Macbook",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2263",
+    "Product Title": "Samsung Macbook",
+    "Product Description": "Samsung Galaxy Book2,(12th Gen core i7 16 GB+512 GB+Win 11 Pro)SILVER Colour,15.6\"Inch",
+    "Points": 122
+  },
+  {
+    "Sr no": 504,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2264",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy S22 (8/128 GB)(S901ED)",
+    "Points": 98
+  },
+  {
+    "Sr no": 505,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2265",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy S22 (8/256 GB)(S901EG)",
+    "Points": 105
+  },
+  {
+    "Sr no": 506,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2266",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy S22 Ultra (12/256 GB)(S908EG)",
+    "Points": 151
+  },
+  {
+    "Sr no": 507,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2267",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy S22 Ultra (12/512 GB)(S908EH)",
+    "Points": 163
+  },
+  {
+    "Sr no": 508,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2268",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab A8 LTE (32GB)(X205NA)",
+    "Points": 25
+  },
+  {
+    "Sr no": 509,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2269",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab A8 LTE (64GB)(X205NE)",
+    "Points": 33
+  },
+  {
+    "Sr no": 510,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2271",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab A8 WIFI (64GB)(X200NE)",
+    "Points": 27
+  },
+  {
+    "Sr no": 511,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2273",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab S8 -LTE(X706BA)",
+    "Points": 93
+  },
+  {
+    "Sr no": 512,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2276",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab S8 Ultra-LTE(X906BE)",
+    "Points": 162
+  },
+  {
+    "Sr no": 513,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2277",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab S8 Ultra-Wifi(X900NE)",
+    "Points": 144
+  },
+  {
+    "Sr no": 514,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2278",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Galaxy Tab S8-Wifi(X700NA)",
+    "Points": 83
+  },
+  {
+    "Sr no": 515,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2279",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy Z Flip 3 (128 GB)(F711BA/F11BB)",
+    "Points": 110
+  },
+  {
+    "Sr no": 516,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2280",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy Z Flip 3 (256 GB)(F711BE/F711BF)",
+    "Points": 114
+  },
+  {
+    "Sr no": 517,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2281",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy Z Fold 3 (256 GB)(F926BD)",
+    "Points": 197
+  },
+  {
+    "Sr no": 518,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2282",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung Galaxy Z Fold 3 (512 GB)(F926BG)",
+    "Points": 206
+  },
+  {
+    "Sr no": 519,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Feature phone",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2283",
+    "Product Title": "Samsung Mobile",
+    "Product Description": "Samsung Piton(B315E)",
+    "Points": 3
+  },
+  {
+    "Sr no": 520,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2293",
+    "Product Title": "Samsung Smart Phone",
+    "Product Description": "Samsung S21FE 128GB(G990EI)",
+    "Points": 86
+  },
+  {
+    "Sr no": 521,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2294",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Tab A7 Lite LTE(T225NA)",
+    "Points": 20
+  },
+  {
+    "Sr no": 522,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2295",
+    "Product Title": "Samsung Tablets",
+    "Product Description": "Samsung Tab S7FE LTE (4/64 GB)(T735NA)",
+    "Points": 63
+  },
+  {
+    "Sr no": 523,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2304",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "Samsonite SamVarro 55/20Exp cm cabin (Black) Trolley Bag",
+    "Points": 13
+  },
+  {
+    "Sr no": 524,
+    "Category": "Audio",
+    "Sub-Category": "Bluetooth Speaker",
+    "Brand Name": "Saregama",
+    "Suvidhaa SKU": "SIL-2306",
+    "Product Title": "Saregama Speaker",
+    "Product Description": "SAREGAMA CARVAAN 351 SUPERHITS (HINDI)",
+    "Points": 4
+  },
+  {
+    "Sr no": 525,
+    "Category": "Home Appliance",
+    "Sub-Category": "Smart Bluetooth Tracker",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2312",
+    "Product Title": "Vaya Bluetooth Tracker",
+    "Product Description": "Smart Bluetooth Tracker - Key Finder, Phone Finder,� with Replaceable Battery",
+    "Points": 3
+  },
+  {
+    "Sr no": 526,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2357",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1000�ML�CC containers with Bagmat� ��",
+    "Points": 5
+  },
+  {
+    "Sr no": 527,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2358",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1000�ML�CC containers without Bagmat� ��",
+    "Points": 4
+  },
+  {
+    "Sr no": 528,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2359",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1000�ML�SS containers with Bagmat� ��",
+    "Points": 5
+  },
+  {
+    "Sr no": 529,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2360",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1000�ML�SS containers without Bagmat� ��",
+    "Points": 4
+  },
+  {
+    "Sr no": 530,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2361",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1300�ML�CC containers with Bagmat� ��",
+    "Points": 6
+  },
+  {
+    "Sr no": 531,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2362",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1300�ML�CC containers without Bagmat� ��",
+    "Points": 5
+  },
+  {
+    "Sr no": 532,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2363",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1300�ML�SS containers with Bagmat� ��",
+    "Points": 6
+  },
+  {
+    "Sr no": 533,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2364",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 1300�ML�SS containers without Bagmat� ��",
+    "Points": 4
+  },
+  {
+    "Sr no": 534,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2365",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 600�ML�CC containers with Bagmat",
+    "Points": 4
+  },
+  {
+    "Sr no": 535,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2366",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 600�ML�CC containers without Bagmat� ��",
+    "Points": 3
+  },
+  {
+    "Sr no": 536,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2367",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 600�ML�SS containers with Bagmat� ��",
+    "Points": 4
+  },
+  {
+    "Sr no": 537,
+    "Category": "Home Appliance",
+    "Sub-Category": "Tyffyn & Drynk�",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2368",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Tyffyn 600�ML�SS containers without Bagmat� ��",
+    "Points": 3
+  },
+  {
+    "Sr no": 538,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Lunch Kit",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2386",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Vaya�Preseeve - 700�ml�",
+    "Points": 2
+  },
+  {
+    "Sr no": 539,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Lunch Kit",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2387",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Vaya�Preserve - 2 sets (1*300ml & 1*500ml) with GO Bag",
+    "Points": 4
+  },
+  {
+    "Sr no": 540,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Lunch Kit",
+    "Brand Name": "Vaya",
+    "Suvidhaa SKU": "SIL-2388",
+    "Product Title": "Vaya Lunch Box",
+    "Product Description": "Vaya�Preserve 2*300ml with GO Bag",
+    "Points": 4
+  },
+  {
+    "Sr no": 541,
+    "Category": "Health care",
+    "Sub-Category": "Massager ",
+    "Brand Name": "Velway",
+    "Suvidhaa SKU": "SIL-2389",
+    "Product Title": "Velway Massager",
+    "Product Description": "Velway Acupressure Mat, Unique Massager Active Applicator for the Relief of Pain & Stress. Premium Acupressure Patented Therapy Massage Tool. (Material Rubber, Size 28.3 * 1 * 39.7 cm)",
+    "Points": 1
+  },
+  {
+    "Sr no": 542,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Air Fryer",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2438",
+    "Product Title": "Wonderchef Air Fryer",
+    "Product Description": "Wonder chef Crimson Edge Air Fryer Oven 23L",
+    "Points": 22
+  },
+  {
+    "Sr no": 543,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Soup Maker",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2439",
+    "Product Title": "Wonderchef Soup Maker",
+    "Product Description": "Wonderchef Automatic Soup Maker | 1.0 Litre | 800W Heater | SS Blades & Bowl (Jug) | Soup in just 20 mins | 2 Years Warranty | White, Green & steel",
+    "Points": 12
+  },
+  {
+    "Sr no": 544,
+    "Category": "Home Appliance",
+    "Sub-Category": "Blender",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2442",
+    "Product Title": "Wonderchef Blender",
+    "Product Description": "Wonderchef Nutri Cook Heater Blender 1250 W - Black",
+    "Points": 17
+  },
+  {
+    "Sr no": 545,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Nutri Pot",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2443",
+    "Product Title": "Wonderchef Nutri Pot",
+    "Product Description": "Wonderchef Nutri-Pot Electric Pressure Cooker with 7-in-1 Functions, 3L, Aluminium, Black, Outer Lid",
+    "Points": 10
+  },
+  {
+    "Sr no": 546,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Induction Cooktop",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2445",
+    "Product Title": "Wonderchef Cooktop",
+    "Product Description": "Wonderchef Octavia 4 Burner Glass Hob Top Cooktop, Black 8mm Toughened Glass with 2 Years Warranty, Ergonomic Knobs, Forged Brass Burners, Stainless Steel Drip Tray, Manual Ignition",
+    "Points": 19
+  },
+  {
+    "Sr no": 547,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Oven Toaster Griller ",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2446",
+    "Product Title": "Wonderchef OTG",
+    "Product Description": "Wonderchef Oven Toaster Griller (OTG) - 28 Litres, Black - with Rotisserie,Auto-shut off, heat-resistant tempered glass, Multi-stage heat selection",
+    "Points": 13
+  },
+  {
+    "Sr no": 548,
+    "Category": "Home Appliance",
+    "Sub-Category": "Coffee Maker",
+    "Brand Name": "WONDERCHEF",
+    "Suvidhaa SKU": "SIL-2447",
+    "Product Title": "Wonderchef Coffee Machine",
+    "Product Description": "Wonderchef Regalia Espresso Coffee Maker 5 Bar | with Steamer for Cappuccino & Latte | Steam Tube for Froth | Metal Porta Filter & Heat-Resistant Carafe | Works with Coffee Powder | 2 Years Warranty | Steel",
+    "Points": 11
+  },
+  {
+    "Sr no": 549,
+    "Category": "Audio",
+    "Sub-Category": "Soundbar",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2449",
+    "Product Title": "Yamaha Soundbar",
+    "Product Description": "Yamaha Audio Sr-B20A Sound Bar with Built-in Subwoofers and Bluetooth",
+    "Points": 23
+  },
+  {
+    "Sr no": 550,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2450",
+    "Product Title": "Yamaha Airpods",
+    "Product Description": "Yamaha Audio TW-E3B Black in-Ear True Wireless Earphone, Bluetooth 5.0, aptX, Long Battery Life, IPX5, with Mic",
+    "Points": 10
+  },
+  {
+    "Sr no": 551,
+    "Category": "Audio",
+    "Sub-Category": "Earphone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2451",
+    "Product Title": "Yamaha Earphone",
+    "Product Description": "YAMAHA EP-E30A Wireless Bluetooth in Ear Neckband Headphone with Mic for Phone Call, Listening Care",
+    "Points": 6
+  },
+  {
+    "Sr no": 552,
+    "Category": "Audio",
+    "Sub-Category": "Earphone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2452",
+    "Product Title": "Yamaha Earphone",
+    "Product Description": "YAMAHA EP-E50A Wireless Bluetooth in Ear Neckband Headphone with mic for Phone Calls, Active Noise-Cancelling, Ambient Sound, Listening Care",
+    "Points": 14
+  },
+  {
+    "Sr no": 553,
+    "Category": "Audio",
+    "Sub-Category": "Earphone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2453",
+    "Product Title": "Yamaha Earphone",
+    "Product Description": "Yamaha Ep-E70A Bluetooth Wireless in Ear Earphones with Mic Advance Noise Cancelling, Ambient Sound Mode, Listening Optimizer, Light Weight",
+    "Points": 27
+  },
+  {
+    "Sr no": 554,
+    "Category": "Audio",
+    "Sub-Category": "Soundbar",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2454",
+    "Product Title": "Yamaha Soundbar",
+    "Product Description": "Yamaha SR-C20A Compact Sound Bar with Built-in Subwoofer and Bluetooth",
+    "Points": 23
+  },
+  {
+    "Sr no": 555,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2455",
+    "Product Title": "Yamaha Airpods",
+    "Product Description": "YAMAHA TW-E3B True Wireless Earphones Pink",
+    "Points": 10
+  },
+  {
+    "Sr no": 556,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2456",
+    "Product Title": "Yamaha Airpods",
+    "Product Description": "Yamaha TW-E5B True Wireless Earbuds, Bluetooth Headphones, Premium Sound, CVC Clear Voice Capture, Ambient Sound, IPX5 Water Resistant for Sport (black)",
+    "Points": 16
+  },
+  {
+    "Sr no": 557,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2457",
+    "Product Title": "Yamaha Airpods",
+    "Product Description": "YAMAHA TW-E7B True Wireless Earbuds with Bluetooth 5.2, Active Noise Cancelling, True Sound, Qualcomm CVC Clear Voice Capture, Advanced Listening Care and IPX5 Water Resistant for Sport (Black)",
+    "Points": 28
+  },
+  {
+    "Sr no": 558,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2458",
+    "Product Title": "Yamaha Airpods",
+    "Product Description": "Yamaha TW-ES5A True Wireless Sport Earbuds with Bluetooth 5.2, IPX7 Waterproof, Secure Fit, Premium Sound, Qualcomm CVC Clear Voice Capture, Listening Care and Ambient Sound (Blue)",
+    "Points": 18
+  },
+  {
+    "Sr no": 559,
+    "Category": "Audio",
+    "Sub-Category": "Soundbar",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2459",
+    "Product Title": "Yamaha Soundbar",
+    "Product Description": "Yamaha YAS-109 120 Watt Wireless Bluetooth Soundbar with Alexa (Black)",
+    "Points": 27
+  },
+  {
+    "Sr no": 560,
+    "Category": "Audio",
+    "Sub-Category": "Soundbar",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2460",
+    "Product Title": "Yamaha Soundbar",
+    "Product Description": "Yamaha YAS-209 200 Watt Wireless Bluetooth Soundbar with Alexa (Black)",
+    "Points": 43
+  },
+  {
+    "Sr no": 561,
+    "Category": "Audio",
+    "Sub-Category": "Head phone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2461",
+    "Product Title": "Yamaha Head phone",
+    "Product Description": "YAMAHA YH-E500A Wireless Bluetooth On Ear Headphone with mic, Noise canceling, Ambient Sound, Listening Care (Black),YH-E500A Black",
+    "Points": 17
+  },
+  {
+    "Sr no": 562,
+    "Category": "Audio",
+    "Sub-Category": "Head phone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2462",
+    "Product Title": "Yamaha Head phone",
+    "Product Description": "YAMAHA YH-E700A Wireless Bluetooth Over Ear Headphones with mic, Advance Noise Cancelling, Ambient Sound, Listening Optimizer (Black)",
+    "Points": 34
+  },
+  {
+    "Sr no": 563,
+    "Category": "Audio",
+    "Sub-Category": "Head phone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2463",
+    "Product Title": "Yamaha Head phone",
+    "Product Description": "YAMAHA YH-E700A Wireless Bluetooth Over Ear Headphones with mic, Advance Noise Cancelling, Ambient Sound, Listening Optimizer (White)",
+    "Points": 34
+  },
+  {
+    "Sr no": 564,
+    "Category": "Audio",
+    "Sub-Category": "Head phone",
+    "Brand Name": "Yamaha",
+    "Suvidhaa SKU": "SIL-2464",
+    "Product Title": "Yamaha Head phone",
+    "Product Description": "YAMAHA YH-L700A 3D Sound Field, Bluetooth Wireless Over Ear Headphone, Advance Noise Canceling, Ambient Sound, Listening Optimizer, Black, with mic (YH-L700A Black)",
+    "Points": 49
+  },
+  {
+    "Sr no": 565,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Motorola",
+    "Suvidhaa SKU": "SIL-2468",
+    "Product Title": "Motorola Airpods",
+    "Product Description": "Motorola Earbuds 2 in-Ear Headphones ",
+    "Points": 1
+  },
+  {
+    "Sr no": 566,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Duffle Bag",
+    "Brand Name": "Swiss Military",
+    "Suvidhaa SKU": "SIL-2508",
+    "Product Title": "Swiss Military Duffle Bag",
+    "Product Description": "Swiss Military Duffle Cum Backpack - LBP-23",
+    "Points": 3
+  },
+  {
+    "Sr no": 567,
+    "Category": "Laptop Backpak",
+    "Sub-Category": "Backpak",
+    "Brand Name": "Swiss Military",
+    "Suvidhaa SKU": "SIL-2514",
+    "Product Title": "Swiss Military Backpak",
+    "Product Description": "Swiss Military Laptop Backpack LBP88 Black",
+    "Points": 3
+  },
+  {
+    "Sr no": 568,
+    "Category": "Travel & Luggage ",
+    "Sub-Category": "Trolley Bag",
+    "Brand Name": "Samsonite",
+    "Suvidhaa SKU": "SIL-2521",
+    "Product Title": "Samsonite Trolley Bag",
+    "Product Description": "American Tourister Apex Wheel Duffle 57cm Blue",
+    "Points": 3
+  },
+  {
+    "Sr no": 569,
+    "Category": "Health care",
+    "Sub-Category": "Massager",
+    "Brand Name": "iGear",
+    "Suvidhaa SKU": "SIL-2523",
+    "Product Title": "Igear Massager",
+    "Product Description": "I Gear iMassager: Eye massager with Heat, Air pressure, Compression, Rechargeable, Foldable and portable",
+    "Points": 3
+  },
+  {
+    "Sr no": 570,
+    "Category": "Personal Care",
+    "Sub-Category": "Perfumes ",
+    "Brand Name": "David Beckham",
+    "Suvidhaa SKU": "SIL-2524",
+    "Product Title": "David Beckham Perfumes",
+    "Product Description": "David Beckham Intimately Man EDT 75ml",
+    "Points": 3
+  },
+  {
+    "Sr no": 571,
+    "Category": "Television Accessories",
+    "Sub-Category": "STREAMING PLAYER",
+    "Brand Name": "Amazon",
+    "Suvidhaa SKU": "SIL-2534",
+    "Product Title": "Amazon Fire Stick",
+    "Product Description": "Amazon  Fire TV Stick-4K",
+    "Points": 7
+  },
+  {
+    "Sr no": 572,
+    "Category": "Television Accessories",
+    "Sub-Category": "STREAMING PLAYER",
+    "Brand Name": "Amazon",
+    "Suvidhaa SKU": "SIL-2534",
+    "Product Title": "Amazon Fire Stick",
+    "Product Description": "Amazon Fire TV Stick Lite",
+    "Points": 7
+  },
+  {
+    "Sr no": 573,
+    "Category": "Kitchen Appliances",
+    "Sub-Category": "Rice Cooker",
+    "Brand Name": "Bajaj",
+    "Suvidhaa SKU": "SIL-2538",
+    "Product Title": "Bajaj Rice Cooker",
+    "Product Description": "Bajaj Rice Cooker RCX - 7 ? 680014",
+    "Points": 5
+  },
+  {
+    "Sr no": 574,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Amazon",
+    "Suvidhaa SKU": "SIL-2543",
+    "Product Title": "Amazon Echo Dot",
+    "Product Description": "Amazon Echo Dot (3rd Gen) - New and Improved Smart Speaker with Alexa",
+    "Points": 5
+  },
+  {
+    "Sr no": 575,
+    "Category": "Audio",
+    "Sub-Category": "Bluetooth Speaker",
+    "Brand Name": "Google",
+    "Suvidhaa SKU": "SIL-2544",
+    "Product Title": "Google Speaker",
+    "Product Description": "Google Nest Mini",
+    "Points": 5
+  },
+  {
+    "Sr no": 576,
+    "Category": "Television Accessories",
+    "Sub-Category": "STREAMING PLAYER",
+    "Brand Name": "Amazon",
+    "Suvidhaa SKU": "SIL-2547",
+    "Product Title": "Amazon Fire Stick",
+    "Product Description": "Fire TV Stick with all New Alexa voice Remote",
+    "Points": 6
+  },
+  {
+    "Sr no": 577,
+    "Category": "Home Appliance",
+    "Sub-Category": "Vaccum Cleaner",
+    "Brand Name": "Black & Decker",
+    "Suvidhaa SKU": "SIL-2552",
+    "Product Title": "Black & Decker Vaccum Cleaner",
+    "Product Description": "Black & Decker 800 Walts Vaccum Cleaner VH802",
+    "Points": 6
+  },
+  {
+    "Sr no": 578,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Google",
+    "Suvidhaa SKU": "SIL-2557",
+    "Product Title": "Google Smart Speaker",
+    "Product Description": "Google Nest Audio�",
+    "Points": 10
+  },
+  {
+    "Sr no": 579,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "Google",
+    "Suvidhaa SKU": "SIL-2558",
+    "Product Title": "Google Smart Speaker",
+    "Product Description": "Google Nest hub 2nd�gen�",
+    "Points": 10
+  },
+  {
+    "Sr no": 580,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "Google",
+    "Suvidhaa SKU": "SIL-2560",
+    "Product Title": "Google Airpods",
+    "Product Description": "Google Pixel buds�",
+    "Points": 11
+  },
+  {
+    "Sr no": 581,
+    "Category": "Audio",
+    "Sub-Category": "Bluetooth Speaker",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2561",
+    "Product Title": "Bose Speaker",
+    "Product Description": "Bose Soundlink Micro,Bt Spkr,Ww",
+    "Points": 12
+  },
+  {
+    "Sr no": 582,
+    "Category": "Audio",
+    "Sub-Category": "Head Phone",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2562",
+    "Product Title": "Bose Headphone",
+    "Product Description": "Wireless Headphone Soundsport Wireless Hdphn Black Ww- Bose",
+    "Points": 15
+  },
+  {
+    "Sr no": 583,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2563",
+    "Product Title": "Bose Speaker",
+    "Product Description": "Bose Companion 2 Iii Mtmd Spk Sys Blk Ap",
+    "Points": 16
+  },
+  {
+    "Sr no": 584,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2564",
+    "Product Title": "Bose Earbuds",
+    "Product Description": "Bose Sport Earbuds,Black,Ww",
+    "Points": 22
+  },
+  {
+    "Sr no": 585,
+    "Category": "Audio",
+    "Sub-Category": "Head Phone",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2566",
+    "Product Title": "Bose Headphone",
+    "Product Description": "Wireless Headphone Quietcomfort 35 Ii Wlss Hdphn Black Ww- Bose",
+    "Points": 34
+  },
+  {
+    "Sr no": 586,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2567",
+    "Product Title": "Bose Earbuds",
+    "Product Description": "Bose Quietcomfort Earbuds,Black,Ww",
+    "Points": 34
+  },
+  {
+    "Sr no": 587,
+    "Category": "Audio",
+    "Sub-Category": "Airpods",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2568",
+    "Product Title": "Bose Earbuds",
+    "Product Description": "Earbuds Quietcomfort Stone Blue Ww - Bose",
+    "Points": 34
+  },
+  {
+    "Sr no": 588,
+    "Category": "Audio",
+    "Sub-Category": "Bluetooth Speaker",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2569",
+    "Product Title": "Bose Speaker",
+    "Product Description": "Bose Tv Speaker,Kr/In/Th",
+    "Points": 39
+  },
+  {
+    "Sr no": 589,
+    "Category": "Audio",
+    "Sub-Category": "Head Phone",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2570",
+    "Product Title": "Bose Headphone",
+    "Product Description": "Bose Noise Cancelling Hdphs 700,Black,Ww",
+    "Points": 39
+  },
+  {
+    "Sr no": 590,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2571",
+    "Product Title": "Bose Speaker",
+    "Product Description": "Bose Bass Module 500,240V,Blk,Ap",
+    "Points": 46
+  },
+  {
+    "Sr no": 591,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2572",
+    "Product Title": "Bose Speaker",
+    "Product Description": "Bose Home Speaker 500,Blk,240V,Kr",
+    "Points": 51
+  },
+  {
+    "Sr no": 592,
+    "Category": "Audio",
+    "Sub-Category": "Smart Speaker",
+    "Brand Name": "BOSE",
+    "Suvidhaa SKU": "SIL-2573",
+    "Product Title": "Bose Speaker",
+    "Product Description": "Bose Smart Sndbr 300,Blk,220V/230V,Kr/In/Th",
+    "Points": 62
+  },
+  {
+    "Sr no": 593,
+    "Category": "Mobile phone",
+    "Sub-Category": "Mobile",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2581",
+    "Product Title": "Samsung Mobile",
+    "Product Description": "Samsung A 23 (6/128 GB)",
+    "Points": 27
+  },
+  {
+    "Sr no": 594,
+    "Category": "Audio",
+    "Sub-Category": "Ear Buds",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2584",
+    "Product Title": "Samsung Earbuds",
+    "Product Description": "Samsung Galaxy Buds Live",
+    "Points": 18
+  },
+  {
+    "Sr no": 595,
+    "Category": "Mobile phone",
+    "Sub-Category": "Mobile",
+    "Brand Name": "Samsung",
+    "Suvidhaa SKU": "SIL-2586",
+    "Product Title": "Samsung Mobile",
+    "Product Description": "Samsung Galaxy S22 Ultra (12/256 GB)",
+    "Points": 151
+  },
+  {
+    "Sr no": 596,
+    "Category": "E Voucher/Gift card",
+    "Sub-Category": "E Voucher/Gift card",
+    "Brand Name": "JOYALUKKAS",
+    "Suvidhaa SKU": "SIL-3541",
+    "Product Title": "Gold Voucher",
+    "Product Description": "GOLD E- VOUCHER / CARD�",
+    "Points": 114
+  },
+  {
+    "Sr no": 597,
+    "Category": "E Voucher/Gift card",
+    "Sub-Category": "E Voucher/Gift card",
+    "Brand Name": "YATRA�",
+    "Suvidhaa SKU": "SIL-3542",
+    "Product Title": "Yatra Travel Voucher",
+    "Product Description": "TRAVEL E -VOUCHER / CARD",
+    "Points": 171
+  },
+  {
+    "Sr no": 598,
+    "Category": "E Voucher/Gift card",
+    "Sub-Category": "E Voucher/Gift card",
+    "Brand Name": "HONDA/TVS",
+    "Suvidhaa SKU": "SIL-3543",
+    "Product Title": "Bike Voucher",
+    "Product Description": "BIKE E- VOUCHER / CARD",
+    "Points": 171
+  },
+  {
+    "Sr no": 599,
+    "Category": "E Voucher/Gift card",
+    "Sub-Category": "E Voucher/Gift card",
+    "Brand Name": "HYUNDAI / SKODA/ NISSAN",
+    "Suvidhaa SKU": "SIL-3544",
+    "Product Title": "Car Voucher",
+    "Product Description": "CAR E - VOUCHER / CARD",
+    "Points": 800
+  },
+  {
+    "Sr no": 600,
+    "Category": "Mobile phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3545",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro Max 128GB Gold",
+    "Points": 160
+  },
+  {
+    "Sr no": 601,
+    "Category": "Mobile phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3546",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro Max 256GB Gold",
+    "Points": 171
+  },
+  {
+    "Sr no": 602,
+    "Category": "Mobile phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3547",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro Max 512GB Gold",
+    "Points": 194
+  },
+  {
+    "Sr no": 603,
+    "Category": "Mobile phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3548",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro Max 1TB Gold",
+    "Points": 217
+  },
+  {
+    "Sr no": 604,
+    "Category": "Ipad",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3549",
+    "Product Title": "Apple Ipad",
+    "Product Description": "Apple Ipad 9th Gen 64 Wifi",
+    "Points": 39
+  },
+  {
+    "Sr no": 605,
+    "Category": "Ipad",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3550",
+    "Product Title": "Apple Ipad",
+    "Product Description": "Apple Ipad Air M1 64 Gb,10.9 ",
+    "Points": 68
+  },
+  {
+    "Sr no": 606,
+    "Category": "Ipad",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3551",
+    "Product Title": "Apple Ipad",
+    "Product Description": "Apple Ipad Air M1 256 Gb  10.9",
+    "Points": 86
+  },
+  {
+    "Sr no": 607,
+    "Category": "Ipad",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3552",
+    "Product Title": "Apple Ipad",
+    "Product Description": "Apple Ipad Pro M2 11inch, 128GB",
+    "Points": 94
+  },
+  {
+    "Sr no": 608,
+    "Category": "Ipad",
+    "Sub-Category": "Tablets",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3553",
+    "Product Title": "Apple Ipad",
+    "Product Description": "Apple Ipad Pro M2 11inch, 256 GB",
+    "Points": 105
+  },
+  {
+    "Sr no": 610,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3555",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 128GB Gold",
+    "Points": 148
+  },
+  {
+    "Sr no": 611,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3556",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 256GB Silver",
+    "Points": 160
+  },
+  {
+    "Sr no": 612,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3557",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 256GB Gold",
+    "Points": 160
+  },
+  {
+    "Sr no": 613,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3558",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 512GB Silver",
+    "Points": 183
+  },
+  {
+    "Sr no": 614,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3559",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 512GB Gold",
+    "Points": 183
+  },
+  {
+    "Sr no": 615,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3560",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 1TB Silver",
+    "Points": 206
+  },
+  {
+    "Sr no": 616,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3561",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Pro 1TB Gold",
+    "Points": 206
+  },
+  {
+    "Sr no": 617,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3562",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Plus 128GB Purple",
+    "Points": 103
+  },
+  {
+    "Sr no": 618,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3563",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Plus 256GB Starlight",
+    "Points": 114
+  },
+  {
+    "Sr no": 619,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3564",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Plus 512GB Starlight",
+    "Points": 137
+  },
+  {
+    "Sr no": 620,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3565",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 Plus 512GB Blue",
+    "Points": 137
+  },
+  {
+    "Sr no": 621,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3566",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 128GB Starlight",
+    "Points": 91
+  },
+  {
+    "Sr no": 622,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3567",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 128GB Blue",
+    "Points": 91
+  },
+  {
+    "Sr no": 623,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3568",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 256GB Purple",
+    "Points": 103
+  },
+  {
+    "Sr no": 624,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3569",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 512GB Midnight",
+    "Points": 126
+  },
+  {
+    "Sr no": 625,
+    "Category": "Mobile Phone",
+    "Sub-Category": "Smart phone ",
+    "Brand Name": "Apple",
+    "Suvidhaa SKU": "SIL-3570",
+    "Product Title": "Apple Iphone",
+    "Product Description": "iPhone 14 512GB Blue",
+    "Points": 126
+  }
+]

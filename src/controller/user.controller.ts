@@ -1,13 +1,13 @@
-import { NextFunction, Request, Response } from "express";
-import { getRepository } from "typeorm";
+import {NextFunction, Request, Response} from "express";
+import {getRepository} from "typeorm";
 import crypto from "crypto";
 
 // import {User} from "../entity/user.entity";
-import { TokenExpiredError, sign, verify } from "jsonwebtoken";
+import {TokenExpiredError, sign, verify} from "jsonwebtoken";
 import AppError from "../utils/appError";
 import env from "../env";
-import { OTP } from "../entity/otp.entity";
-import { User2 } from "../entity/user2.entity";
+import {OTP} from "../entity/otp.entity";
+import {User2} from "../entity/user2.entity";
 
 const accessSecert = env.accessTokenSecret as string;
 export interface IGetUserAuthInfoRequest extends Request {
@@ -41,10 +41,10 @@ export const authenticatedUser = async (
     });
 
     if (!user) {
-      return next(new AppError(401, "Invalid phone number!"));
+      return next(new AppError(401, "User profile not completed!"));
     }
 
-    const { phone, ...data } = user;
+    const {phone, ...data} = user;
 
     res.send(data);
   } catch (e) {
@@ -56,52 +56,45 @@ export const authenticatedUser = async (
   }
 };
 
-export const getUserById = async (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+export const isUserExists = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const accessToken = req.cookies["accessToken"];
+
+    console.log({accessToken});
 
     if (!accessToken) {
       return next(new AppError(401, "Access token not provided!"));
     }
 
-    const payload: any = verify(accessToken, accessSecert);
+    const payload: any = verify(accessToken, accessSecert, {ignoreExpiration: true});
+
+    console.log(payload);
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));
     }
 
-    const user = await getRepository(OTP).findOne({
+    const user = await getRepository(User2).findOne({
       where: {
         phone: payload?.phone,
       },
     });
+    console.log({user});
 
     if (!user) {
-      return next(new AppError(401, "Invalid auth credential!"));
+      return next(new AppError(404, "User not found!"));
     }
 
-    const { phone, ...data } = user;
-
-    const { firstName, lastName, dob, email } = req.body;
-
-    const newUser = await getRepository(User2).save({
-      firstName,
-      lastName,
-      dob,
-      email,
-      phone,
+    return res.status(200).json({
+      status: "success",
+      message: "User exist!, you can skip profile completion step",
     });
-    res.send(newUser);
   } catch (e) {
     // console.log(e);
     if (e instanceof TokenExpiredError) {
       return next(new AppError(401, "Token Expired!"));
     }
-    return next(new AppError(401, "Invalid auth credential!"));
+    return next(new AppError(500, "Something went wrong!"));
   }
 };
 
@@ -112,6 +105,7 @@ export const updateUserProfile = async (
 ) => {
   try {
     const accessToken = req.cookies["accessToken"];
+    // console.log(accessToken);
 
     if (!accessToken) {
       return next(new AppError(401, "Access token not provided!"));
@@ -135,9 +129,9 @@ export const updateUserProfile = async (
       return next(new AppError(401, "Invalid auth credential!"));
     }
 
-    const { phone, ...data } = user;
+    const {phone, ...data} = user;
     const host = "https://nichino.com";
-    const { firstName, lastName, dob, email } = req.body;
+    const {firstName, lastName, dob, email} = req.body;
     const userName = `${firstName} ${lastName}`.replace(/\s/g, "");
 
     const referralLink = `${host}/join/${userName}`;
@@ -186,11 +180,11 @@ export const generateReferralLink = async (
     const userRepository = getRepository(User2);
 
     // Find the user by ID
-    const user = await userRepository.findOne({ where: { id: userId as any } });
+    const user = await userRepository.findOne({where: {id: userId as any}});
 
     if (!user) {
       console.log("User not found");
-      return res.status(404).json({ error: "User not found!" });
+      return res.status(404).json({error: "User not found!"});
     }
     // Update the referralLink property
     user.referralLink = referralLink;
