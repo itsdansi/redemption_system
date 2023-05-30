@@ -44,9 +44,7 @@ export const authenticatedUser = async (
       return next(new AppError(401, "User profile not completed!"));
     }
 
-    const {phone, ...data} = user;
-
-    res.send(data);
+    res.send(user);
   } catch (e) {
     console.log(e);
     if (e instanceof TokenExpiredError) {
