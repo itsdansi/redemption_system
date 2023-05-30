@@ -66,7 +66,7 @@ export const isUserExists = async (req: Request, res: Response, next: NextFuncti
 
     const payload: any = verify(accessToken, accessSecert, {ignoreExpiration: true});
 
-    console.log(payload);
+    // console.log(payload);
 
     if (!payload) {
       return next(new AppError(401, "Invalid token!"));

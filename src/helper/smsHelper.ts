@@ -53,7 +53,7 @@ export const generateOTP = () => {
   const digits = "123456789";
   let OTP = "";
   for (let i = 0; i < 6; i++) {
-    OTP += digits[Math.floor(Math.random() * 10)];
+    OTP += digits[Math.floor(Math.random() * digits.length)];
   }
   return OTP;
 };
