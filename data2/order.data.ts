@@ -1,5 +1,5 @@
 export enum OrderStatus {
-  submitted = "SUMBIMTTED",
+  submitted = "SUBMITTED",
   approved = "APPROVED",
   dispatched = 'DISPATCHED',
   delivered = 'DELIVERD'
