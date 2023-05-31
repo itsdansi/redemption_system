@@ -1,8 +1,9 @@
 export enum OrderStatus {
-  submitted = "SUBMITTED",
-  approved = "APPROVED",
-  dispatched = 'DISPATCHED',
-  delivered = 'DELIVERD'
+  submitted = 'SUBMITTED',
+  approved = 'APPROVED',
+  inTransit = 'IN_TRANSIT',
+  delivered = 'DELIVERD',
+  cancelled = 'CANCELLED'
 }
 
 export interface ShippingDetails {
