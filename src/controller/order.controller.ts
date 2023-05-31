@@ -192,13 +192,19 @@ export const sendMail = async (receipient, firstName, order, points, createdAt) 
     )
     .join("")}
 </table>
-    <div class="address">
-      <h2>Shipping Address:</h2>
-        <p>
-          ${order.shippingDetails.addressLine1}, ${order.shippingDetails.city},
-          ${order.shippingDetails.state}, ${order.shippingDetails.country}
-        </p>
-    </div>
+<table class="order-summary">
+  <caption><h2>Shipping Details:</h2></caption>
+  <tr>
+    <th>Address</th>
+  </tr>
+        <tr>
+          <td> ${order.shippingDetails.addressLine1}, ${
+      order.shippingDetails.addressLine2 ? order.shippingDetails.addressLine2 : "-"
+    },  ${order.shippingDetails.pinCode},  ${order.shippingDetails.city}, ${
+      order.shippingDetails.state
+    }, ${order.shippingDetails.country}</td
+        </tr>
+</table> 
     
     <p>We are currently processing your order and will keep you updated on the status of your shipment. You can expect to receive a shipping confirmation email with tracking information once your order has been dispatched.</p>
     
@@ -359,20 +365,14 @@ export const sendMailToSupportTeam = async (
 <table class="order-summary">
   <caption><h2>Shipping Details:</h2></caption>
   <tr>
-    <th>City</th>
-    <th>State</th>
-    <th>Country</th>
-    <th>Address Line1</th>
-    <th>Address Line2</th>
+    <th>Address</th>
   </tr>
         <tr>
-          <td>${order.shippingDetails.city}</td>
-          <td>${order.shippingDetails.state}</td>
-          <td>${order.shippingDetails.country}</td>
-          <td>${order.shippingDetails.addressLine1}</td>
-           <td>${
-             order.shippingDetails.addressLine2 ? order.shippingDetails.addressLine2 : "-"
-           }</td>
+          <td> ${order.shippingDetails.addressLine1}, ${
+      order.shippingDetails.addressLine2 ? order.shippingDetails.addressLine2 : "-"
+    },  ${order.shippingDetails.pinCode},  ${order.shippingDetails.city}, ${
+      order.shippingDetails.state
+    }, ${order.shippingDetails.country}</td
         </tr>
 </table> 
 <br>
