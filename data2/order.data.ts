@@ -2,7 +2,7 @@ export enum OrderStatus {
   submitted = 'SUBMITTED',
   approved = 'APPROVED',
   inTransit = 'IN_TRANSIT',
-  delivered = 'DELIVERD',
+  delivered = 'DELIVERED',
   cancelled = 'CANCELLED'
 }
 
