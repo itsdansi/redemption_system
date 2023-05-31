@@ -45,7 +45,7 @@ export const getProductsBySubCategory = (req: Request, res: Response) => {
     const productData = JSON.parse(data);
 
     // Get the filter condition from the query parameters
-    const filterSubCategory = (req.query.subcategory as string).toLowerCase();
+    const filterSubCategory = (req.query.subcategory as string).toLowerCase().trim();
 
     // const productData = JSON.parse(data);
     var filteredProducts;
@@ -71,7 +71,7 @@ export const getProductsBySubCategory = (req: Request, res: Response) => {
     }
 
     const products = filteredProducts.filter(
-      (element: any) => element["Sub-Category"].toLowerCase() === filterSubCategory
+      (element: any) => element["Sub-Category"].toLowerCase().trim() === filterSubCategory
     );
 
     // return res.send(products);

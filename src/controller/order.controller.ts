@@ -45,6 +45,20 @@ export const createOrder = async (
 
     console.log({result});
 
+    console.log({user});
+
+    // send email to support team
+    sendMailToSupportTeam(
+      // "arajanacharya108@gmail.com",
+      "Somya.singh@nupipay.com",
+      "Support Team",
+      user,
+      result,
+      result.subTotal,
+      result.createdAt
+    );
+
+    // send email to customer
     if (user.email) {
       sendMail(user.email, user?.firstName, result, result.subTotal, result.createdAt);
     }
@@ -83,11 +97,7 @@ export const sendMail = async (receipient, firstName, order, points, createdAt) 
     order.shippingDetails.city,
     order.shippingDetails.state,
     order.shippingDetails.country;
-  console.log("Logging from here----------->");
-  console.log("AddressLine1", order.shippingDetails.addressLine1);
-  console.log("City", order.shippingDetails.city);
-  console.log("State", order.shippingDetails.state);
-  console.log("State", order.shippingDetails.country);
+
   const mailOptions = {
     from: "katuwalpujan@gmail.com",
     to: receipient,
@@ -147,7 +157,154 @@ export const sendMail = async (receipient, firstName, order, points, createdAt) 
     
     <p>We have received your recent order having orderId ${
       order.id
-    }, at Nichino store. Thank you for choosing us for your shopping needs. Here are all the details:</p>
+    }, at Nichino store. Here are all the details:</p>
+    
+<table class="order-summary">
+  <caption><h2>Order Summary:</h2></caption>
+  <tr>
+    <th>Product Name</th>
+    <th>Quantity</th>
+    <th>Points</th>
+    <th>Total</th>
+  </tr>
+  ${order.orderItems
+    .map(
+      (item, index) => `
+        <tr>
+          <td>${item.name}</td>
+          <td>${item.quantity}</td>
+          <td>${item.points}</td>
+          <td>${item.quantity * item.points}</td>
+        </tr>
+          ${
+            index === order.orderItems.length - 1
+              ? `
+          <tr>
+            <td colspan="3">Subtotal</td>
+            <td>${order.orderItems.reduce(
+              (acc, curr) => acc + curr.quantity * curr.points,
+              0
+            )}</td>
+          </tr>`
+              : ""
+          }
+      `
+    )
+    .join("")}
+</table>
+    <div class="address">
+      <h2>Shipping Address:</h2>
+        <p>
+          ${order.shippingDetails.addressLine1}, ${order.shippingDetails.city},
+          ${order.shippingDetails.state}, ${order.shippingDetails.country}
+        </p>
+    </div>
+    
+    <p>We are currently processing your order and will keep you updated on the status of your shipment. You can expect to receive a shipping confirmation email with tracking information once your order has been dispatched.</p>
+    
+    <p>If you have any questions or concerns about your order, please don’t hesitate to contact us. Our customer service team is always happy to assist you.</p>
+    
+    <p>Thank you for choosing us for your shopping needs. We look forward to serving you again in the future.</p>
+    
+    <div class="signature">
+      <p>Best regards,</p>
+      <p>Team Nichino</p>
+    </div>
+  </div>
+</body>
+</html>
+`,
+  };
+
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log("Email sent: " + info.response);
+    }
+  });
+};
+
+export const sendMailToSupportTeam = async (
+  receipient,
+  firstName,
+  user,
+  order,
+  points,
+  createdAt
+) => {
+  const transporter = nodemailer.createTransport({
+    service: "Gmail",
+    auth: {
+      user: "katuwalpujan@gmail.com",
+      pass: "fgnkkurtvccaiumy",
+    },
+  });
+  order.shippingDetails.addressLine1,
+    order.shippingDetails.city,
+    order.shippingDetails.state,
+    order.shippingDetails.country;
+
+  const mailOptions = {
+    from: "katuwalpujan@gmail.com",
+    to: receipient,
+    subject: "A new order has been confirmed!",
+    html: `<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    
+    .order-summary th, .order-summary td {
+      font-weight: bold;
+    }
+    
+    .address {
+      margin-bottom: 20px;
+    }
+    
+    .signature {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Dear ${firstName},</h1>
+    
+    <p>We have received a recent order having orderId ${
+      order.id
+    }, at Nichino store. Here are all the details:</p>
     
 <table class="order-summary">
   <caption><h2>Order Summary:</h2></caption>
@@ -183,25 +340,45 @@ export const sendMail = async (receipient, firstName, order, points, createdAt) 
     .join("")}
 </table>
 
-    
-    <div class="address">
-      <h2>Shipping Address:</h2>
-<p>
-  ${order.shippingDetails.addressLine1}, ${order.shippingDetails.city},
-  ${order.shippingDetails.state}, ${order.shippingDetails.country}
-</p>
+<table class="order-summary">
+  <caption><h2>Customer Details:</h2></caption>
+  <tr>
+    <th>Customer Name</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>User Type</th>
+  </tr>
+  <tr>
+    <td>${user.firstName} ${user.lastName}</td>
+    <td>${user.phone}</td>
+    <td>${user.email}</td>
+    <td>${user.userType}</td>
+  </tr>
+</table>
 
-    </div>
-    
-    <p>We are currently processing your order and will keep you updated on the status of your shipment. You can expect to receive a shipping confirmation email with tracking information once your order has been dispatched.</p>
-    
-    <p>If you have any questions or concerns about your order, please don’t hesitate to contact us. Our customer service team is always happy to assist you.</p>
-    
-    <p>Thank you for your support. We look forward to serving you again in the future.</p>
-    
+<table class="order-summary">
+  <caption><h2>Shipping Details:</h2></caption>
+  <tr>
+    <th>City</th>
+    <th>State</th>
+    <th>Country</th>
+    <th>Address Line1</th>
+    <th>Address Line2</th>
+  </tr>
+        <tr>
+          <td>${order.shippingDetails.city}</td>
+          <td>${order.shippingDetails.state}</td>
+          <td>${order.shippingDetails.country}</td>
+          <td>${order.shippingDetails.addressLine1}</td>
+           <td>${
+             order.shippingDetails.addressLine2 ? order.shippingDetails.addressLine2 : "-"
+           }</td>
+        </tr>
+</table> 
+<br>
     <div class="signature">
       <p>Best regards,</p>
-      <p>Team Nichino</p>
+      <p>Nichino System Bot</p>
     </div>
   </div>
 </body>
