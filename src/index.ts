@@ -5,7 +5,6 @@ import {createConnection} from "typeorm";
 import indexRoute from "./routes/index";
 import AppError from "./utils/appError";
 import dotenv from "dotenv";
-import {importUserData} from "./crawler";
 
 dotenv.config();
 
@@ -22,6 +21,7 @@ createConnection().then(() => {
       origin: [
         "*",
         "http://localhost:3000",
+        "https://nichino.nupipay.com",
         "https://nichinodemo.nupipay.com",
         "http://nichinodemo.nupipay.com",
       ],
