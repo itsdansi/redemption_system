@@ -4,7 +4,11 @@ import bcryptjs from "bcryptjs";
 import {TokenExpiredError, sign, verify} from "jsonwebtoken";
 import AppError from "../utils/appError";
 import {User2} from "../entity/user2.entity";
-import {generateOTP, sendOTPSMS} from "../helper/smsHelper";
+import {
+  generateOTP,
+  //  sendOTPSMS,
+  sendSMS,
+} from "../helper/smsHelper";
 import {OTP} from "../entity/otp.entity";
 import env from "../env";
 
@@ -14,24 +18,23 @@ const refreshSecert = env.refreshTokenSecret as string;
 export const sendOTP = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const {phone} = req.body;
-    const regex = /^[6789]\d{9}$/;
+    const regex = /^[6789]\d{9,11}$/;
     const isValidPhone = regex.test(phone);
     if (!isValidPhone) {
       return res.status(400).send({message: "Not a valid phone phone number!"});
     }
-    const otp = 123456;
+    // const otp = 123456;
+    var otp = generateOTP();
     console.log({otp});
     const result = await getRepository(OTP).save({
       phone,
       otp_token: otp as any,
     });
-    // // console.log(result);
-    const sentOtp = await sendOTPSMS(
-      phone,
-      `${otp}} is the OTP for registering your number on Nichino Redemption Portal. OTP valid for 20 mins only. Please do not share with anyone.`
-    );
-    // console.log({sentOtp});
-    res.send(result);
+
+    const sentOtp = await sendSMS(phone, otp as any);
+    console.log({sentOtp});
+
+    res.status(200).send({message: "OTP Sent!"});
   } catch (err: any) {
     if (err.code === "23505") {
       return res.status(409).json({
