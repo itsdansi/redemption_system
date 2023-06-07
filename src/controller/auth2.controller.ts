@@ -23,6 +23,19 @@ export const sendOTP = async (req: Request, res: Response, next: NextFunction) =
     if (!isValidPhone) {
       return res.status(400).send({message: "Not a valid phone phone number!"});
     }
+
+    const authenticatedPhoneNumber = await User2.findOne({
+      where: {phone},
+      order: {createdAt: "DESC"},
+    });
+
+    if (!authenticatedPhoneNumber) {
+      return res.status(401).json({
+        status: "fail",
+        message: "Only registerd phone number are allowed!",
+      });
+    }
+
     // const otp = 123456;
     var otp = generateOTP();
     console.log({otp});
@@ -52,12 +65,11 @@ export const loginWithOTP = async (req: Request, res: Response, next: NextFuncti
     const {otp, phone} = req.body;
 
     const result = await getRepository(OTP).findOne({
-      where: {phone, otp_token: otp as any},
+      where: {phone, otp_token: otp as any, isUsed: false},
       order: {createdAt: "DESC"},
     });
 
     if (!result) {
-      // Invalid OTP
       return res.status(400).send({message: "Invalid OTP"});
     }
 
@@ -65,12 +77,14 @@ export const loginWithOTP = async (req: Request, res: Response, next: NextFuncti
     const currentTime = new Date();
     const otpExpirationTime = new Date(otpCreatedTime.getTime() + 2000 * 60 * 1000); // Adding 20 minutes to OTP creation time
 
-    console.log(currentTime);
-    console.log(otpExpirationTime);
     if (currentTime > otpExpirationTime) {
       // OTP has expired
       return res.status(400).send({message: "OTP has expired"});
     }
+
+    // mark otp as used
+    result.isUsed = true;
+    await getRepository(OTP).save(result);
 
     // OTP is valid, proceed with generating tokens and sending the response
 

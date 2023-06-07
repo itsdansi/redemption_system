@@ -19,6 +19,9 @@ export class OTP extends BaseEntity {
   // @Index({unique: true})
   phone!: string;
 
+  @Column({name: "is_used", default: false})
+  isUsed!: boolean;
+
   @CreateDateColumn()
   createdAt!: Date;
 
