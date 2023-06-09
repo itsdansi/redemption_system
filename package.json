@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --trace-warnings src/index.ts",
-    "build": "tsc",
-    "start": "node --trace-warnings build/src/index.js"
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "start": "npm run build && node --trace-warnings dist/index.js"
   },
   "keywords": [],
   "author": "",
