@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --trace-warnings src/index.ts",
+   "dev": "nodemon src/index.ts",
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
-    "start": "npm run build && node --trace-warnings dist/index.js"
+    "start": "npm run build && node --trace-warnings build/src/index.js"
   },
   "keywords": [],
   "author": "",
