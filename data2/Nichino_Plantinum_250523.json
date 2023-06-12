@@ -3180,8 +3180,8 @@
   },
   {
     "Sr no": 290,
-    "Category": "Apple Tv Stick 4K",
-    "Sub-Category": "Tv Streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Apple Tv Stick 4K",
     "Brand Name": "Apple",
     "Suvidhaa SKU": "SIL-1438",
     "Product Title": "Apple Tv ",
@@ -3191,8 +3191,8 @@
   },
   {
     "Sr no": 291,
-    "Category": "Apple Tv Stick 4K",
-    "Sub-Category": "Tv Streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Apple Tv Stick 4K",
     "Brand Name": "Apple",
     "Suvidhaa SKU": "SIL-1439",
     "Product Title": "Apple Tv ",
@@ -3202,8 +3202,8 @@
   },
   {
     "Sr no": 292,
-    "Category": "Apple Tv Stick 4K",
-    "Sub-Category": "Tv Streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Apple Tv Stick 4K",
     "Brand Name": "Apple",
     "Suvidhaa SKU": "SIL-1440",
     "Product Title": "Apple Tv ",
@@ -3213,8 +3213,8 @@
   },
   {
     "Sr no": 293,
-    "Category": "Apple Tv Stick 4K",
-    "Sub-Category": "Tv Streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Apple Tv Stick 4K",
     "Brand Name": "Apple",
     "Suvidhaa SKU": "SIL-1441",
     "Product Title": "Apple Tv Hd",
@@ -4017,7 +4017,7 @@
   {
     "Sr no": 366,
     "Category": "Health Care",
-    "Sub-Category": "Massager ",
+    "Sub-Category": "Massager",
     "Brand Name": "Lifelong",
     "Suvidhaa SKU": "SIL-1678",
     "Product Title": "Lifelong Massager",
@@ -4061,7 +4061,7 @@
   {
     "Sr no": 370,
     "Category": "Health Care",
-    "Sub-Category": "Massager ",
+    "Sub-Category": "Massager",
     "Brand Name": "Lifelong",
     "Suvidhaa SKU": "SIL-1682",
     "Product Title": "Lifelong Massager",
@@ -4292,7 +4292,7 @@
   {
     "Sr no": 391,
     "Category": "Health Care",
-    "Sub-Category": "Massager ",
+    "Sub-Category": "Massager",
     "Brand Name": "Ilife",
     "Suvidhaa SKU": "SIL-1798",
     "Product Title": "Ilife Massager",
@@ -4358,7 +4358,7 @@
   {
     "Sr no": 397,
     "Category": "Health Care",
-    "Sub-Category": "Massager ",
+    "Sub-Category": "Massager",
     "Brand Name": "Lifelong",
     "Suvidhaa SKU": "SIL-1890",
     "Product Title": "Lifelong Massager",
@@ -4380,7 +4380,7 @@
   {
     "Sr no": 399,
     "Category": "Health Care",
-    "Sub-Category": "Massager ",
+    "Sub-Category": "Massager",
     "Brand Name": "Lifelong",
     "Suvidhaa SKU": "SIL-2042",
     "Product Title": "Lifelong Massager",
@@ -5942,7 +5942,7 @@
   {
     "Sr no": 541,
     "Category": "Health Care",
-    "Sub-Category": "Massager ",
+    "Sub-Category": "Massager",
     "Brand Name": "Velway",
     "Suvidhaa SKU": "SIL-2389",
     "Product Title": "Velway Massager",
@@ -6271,8 +6271,8 @@
   },
   {
     "Sr no": 571,
-    "Category": "Amazon Fire Stick",
-    "Sub-Category": "Tv streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Amazon Fire Stick",
     "Brand Name": "Amazon",
     "Suvidhaa SKU": "SIL-2534",
     "Product Title": "Amazon Fire Stick",
@@ -6282,8 +6282,8 @@
   },
   {
     "Sr no": 572,
-    "Category": "Amazon Fire Stick",
-    "Sub-Category": "Tv streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Amazon Fire Stick",
     "Brand Name": "Amazon",
     "Suvidhaa SKU": "SIL-7869",
     "Product Title": "Amazon Fire Stick",
@@ -6326,8 +6326,8 @@
   },
   {
     "Sr no": 576,
-    "Category": "Amazon Fire Stick",
-    "Sub-Category": "Tv streaming Stik",
+    "Category": "Tv streaming Stik",
+    "Sub-Category": "Amazon Fire Stick",
     "Brand Name": "Amazon",
     "Suvidhaa SKU": "SIL-2547",
     "Product Title": "Amazon Fire Stick",
@@ -6551,12 +6551,34 @@
     "Brand Name": "Joyalukkas",
     "Suvidhaa SKU": "SIL-3541",
     "Product Title": "Gold Voucher",
-    "Product Description": "Gold E- Voucher",
-    "Points": 125,
+    "Product Description": "Gold Coins E- Voucher 1 Gram",
+    "Points": 15,
     "FIELD9": ""
   },
   {
     "Sr no": 597,
+    "Category": "E Voucher",
+    "Sub-Category": "Gold Voucher",
+    "Brand Name": "Joyalukkas",
+    "Suvidhaa SKU": "SIL-8009",
+    "Product Title": "Gold Voucher",
+    "Product Description": "Gold Coins E- Voucher 5 Gram",
+    "Points": 75,
+    "FIELD9": ""
+  },
+  {
+    "Sr no": 598,
+    "Category": "E Voucher",
+    "Sub-Category": "Gold Voucher",
+    "Brand Name": "Joyalukkas",
+    "Suvidhaa SKU": "SIL-8010",
+    "Product Title": "Gold Voucher",
+    "Product Description": "Gold Coins E- Voucher 10 Gram",
+    "Points": 150,
+    "FIELD9": ""
+  },
+  {
+    "Sr no": 599,
     "Category": "E Voucher",
     "Sub-Category": "Travel  Voucher",
     "Brand Name": "Yatra",
@@ -6567,29 +6589,29 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 598,
-    "Category": "E Voucher",
-    "Sub-Category": "2 Wheeler Gift Voucher",
-    "Brand Name": "Honda / Tvs",
-    "Suvidhaa SKU": "SIL-3543",
-    "Product Title": "Bike Voucher",
-    "Product Description": "Bike E- Voucher ",
-    "Points": 188,
-    "FIELD9": ""
-  },
-  {
-    "Sr no": 599,
-    "Category": "E Voucher",
-    "Sub-Category": "4 Wheeler Vehicle Gift voucher ",
-    "Brand Name": "Hyundai / Skoda / Nissan",
-    "Suvidhaa SKU": "SIL-3544",
-    "Product Title": "Car Voucher",
-    "Product Description": "Car E - Voucher ",
-    "Points": 875,
-    "FIELD9": ""
-  },
-  {
     "Sr no": 600,
+    "Category": "E Voucher",
+    "Sub-Category": "2 Wheeler Voucher",
+    "Brand Name": "Honda",
+    "Suvidhaa SKU": "SIL-3543",
+    "Product Title": "Honda Activa Voucher",
+    "Product Description": "Honda Activa Voucher",
+    "Points": 150,
+    "FIELD9": ""
+  },
+  {
+    "Sr no": 601,
+    "Category": "E Voucher",
+    "Sub-Category": "4 Wheeler Voucher ",
+    "Brand Name": "Hyundai",
+    "Suvidhaa SKU": "SIL-3544",
+    "Product Title": "Hyundai -i20 Car Voucher",
+    "Product Description": "Hyundai -i20 Car Voucher",
+    "Points": 1000,
+    "FIELD9": ""
+  },
+  {
+    "Sr no": 602,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6600,7 +6622,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 601,
+    "Sr no": 603,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6611,7 +6633,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 602,
+    "Sr no": 604,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6622,7 +6644,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 603,
+    "Sr no": 605,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6633,7 +6655,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 604,
+    "Sr no": 606,
     "Category": "Apple Tablet",
     "Sub-Category": " iPad",
     "Brand Name": "Apple",
@@ -6644,7 +6666,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 605,
+    "Sr no": 607,
     "Category": "Apple Tablet",
     "Sub-Category": " iPad",
     "Brand Name": "Apple",
@@ -6655,7 +6677,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 606,
+    "Sr no": 608,
     "Category": "Apple Tablet",
     "Sub-Category": " iPad",
     "Brand Name": "Apple",
@@ -6666,7 +6688,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 607,
+    "Sr no": 610,
     "Category": "Apple Tablet",
     "Sub-Category": " iPad",
     "Brand Name": "Apple",
@@ -6677,7 +6699,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 608,
+    "Sr no": 611,
     "Category": "Apple Tablet",
     "Sub-Category": " iPad",
     "Brand Name": "Apple",
@@ -6688,7 +6710,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 610,
+    "Sr no": 612,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6699,7 +6721,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 611,
+    "Sr no": 613,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6710,7 +6732,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 612,
+    "Sr no": 614,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6721,7 +6743,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 613,
+    "Sr no": 615,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6732,7 +6754,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 614,
+    "Sr no": 616,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6743,7 +6765,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 615,
+    "Sr no": 617,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6754,7 +6776,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 616,
+    "Sr no": 618,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6765,7 +6787,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 617,
+    "Sr no": 619,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6776,7 +6798,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 618,
+    "Sr no": 620,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6787,7 +6809,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 619,
+    "Sr no": 621,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6798,7 +6820,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 620,
+    "Sr no": 622,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6809,7 +6831,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 621,
+    "Sr no": 623,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6820,7 +6842,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 622,
+    "Sr no": 624,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6831,7 +6853,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 623,
+    "Sr no": 625,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6842,7 +6864,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 624,
+    "Sr no": 626,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6853,7 +6875,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 625,
+    "Sr no": 627,
     "Category": "Mobile Phone",
     "Sub-Category": "iPhone",
     "Brand Name": "Apple",
@@ -6864,7 +6886,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 626,
+    "Sr no": 628,
     "Category": "Camera",
     "Sub-Category": "DSLR Camera",
     "Brand Name": "Canon",
@@ -6875,7 +6897,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 627,
+    "Sr no": 629,
     "Category": "Camera",
     "Sub-Category": "DSLR Camera",
     "Brand Name": "Canon",
@@ -6886,7 +6908,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 628,
+    "Sr no": 630,
     "Category": "Camera",
     "Sub-Category": "DSLR Camera",
     "Brand Name": "Nikon",
@@ -6897,7 +6919,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 629,
+    "Sr no": 631,
     "Category": "Camera",
     "Sub-Category": "DSLR Camera",
     "Brand Name": "Nikon",
@@ -6908,7 +6930,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 630,
+    "Sr no": 632,
     "Category": "Camera",
     "Sub-Category": "DSLR Camera",
     "Brand Name": "SONY",
@@ -6919,7 +6941,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 631,
+    "Sr no": 633,
     "Category": "Camera",
     "Sub-Category": "DSLR Camera",
     "Brand Name": "SONY",
@@ -6930,7 +6952,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 632,
+    "Sr no": 634,
     "Category": "E Voucher",
     "Sub-Category": "4 Wheeler Voucher ",
     "Brand Name": "BMW",
@@ -6941,7 +6963,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 633,
+    "Sr no": 635,
     "Category": "E Voucher",
     "Sub-Category": "4 Wheeler Voucher ",
     "Brand Name": "JEEP",
@@ -6952,7 +6974,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 634,
+    "Sr no": 636,
     "Category": "E Voucher",
     "Sub-Category": "4 Wheeler Voucher ",
     "Brand Name": "Mahindra",
@@ -6963,7 +6985,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 635,
+    "Sr no": 637,
     "Category": "E Voucher",
     "Sub-Category": "4 Wheeler Voucher ",
     "Brand Name": "Mahindra",
@@ -6974,7 +6996,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 636,
+    "Sr no": 638,
     "Category": "E Voucher",
     "Sub-Category": "4 Wheeler Voucher ",
     "Brand Name": "Audi",
@@ -6985,7 +7007,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 637,
+    "Sr no": 639,
     "Category": "E Voucher",
     "Sub-Category": "2 Wheeler Voucher",
     "Brand Name": "Triumph Bike",
@@ -6996,7 +7018,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 638,
+    "Sr no": 640,
     "Category": "E Voucher",
     "Sub-Category": "2 Wheeler Voucher",
     "Brand Name": "Kawasaki",
@@ -7007,7 +7029,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 639,
+    "Sr no": 641,
     "Category": "E Voucher",
     "Sub-Category": "2 Wheeler Voucher",
     "Brand Name": "Royal Enfield ",
@@ -7018,7 +7040,7 @@
     "FIELD9": ""
   },
   {
-    "Sr no": 640,
+    "Sr no": 642,
     "Category": "E Voucher",
     "Sub-Category": "2 Wheeler Voucher",
     "Brand Name": "Hero",
