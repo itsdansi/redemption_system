@@ -4,7 +4,7 @@ import * as XLSX from "xlsx";
 import path from "path";
 import {UserType} from "./constants/enum";
 // console.log("Hello form the top of the world!");
-const filePath = path.join(__dirname, "../data2", "Platinum and directors.xlsx");
+const filePath = path.join(__dirname, "../data2", "Platinum and directors(updated).xlsx");
 
 export async function importUserData(filePath: string): Promise<void> {
   try {
@@ -17,6 +17,7 @@ export async function importUserData(filePath: string): Promise<void> {
       user: "postgres",
       password: "postgres",
       host: "minineotest.nupipay.com",
+
       database: "auth_boilerplate",
       port: 5432,
     });
@@ -27,16 +28,14 @@ export async function importUserData(filePath: string): Promise<void> {
       await client.query("BEGIN");
 
       for (const row of jsonData) {
-        // Transform the phone number
+        // console.log(row["Email. ID"]);
         const phone = row["Phone No"]?.toString().trim();
         const club = row["Club"].trim();
         const userType = club == "PLATINUM CLUB" ? UserType.PLATINIUM : UserType.DIRECTOR;
 
-        // Insert the transformed data into the 'users' table
         await client.query(
-          "INSERT INTO user2( party, phone, email, points, pay_off, user_type) VALUES ($1, $2, $3, $4, $5, $6)",
+          "INSERT INTO user2 (party, phone, email, points, pay_off, user_type) VALUES ($1, $2, $3, $4, $5, $6)",
           [
-            // row.ID,
             row.Party,
             row["Phone No"]?.toString().trim() || row["Phone No"],
             row["Email. ID"],
@@ -48,6 +47,7 @@ export async function importUserData(filePath: string): Promise<void> {
       }
 
       await client.query("COMMIT");
+
       console.log("Data imported successfully!");
     } catch (error) {
       await client.query("ROLLBACK");
