@@ -75,7 +75,9 @@ export const loginWithOTP = async (req: Request, res: Response, next: NextFuncti
 
     const otpCreatedTime = result.createdAt;
     const currentTime = new Date();
-    const otpExpirationTime = new Date(otpCreatedTime.getTime() + 2000 * 60 * 1000); // Adding 20 minutes to OTP creation time
+    const otpExpirationTime = new Date(
+      otpCreatedTime.getTime() + 19800000 + 20 * 60 * 1000
+    ); // Adding 20 minutes to OTP creation time; 20700000 is the gap between timezone in milliseconds.
 
     if (currentTime > otpExpirationTime) {
       // OTP has expired

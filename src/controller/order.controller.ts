@@ -49,8 +49,8 @@ export const createOrder = async (
 
     // send email to support team
     sendMailToSupportTeam(
-      // "arajanacharya108@gmail.com",
-      "Somya.singh@nupipay.com",
+      // "Somya.singh@nupipay.com",
+      ["sales@nupipay.com", "imran.ibrahim@nupipay.com", "nilesh.gor@suvidhaa.com"],
       "Support Team",
       user,
       result,
@@ -253,7 +253,8 @@ export const sendMailToSupportTeam = async (
 
   const mailOptions = {
     from: "katuwalpujan@gmail.com",
-    to: receipient,
+    // to: receipient,
+    to: receipient.join(", "),
     subject: "A new order has been confirmed!",
     html: `<!DOCTYPE html>
 <html>
