@@ -7,4 +7,4 @@ services:
     container_name: redemption_system
     image: redemption_system
     ports:
-      - 8000:8000
+      - 8020:8020
