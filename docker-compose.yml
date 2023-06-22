@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: redemption_system
-    image: redemption_system
+    container_name: nichino_test
+    image: nichino_test
     ports:
       - 8020:8020
