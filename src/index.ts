@@ -46,7 +46,7 @@ createConnection().then(() => {
     });
   });
 
-  app.listen(port || 8000, async () => {
+  app.listen(port || 8020, async () => {
     console.log(`Server started with pid: ${process.pid} on port: ${port}`);
   });
 });
