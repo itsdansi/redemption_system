@@ -16,9 +16,10 @@ export const createOrder = async (
   try {
     let {id} = req?.user;
     id = id ? id : 1;
+    // let id = 684;
     const user = await getRepository(User2).findOne({where: {id}});
     const userCart = await getRepository(CartEntity).findOne({where: {user: {id}}});
-    // console.log(userCart.grandTotal)
+    // console.log({userCart});
     if (user?.points < userCart.grandTotal) {
       return res.status(400).send({message: "Cart Amount Is Greater Than User Balance"});
     }
@@ -43,10 +44,6 @@ export const createOrder = async (
       where: {id: newOrder.id},
     });
 
-    console.log({result});
-
-    console.log({user});
-
     // send email to support team
     sendMailToSupportTeam(
       // "Somya.singh@nupipay.com",
@@ -60,7 +57,7 @@ export const createOrder = async (
 
     // send email to customer
     if (user.email) {
-      sendMail(user.email, user?.firstName, result, result.subTotal, result.createdAt);
+      sendMail(user.email, user?.party, result, result.subTotal, result.createdAt);
     }
     return res.status(201).send(result);
   } catch (err) {
@@ -85,7 +82,7 @@ export const getUserOrderHistory = async (
   }
 };
 
-export const sendMail = async (receipient, firstName, order, points, createdAt) => {
+export const sendMail = async (receipient, party, order, points, createdAt) => {
   const transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
@@ -153,7 +150,7 @@ export const sendMail = async (receipient, firstName, order, points, createdAt) 
 </head>
 <body>
   <div class="container">
-    <h1>Dear ${firstName},</h1>
+    <h1>Dear ${party},</h1>
     
     <p>We have received your recent order having orderId ${
       order.id
@@ -356,7 +353,7 @@ export const sendMailToSupportTeam = async (
     <th>User Type</th>
   </tr>
   <tr>
-    <td>${user.firstName} ${user.lastName}</td>
+    <td>${user.party} </td>
     <td>${user.phone}</td>
     <td>${user.email}</td>
     <td>${user.userType}</td>
