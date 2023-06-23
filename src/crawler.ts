@@ -18,7 +18,7 @@ export async function importUserData(filePath: string): Promise<void> {
       password: "postgres",
       host: "minineotest.nupipay.com",
 
-      database: "auth_boilerplate",
+      database: "nichino_test",
       port: 5432,
     });
 
