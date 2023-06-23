@@ -36,8 +36,8 @@ export const sendOTP = async (req: Request, res: Response, next: NextFunction) =
       });
     }
 
-    const otp = 123456;
-    // var otp = generateOTP();
+    // const otp = 123456;
+    var otp = generateOTP();
     console.log({otp});
     const result = await getRepository(OTP).save({
       phone,
