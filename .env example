@@ -1,4 +1,4 @@
-PORT= 8000
+PORT= 8020
 
 #DATABASE
 DB_HOST=abc.com
