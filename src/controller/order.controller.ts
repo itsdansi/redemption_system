@@ -46,8 +46,7 @@ export const createOrder = async (
 
     // send email to support team
     sendMailToSupportTeam(
-      // "Somya.singh@nupipay.com",
-      ["sales@nupipay.com", "imran.ibrahim@nupipay.com", "nilesh.gor@suvidhaa.com"],
+      ["Somya.singh@nupipay.com", "nihal.satam@nupipay.com"],
       "Support Team",
       user,
       result,
@@ -150,7 +149,7 @@ export const sendMail = async (receipient, party, order, points, createdAt) => {
 </head>
 <body>
   <div class="container">
-    <h1>Dear ${party},</h1>
+    <h1>Dear ${party ?? "User"},</h1>
     
     <p>We have received your recent order having orderId ${
       order.id
@@ -160,6 +159,7 @@ export const sendMail = async (receipient, party, order, points, createdAt) => {
   <caption><h2>Order Summary:</h2></caption>
   <tr>
     <th>Product Name</th>
+    <th>Order Date</th>
     <th>Quantity</th>
     <th>Points</th>
     <th>Total</th>
@@ -169,6 +169,9 @@ export const sendMail = async (receipient, party, order, points, createdAt) => {
       (item, index) => `
         <tr>
           <td>${item.name}</td>
+          <td>${new Date(
+            new Date(item.createdAt).getTime() + 6 * 60 * 60 * 1000
+          ).toLocaleString("en-IN", {timeZone: "Asia/Kolkata"})}</td>
           <td>${item.quantity}</td>
           <td>${item.points}</td>
           <td>${item.quantity * item.points}</td>
@@ -177,7 +180,7 @@ export const sendMail = async (receipient, party, order, points, createdAt) => {
             index === order.orderItems.length - 1
               ? `
           <tr>
-            <td colspan="3">Subtotal</td>
+            <td colspan="4">Subtotal</td>
             <td>${order.orderItems.reduce(
               (acc, curr) => acc + curr.quantity * curr.points,
               0
@@ -304,15 +307,16 @@ export const sendMailToSupportTeam = async (
 </head>
 <body>
   <div class="container">
-    <h1>Dear ${firstName},</h1>
+    <h1>Dear ${firstName ?? "Support Team"},</h1>
     
-    <p>We have received a recent order having orderId ${
-      order.id
-    }, at Nichino store. Here are all the details:</p>
+    <p>We have received a recent order at Nichino store. Here are all the details:</p>
     
 <table class="order-summary">
   <caption><h2>Order Summary:</h2></caption>
   <tr>
+    <th>Order Id </th>
+    <th>Order Date</th>
+    <th>SKU ID</th>
     <th>Product Name</th>
     <th>Quantity</th>
     <th>Points</th>
@@ -322,6 +326,12 @@ export const sendMailToSupportTeam = async (
     .map(
       (item, index) => `
         <tr>
+          <td>${item.id}</td>
+          <td>${new Date(
+            new Date(item.createdAt).getTime() + 6 * 60 * 60 * 1000
+          ).toLocaleString("en-IN", {timeZone: "Asia/Kolkata"})}</td>
+
+          <td>${item.sku}</td>
           <td>${item.name}</td>
           <td>${item.quantity}</td>
           <td>${item.points}</td>
@@ -331,7 +341,7 @@ export const sendMailToSupportTeam = async (
             index === order.orderItems.length - 1
               ? `
           <tr>
-            <td colspan="3">Subtotal</td>
+            <td colspan="6">Subtotal</td>
             <td>${order.orderItems.reduce(
               (acc, curr) => acc + curr.quantity * curr.points,
               0
@@ -347,7 +357,7 @@ export const sendMailToSupportTeam = async (
 <table class="order-summary">
   <caption><h2>Customer Details:</h2></caption>
   <tr>
-    <th>Customer Name</th>
+    <th>Party Name</th>
     <th>Phone</th>
     <th>Email</th>
     <th>User Type</th>
