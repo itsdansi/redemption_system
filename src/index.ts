@@ -28,15 +28,15 @@ createConnection().then(() => {
       // ],
 
       // 2
-      origin: "https://nichino.nupipay.com",
+      // origin: "https://nichino.nupipay.com",
 
       // 3
-      // origin: [
-      //   "http://localhost:3000",
-      //   "https://nichino.nupipay.com",
-      //   "https://nichinodemo.nupipay.com",
-      //   "http://nichinodemo.nupipay.com",
-      // ],
+      origin: [
+        "http://localhost:3000",
+        "https://nichino.nupipay.com",
+        "https://nichinodemo.nupipay.com",
+        "http://nichinodemo.nupipay.com",
+      ],
       methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
       // preflightContinue:false,
       credentials: true,
