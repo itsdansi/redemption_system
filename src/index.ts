@@ -18,13 +18,7 @@ createConnection().then(() => {
   app.use(cookieParser());
   app.use(
     cors({
-      origin: [
-        "*",
-        "http://localhost:3000",
-        "https://nichino.nupipay.com",
-        "https://nichinodemo.nupipay.com",
-        "http://nichinodemo.nupipay.com",
-      ],
+      origin: ["https://nichinodemo.nupipay.com", "http://nichinodemo.nupipay.com"],
 
       methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
       // preflightContinue:false,
