@@ -47,7 +47,12 @@ export const createOrder = async (
     // send email to support team
     sendMailToSupportTeam(
       // "Somya.singh@nupipay.com",
-      ["sales@nupipay.com", "imran.ibrahim@nupipay.com", "nilesh.gor@suvidhaa.com"],
+      [
+        "sales@nupipay.com",
+        "imran.ibrahim@nupipay.com",
+        "nilesh.gor@suvidhaa.com",
+        "nihal.satam@nupipay.com",
+      ],
       "Support Team",
       user,
       result,
