@@ -49,6 +49,7 @@ export const createOrder = async (
       // "Somya.singh@nupipay.com",
       [
         "sales@nupipay.com",
+        "accounts@suvidhaa.com",
         "imran.ibrahim@nupipay.com",
         "nilesh.gor@suvidhaa.com",
         "nihal.satam@nupipay.com",
